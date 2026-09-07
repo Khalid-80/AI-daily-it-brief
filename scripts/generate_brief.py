@@ -25,7 +25,7 @@ FEED_REQUEST_HEADERS = {
 }
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 ALLOWED_PRIORITIES = {"Critical", "High", "Medium", "Information"}
 ALLOWED_CATEGORIES = {"Security", "Microsoft 365", "Windows", "Vendor"}
