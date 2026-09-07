@@ -17,6 +17,13 @@ CONFIG_PATH = ROOT / "config" / "feeds.json"
 BRIEF_JSON_PATH = ROOT / "brief.json"
 BRIEF_TEXT_PATH = ROOT / "brief.md"
 
+FEED_REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (compatible; AI-Daily-IT-Brief/1.0; "
+        "+https://github.com/) AI-Daily-IT-Brief-RSS-Reader"
+    )
+}
+
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")
 
@@ -70,10 +77,16 @@ def collect_items(config: dict) -> list[dict]:
             print(f"[skip] placeholder feed not configured: {feed['name']}", file=sys.stderr)
             continue
         try:
-            parsed = feedparser.parse(url)
+            parsed = feedparser.parse(url, request_headers=FEED_REQUEST_HEADERS)
         except Exception as e:
             print(f"[error] failed to fetch {feed['name']}: {e}", file=sys.stderr)
             continue
+
+        raw_count = len(parsed.entries)
+        status = getattr(parsed, "status", "n/a")
+        print(f"[info] {feed['name']}: HTTP {status}, {raw_count} raw entr(y/ies)", file=sys.stderr)
+        if raw_count == 0 and getattr(parsed, "bozo", 0):
+            print(f"[warn] {feed['name']}: feed may be malformed or blocked — bozo_exception={getattr(parsed, 'bozo_exception', '')}", file=sys.stderr)
 
         for entry in parsed.entries:
             link = getattr(entry, "link", "").strip()
