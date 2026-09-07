@@ -4,19 +4,24 @@
   "max_summary_chars": 600,
   "feeds": [
     {
-      "name": "Microsoft Security Response Center",
-      "url": "https://api.msrc.microsoft.com/update-guide/rss",
+      "name": "Microsoft Security Response Center - CVE Updates",
+      "url": "https://api.msrc.microsoft.com/update-guide/RSS",
       "category_hint": "Security"
     },
     {
-      "name": "Microsoft 365 Message Center RSS (example)",
-      "url": "https://REPLACE_WITH_YOUR_M365_RSS_URL",
-      "category_hint": "Microsoft 365"
+      "name": "Microsoft Security Response Center - Blog",
+      "url": "https://msrc.microsoft.com/blog/feed",
+      "category_hint": "Security"
     },
     {
-      "name": "Windows Release Health (example)",
-      "url": "https://REPLACE_WITH_YOUR_WINDOWS_RSS_URL",
-      "category_hint": "Windows"
+      "name": "CISA Cybersecurity Advisories",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "category_hint": "Security"
+    },
+    {
+      "name": "Microsoft Security Blog",
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "category_hint": "Vendor"
     }
   ]
 }
