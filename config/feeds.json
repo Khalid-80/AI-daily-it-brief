@@ -1,6 +1,6 @@
 {
   "lookback_hours": 30,
-  "max_items": 15,
+  "max_items": 10,
   "max_summary_chars": 600,
   "feeds": [
     {
