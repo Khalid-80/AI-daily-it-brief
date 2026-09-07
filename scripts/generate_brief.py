@@ -76,8 +76,12 @@ def collect_items(config: dict) -> list[dict]:
         if "REPLACE_WITH" in url:
             print(f"[skip] placeholder feed not configured: {feed['name']}", file=sys.stderr)
             continue
-        try:
-            parsed = feedparser.parse(url, request_headers=FEED_REQUEST_HEADERS)
+             try:
+            resp = requests.get(url, headers=FEED_REQUEST_HEADERS, timeout=20, allow_redirects=True)
+            if resp.status_code != 200:
+                print(f"[error] {feed['name']}: HTTP {resp.status_code}", file=sys.stderr)
+                continue
+            parsed = feedparser.parse(resp.content)
         except Exception as e:
             print(f"[error] failed to fetch {feed['name']}: {e}", file=sys.stderr)
             continue
