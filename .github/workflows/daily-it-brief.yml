@@ -5,21 +5,36 @@ on:
     - cron: "0 7 * * 1-5"
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Collect + Analyze (RSS -> AI)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install dependencies
         run: pip install -r requirements.txt
+
       - name: Generate brief
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python scripts/generate_brief.py
+
+      - name: Commit brief for review
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add brief.json brief.md
+          git diff --quiet --cached || git commit -m "Daily brief pending review - $(date -u +%Y-%m-%d)"
+          git push
+
       - name: Upload brief as artifact
         uses: actions/upload-artifact@v4
         with:
@@ -36,15 +51,16 @@ jobs:
     environment: teams-publish
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Download brief artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: daily-brief
+
       - name: Publish to Teams
         env:
           TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
