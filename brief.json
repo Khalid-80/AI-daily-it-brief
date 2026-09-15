@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero‑day flaw that threat actors have been exploiting to execute commands as root.",
+    "whyItMatters": "Unpatched systems are at risk of remote compromise.",
+    "recommendedAction": "Apply the Cisco patch immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
+  },
+  {
+    "headline": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could allow a low‑privilege website user to gain root access on a shared‑hosting server.",
+    "whyItMatters": "Attackers could compromise multiple customers on the same server.",
+    "recommendedAction": "Update to the patched LiteSpeed version promptly.",
+    "sourceUrl": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html"
+  },
+  {
+    "headline": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "Cisco disclosed a critical vulnerability (CVE‑2026‑76461) in AsyncOS Software for Secure Email Gateway that is being actively exploited to execute commands as root.",
+    "whyItMatters": "Active exploitation poses immediate risk to email infrastructure.",
+    "recommendedAction": "Deploy Cisco’s remediation without delay.",
+    "sourceUrl": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
+  },
+  {
+    "headline": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+    "category": "Microsoft 365",
+    "priority": "High",
+    "summary": "Microsoft confirmed that the September 2026 KB5002914 security update can cause copy and paste to silently fail for some Excel users.",
+    "whyItMatters": "The issue can disrupt business workflows and data handling.",
+    "recommendedAction": "Consider rolling back the update or applying the forthcoming fix.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/"
+  },
+  {
+    "headline": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+    "category": "Windows",
+    "priority": "High",
+    "summary": "A Chinese threat actor used a spear‑phishing campaign that chains recently patched Chrome and Windows zero‑days to deliver the GRIMWEDGE JavaScript backdoor targeting NGOs.",
+    "whyItMatters": "The chain demonstrates sophisticated cross‑product exploitation.",
+    "recommendedAction": "Ensure all Chrome and Windows patches are applied and monitor for GRIMWEDGE indicators.",
+    "sourceUrl": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
+  },
+  {
+    "headline": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "Five alleged leaders of the Black Axe cybercrime syndicate have been extradited to the United States to face wire fraud and money laundering charges.",
+    "whyItMatters": "The case highlights the ongoing threat from organized cybercrime groups.",
+    "recommendedAction": "Monitor for related threat activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/"
+  },
+  {
+    "headline": "Chromium CVE-2026-87658: Information leak in Extensions",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "CVE‑2026‑87658 is an information leak vulnerability in Chromium extensions, addressed in upcoming Chrome releases.",
+    "whyItMatters": "It may expose extension data to attackers.",
+    "recommendedAction": "Update Chrome/Edge to the latest version.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87658"
+  },
+  {
+    "headline": "Chromium CVE-2026-87657: Use after free in V8",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "CVE‑2026‑87657 is a use‑after‑free bug in the V8 engine of Chromium, fixed in recent releases.",
+    "whyItMatters": "Exploitation could lead to code execution.",
+    "recommendedAction": "Apply the latest browser updates.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87657"
+  },
+  {
+    "headline": "Chromium CVE-2026-87656: Improper state validation in Safebrowsing",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "CVE‑2026‑87656 involves improper state validation in Chromium’s Safebrowsing component, corrected in current patches.",
+    "whyItMatters": "It could allow bypass of safe browsing checks.",
+    "recommendedAction": "Upgrade to the patched browser version.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87656"
+  },
+  {
+    "headline": "Chromium CVE-2026-87655: Clickjacking in Downloads",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "CVE‑2026‑87655 is a clickjacking vulnerability affecting Chromium download dialogs, addressed in recent updates.",
+    "whyItMatters": "Users could be tricked into unintended downloads.",
+    "recommendedAction": "Update browsers to the latest release.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87655"
+  }
+]
