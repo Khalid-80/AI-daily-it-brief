@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
-    "category": "Vendor",
+    "headline": "Google fixes actively exploited Android zero-day on Pixel devices",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero‑day flaw that threat actors have been exploiting to execute commands as root.",
-    "whyItMatters": "Unpatched systems are at risk of remote compromise.",
-    "recommendedAction": "Apply the Cisco patch immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
+    "summary": "Google released September 2026 patches for 110 vulnerabilities on Pixel devices, including an actively exploited Android zero‑day.",
+    "whyItMatters": "The flaw is being used in targeted attacks against Pixel users.",
+    "recommendedAction": "Apply the September 2026 security update to all Pixel devices immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/"
   },
   {
-    "headline": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "headline": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could allow a low‑privilege website user to gain root access on a shared‑hosting server.",
-    "whyItMatters": "Attackers could compromise multiple customers on the same server.",
-    "recommendedAction": "Update to the patched LiteSpeed version promptly.",
-    "sourceUrl": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html"
+    "summary": "Threat actors are exploiting a critical unauthenticated file‑upload vulnerability in the WooCommerce Wholesale Lead Capture plugin to install PHP web shells and achieve remote code execution.",
+    "whyItMatters": "The flaw can compromise any WordPress site using the plugin, exposing data and servers.",
+    "recommendedAction": "Update or remove the plugin and apply any available patches immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
   },
   {
-    "headline": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "headline": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "Cisco disclosed a critical vulnerability (CVE‑2026‑76461) in AsyncOS Software for Secure Email Gateway that is being actively exploited to execute commands as root.",
-    "whyItMatters": "Active exploitation poses immediate risk to email infrastructure.",
-    "recommendedAction": "Deploy Cisco’s remediation without delay.",
-    "sourceUrl": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
+    "summary": "A critical JWT authentication bypass (CVE‑2026‑5430) in WSO2 API Manager is being actively exploited to forge admin tokens and potentially take over accounts.",
+    "whyItMatters": "Successful exploitation could allow attackers full control over API management infrastructure.",
+    "recommendedAction": "Apply the vendor’s patch for CVE‑2026‑5430 and rotate all admin tokens.",
+    "sourceUrl": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
   },
   {
-    "headline": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
-    "category": "Microsoft 365",
+    "headline": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+    "category": "Vendor",
     "priority": "High",
-    "summary": "Microsoft confirmed that the September 2026 KB5002914 security update can cause copy and paste to silently fail for some Excel users.",
-    "whyItMatters": "The issue can disrupt business workflows and data handling.",
-    "recommendedAction": "Consider rolling back the update or applying the forthcoming fix.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/"
+    "summary": "Acronis disclosed a high‑severity local privilege escalation vulnerability in its backup plugin for cPanel, WHM, and Plesk that is being exploited in the wild.",
+    "whyItMatters": "Attackers could gain root access on affected servers, compromising all hosted data.",
+    "recommendedAction": "Update the backup plugin to the patched version and monitor for suspicious activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/"
   },
   {
-    "headline": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+    "headline": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "Compromised versions of the Admin Menu Editor Pro WordPress plugin were distributed to over 200 customers, creating hidden user accounts that backdoored more than 1,500 sites.",
+    "whyItMatters": "The hidden accounts allow attackers persistent access to a large number of WordPress installations.",
+    "recommendedAction": "Remove the malicious plugin version, change all admin credentials, and scan for backdoors.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/"
+  },
+  {
+    "headline": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+    "category": "Security",
+    "priority": "High",
+    "summary": "The KREMLIN banking malware toolkit hijacks Chrome and Edge browsers to steal credentials and session tokens, targeting Brazilian bank customers since at least May 2025.",
+    "whyItMatters": "It enables financial theft from victims by capturing authentication data.",
+    "recommendedAction": "Deploy endpoint protection, block malicious extensions, and advise users to reinstall browsers.",
+    "sourceUrl": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html"
+  },
+  {
+    "headline": "CenterPoint Energy confirms customer data stolen in cyberattack",
+    "category": "Security",
+    "priority": "High",
+    "summary": "CenterPoint Energy disclosed that a cyberattack resulted in the theft of personal information of some customers.",
+    "whyItMatters": "Exposed personal data can lead to identity theft and regulatory penalties.",
+    "recommendedAction": "Notify affected customers, monitor for fraud, and strengthen security controls.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/"
+  },
+  {
+    "headline": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
     "category": "Windows",
     "priority": "High",
-    "summary": "A Chinese threat actor used a spear‑phishing campaign that chains recently patched Chrome and Windows zero‑days to deliver the GRIMWEDGE JavaScript backdoor targeting NGOs.",
-    "whyItMatters": "The chain demonstrates sophisticated cross‑product exploitation.",
-    "recommendedAction": "Ensure all Chrome and Windows patches are applied and monitor for GRIMWEDGE indicators.",
-    "sourceUrl": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
+    "summary": "Iranian intelligence‑linked hackers use a Windows malware controlled via Telegram to exfiltrate emails, chats, screenshots, and microphone recordings from dissidents and journalists.",
+    "whyItMatters": "The tool enables state‑sponsored surveillance of targeted individuals worldwide.",
+    "recommendedAction": "Advise at‑risk users to avoid suspicious files and monitor network traffic for Telegram callbacks.",
+    "sourceUrl": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html"
   },
   {
-    "headline": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+    "headline": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
     "category": "Security",
     "priority": "Medium",
-    "summary": "Five alleged leaders of the Black Axe cybercrime syndicate have been extradited to the United States to face wire fraud and money laundering charges.",
-    "whyItMatters": "The case highlights the ongoing threat from organized cybercrime groups.",
-    "recommendedAction": "Monitor for related threat activity.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/"
+    "summary": "Researchers identified the BambooToken malware family, which uses the MQTT protocol to command and control compromised Windows and Linux systems across Asia and South America.",
+    "whyItMatters": "MQTT‑based C2 can bypass traditional detection methods, expanding the threat surface.",
+    "recommendedAction": "Monitor network for unusual MQTT traffic and block unauthorized brokers.",
+    "sourceUrl": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html"
   },
   {
-    "headline": "Chromium CVE-2026-87658: Information leak in Extensions",
-    "category": "Vendor",
-    "priority": "Information",
-    "summary": "CVE‑2026‑87658 is an information leak vulnerability in Chromium extensions, addressed in upcoming Chrome releases.",
-    "whyItMatters": "It may expose extension data to attackers.",
-    "recommendedAction": "Update Chrome/Edge to the latest version.",
-    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87658"
-  },
-  {
-    "headline": "Chromium CVE-2026-87657: Use after free in V8",
-    "category": "Vendor",
-    "priority": "Information",
-    "summary": "CVE‑2026‑87657 is a use‑after‑free bug in the V8 engine of Chromium, fixed in recent releases.",
-    "whyItMatters": "Exploitation could lead to code execution.",
-    "recommendedAction": "Apply the latest browser updates.",
-    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87657"
-  },
-  {
-    "headline": "Chromium CVE-2026-87656: Improper state validation in Safebrowsing",
-    "category": "Vendor",
-    "priority": "Information",
-    "summary": "CVE‑2026‑87656 involves improper state validation in Chromium’s Safebrowsing component, corrected in current patches.",
-    "whyItMatters": "It could allow bypass of safe browsing checks.",
-    "recommendedAction": "Upgrade to the patched browser version.",
-    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87656"
-  },
-  {
-    "headline": "Chromium CVE-2026-87655: Clickjacking in Downloads",
-    "category": "Vendor",
-    "priority": "Information",
-    "summary": "CVE‑2026‑87655 is a clickjacking vulnerability affecting Chromium download dialogs, addressed in recent updates.",
-    "whyItMatters": "Users could be tricked into unintended downloads.",
-    "recommendedAction": "Update browsers to the latest release.",
-    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87655"
+    "headline": "BambooToken malware controls Windows and Linux systems via MQTT",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "A previously unknown malware framework called BambooToken uses the MQTT protocol to communicate with and control Windows and Linux systems.",
+    "whyItMatters": "Its use of MQTT creates a stealthy command channel that evades many security tools.",
+    "recommendedAction": "Detect and block unauthorized MQTT communications and isolate infected hosts.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/"
   }
 ]
