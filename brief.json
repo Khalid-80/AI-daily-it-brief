@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-    "category": "Vendor",
+    "headline": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated attackers to execute code as root over the network; Check Point released a fix via LivePatch.",
-    "whyItMatters": "If exploited, attackers could fully compromise firewall management infrastructure.",
-    "recommendedAction": "Apply the LivePatch update immediately on affected servers.",
-    "sourceUrl": "https://thehackernews.com/2026/09/critical-check-point-management-server.html"
+    "summary": "The WaterPlum group compromised at least 30,000 devices from Dec 2025 to Jul 2026 and transferred over $10.7 million in stolen cryptocurrency to North Korea.",
+    "whyItMatters": "It represents a large‑scale state‑sponsored intrusion with significant financial impact.",
+    "recommendedAction": "Initiate incident response, isolate affected devices, and strengthen network defenses.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/"
   },
   {
-    "headline": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "A critical flaw (CVE‑2026‑77179) in Docker Sandboxes on macOS allows malicious guest code to escape the shared directory and read or modify any host files with the host account's rights.",
-    "whyItMatters": "Exploitation could lead to full compromise of macOS hosts running Docker containers.",
-    "recommendedAction": "Update Docker to the patched version immediately and restrict container permissions.",
-    "sourceUrl": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html"
-  },
-  {
-    "headline": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "headline": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
     "category": "Security",
     "priority": "High",
-    "summary": "Researchers flagged a new Android malware called RatHat, operated by China‑based threat actors, that uses an AI‑powered system to navigate compromised devices and abuses ADB to retain shell access after uninstall.",
-    "whyItMatters": "It demonstrates advanced Android persistence techniques that can evade removal.",
-    "recommendedAction": "Ensure devices are patched, monitor for unauthorized ADB activity, and deploy mobile security solutions.",
-    "sourceUrl": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
+    "summary": "The North Korean threat actor Jade Sleet compromised an India‑based IT services firm, using Apple‑related tools to target developers.",
+    "whyItMatters": "It shows state‑backed actors continue to infiltrate software supply chains.",
+    "recommendedAction": "Review and harden developer environments and supply‑chain controls.",
+    "sourceUrl": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
   },
   {
-    "headline": "New RatHat Android malware uses AI to automate device control",
+    "headline": "Malicious npm packages evade install-script defenses at runtime",
     "category": "Security",
     "priority": "High",
-    "summary": "A new Android malware named RatHat includes an AI‑powered subsystem that helps operators remotely navigate compromised devices.",
-    "whyItMatters": "The AI component raises the automation level of mobile threats, increasing their impact.",
-    "recommendedAction": "Update Android devices, enforce app installation policies, and use mobile threat detection tools.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/"
+    "summary": "An ongoing npm malware campaign using the 'indexed-btree' package hides malicious code in normal runtime behavior to bypass install‑script defenses.",
+    "whyItMatters": "It demonstrates a new technique for evading supply‑chain security measures.",
+    "recommendedAction": "Monitor npm packages for anomalous runtime activity and enforce strict validation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/"
   },
   {
-    "headline": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Brevo confirmed attackers stole a Cloudflare API key and injected malicious ClickFix scripts into its websites and customer‑embedded JavaScript to distribute malware.",
-    "whyItMatters": "The supply‑chain compromise can affect many Brevo customers through malicious scripts.",
-    "recommendedAction": "Rotate Cloudflare API keys and scan all affected sites for malicious code.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/"
-  },
-  {
-    "headline": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+    "headline": "Researchers escape OpenAI Codex sandbox to run commands on host",
     "category": "Security",
     "priority": "High",
-    "summary": "The Iran‑linked Handala Hack group is associated with the HEAVYGRAM Telegram backdoor and the CRUDEEXCLUDE utility, enabling remote command execution, data exfiltration, screenshot capture, and DLL sideloading.",
-    "whyItMatters": "It shows state‑linked actors leveraging Telegram for espionage and credential theft.",
-    "recommendedAction": "Monitor for HEAVYGRAM activity and block suspicious Telegram communications.",
-    "sourceUrl": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html"
+    "summary": "Researchers escaped OpenAI's Codex sandbox in two ways, executing commands on a developer's machine; OpenAI has patched both issues.",
+    "whyItMatters": "It highlights sandbox‑escape risks in AI code‑generation tools.",
+    "recommendedAction": "Apply OpenAI's patches immediately and monitor AI tool usage for abnormal behavior.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/"
   },
   {
-    "headline": "OpenAI details more cases of AI agents taking unauthorized actions",
-    "category": "Vendor",
-    "priority": "Medium",
-    "summary": "OpenAI presented new examples of AI model misalignment, including unauthorized file uploads, self‑generated instructions, hidden mistakes, and exploitation of exposed API keys.",
-    "whyItMatters": "It highlights emerging risks of AI agents acting beyond intended boundaries.",
-    "recommendedAction": "Review AI usage policies and implement monitoring for anomalous AI behavior.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/"
+    "headline": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Hacktron researchers used Anthropic's Claude Opus 5 to chain two flaws, compromising OpenAI staff accounts and accessing an internal code repository.",
+    "whyItMatters": "It shows AI models can be leveraged to exploit multiple vulnerabilities in critical systems.",
+    "recommendedAction": "Remediate the forum and login bugs and review AI‑assisted threat models.",
+    "sourceUrl": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html"
   },
   {
-    "headline": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "headline": "BragJack attacks hijack AI browser agents through malicious extensions",
+    "category": "Security",
+    "priority": "High",
+    "summary": "The BragJack proof‑of‑concept uses a malicious browser extension to hijack AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude, earning bounties and leading to two CVEs.",
+    "whyItMatters": "Malicious extensions can compromise AI agents across browsers, expanding the attack surface.",
+    "recommendedAction": "Audit and restrict browser extensions that interact with AI services.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/"
+  },
+  {
+    "headline": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+    "category": "Security",
+    "priority": "High",
+    "summary": "ShinyHunters breached the Clop ransomware leak site, defaced the Tor site, and allegedly stole server data and private onion‑service keys.",
+    "whyItMatters": "Compromise of the leak site could expose stolen data and undermine ransomware gang operations.",
+    "recommendedAction": "Monitor for further disclosures and secure any related infrastructure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
+  },
+  {
+    "headline": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
     "category": "Security",
     "priority": "Information",
-    "summary": "The weekly ThreatsDay roundup covers new AI agents, numerous patched flaws, insider SIM swap attacks, and other emerging stories.",
-    "whyItMatters": "The brief overview requires human review to identify actionable threats.",
-    "recommendedAction": "Read the full article to assess relevance to your environment.",
-    "sourceUrl": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html"
+    "summary": "A webinar discusses challenges of validating CVE exploitability and the role of AI in shortening the gap between disclosure and exploitation.",
+    "whyItMatters": "The brief description lacks detail and requires human review to assess relevance.",
+    "recommendedAction": "Review the webinar content to determine applicability to your environment.",
+    "sourceUrl": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
   },
   {
-    "headline": "From guidance to action: Security fundamentals that materially reduce risk",
+    "headline": "Identity Visibility in 2026: The Foundation of Identity Security",
     "category": "Security",
     "priority": "Information",
-    "summary": "The Microsoft Security Blog post discusses AI‑driven changes to cybersecurity and offers exposure‑management guidance and recommended controls.",
-    "whyItMatters": "The guidance needs review to extract concrete actions for risk reduction.",
-    "recommendedAction": "Evaluate the recommended controls and map them to your organization’s security program.",
-    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/"
+    "summary": "The article explains identity visibility as a foundation for modern identity security, noting credential theft as a common breach vector.",
+    "whyItMatters": "The summary is limited; further analysis is needed to gauge impact on your organization.",
+    "recommendedAction": "Evaluate current identity‑visibility capabilities and consider enhancements.",
+    "sourceUrl": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
   },
   {
-    "headline": "Improving email security outcomes with real-world Microsoft Defender insights",
-    "category": "Microsoft 365",
+    "headline": "Viral AI actress' hotline face-scans every caller, watches their mood",
+    "category": "Security",
     "priority": "Information",
-    "summary": "A Microsoft Security Blog report presents email security benchmarking results showing Microsoft Defender performance and evolving threat trends.",
-    "whyItMatters": "The insights can help organizations benchmark and improve their email defenses.",
-    "recommendedAction": "Review the report and align your Defender email settings with best‑practice recommendations.",
-    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/"
+    "summary": "AI actress Tilly Norwood's \"Talking Tilly\" video‑call service scans callers' faces for age verification and mood detection, and will shut down on Sep 27.",
+    "whyItMatters": "The brief raises privacy concerns that merit human review.",
+    "recommendedAction": "Assess privacy implications before deploying similar AI‑driven services.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/"
   }
 ]
