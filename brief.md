@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-09-21**
+**AI Daily IT Intelligence Brief — 2026-09-22**
 
-🔴 **[Security / Critical] North Korean WaterPlum hackers infected 30,000 devices worldwide**
-The WaterPlum group compromised at least 30,000 devices from Dec 2025 to Jul 2026 and transferred over $10.7 million in stolen cryptocurrency to North Korea.
-_Why it matters:_ It represents a large‑scale state‑sponsored intrusion with significant financial impact.
-_Suggested action:_ Initiate incident response, isolate affected devices, and strengthen network defenses.
-[Source](https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/)
+🔴 **[Vendor / Critical] WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session**
+An anonymous comment can embed a hidden script that executes code on the server when a logged‑in administrator views the page; the flaw was fixed in WordPress 7.1.1.
+_Why it matters:_ Exploited, it allows remote code execution on vulnerable WordPress sites.
+_Suggested action:_ Update WordPress to version 7.1.1 or later immediately.
+[Source](https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html)
 
-🟠 **[Security / High] Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors**
-The North Korean threat actor Jade Sleet compromised an India‑based IT services firm, using Apple‑related tools to target developers.
-_Why it matters:_ It shows state‑backed actors continue to infiltrate software supply chains.
-_Suggested action:_ Review and harden developer environments and supply‑chain controls.
-[Source](https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html)
+🔴 **[Vendor / Critical] Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access**
+CISA added a patched Zyxel GS1900 switch vulnerability (CVE‑2026‑7273, CVSS 8.8) to its KEV catalog, confirming active exploitation.
+_Why it matters:_ Active exploitation could give attackers command‑level control of network infrastructure.
+_Suggested action:_ Apply the latest Zyxel firmware patches and verify remediation.
+[Source](https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html)
 
-🟠 **[Security / High] Malicious npm packages evade install-script defenses at runtime**
-An ongoing npm malware campaign using the 'indexed-btree' package hides malicious code in normal runtime behavior to bypass install‑script defenses.
-_Why it matters:_ It demonstrates a new technique for evading supply‑chain security measures.
-_Suggested action:_ Monitor npm packages for anomalous runtime activity and enforce strict validation.
-[Source](https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/)
+🔴 **[Security / Critical] CISA alerts of active exploitation of three Linux kernel flaws**
+CISA warned that hackers are actively exploiting three Linux kernel vulnerabilities, including one rated critical.
+_Why it matters:_ Exploitation can lead to privilege escalation or system compromise on affected Linux systems.
+_Suggested action:_ Patch affected Linux kernels immediately.
+[Source](https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/)
 
-🟠 **[Security / High] Researchers escape OpenAI Codex sandbox to run commands on host**
-Researchers escaped OpenAI's Codex sandbox in two ways, executing commands on a developer's machine; OpenAI has patched both issues.
-_Why it matters:_ It highlights sandbox‑escape risks in AI code‑generation tools.
-_Suggested action:_ Apply OpenAI's patches immediately and monitor AI tool usage for abnormal behavior.
-[Source](https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/)
+🟠 **[Security / High] One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor**
+A proof‑of‑concept shows malware on a Mac can modify a hidden Meta Muse setting so spoken prompts are sent to an attacker instead of the AI assistant.
+_Why it matters:_ If exploited, attackers could silently capture user inputs and gain broader access to the device.
+_Suggested action:_ Review and disable any undocumented Muse settings and monitor for suspicious activity.
+[Source](https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html)
 
-🟠 **[Security / High] Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws**
-Hacktron researchers used Anthropic's Claude Opus 5 to chain two flaws, compromising OpenAI staff accounts and accessing an internal code repository.
-_Why it matters:_ It shows AI models can be leveraged to exploit multiple vulnerabilities in critical systems.
-_Suggested action:_ Remediate the forum and login bugs and review AI‑assisted threat models.
-[Source](https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html)
+🟠 **[Vendor / High] BigCommerce alerts merchants of data breach linked to Ribon apps**
+BigCommerce warned merchants that attackers compromised credentials for third‑party Ribon applications and injected malicious scripts into online stores.
+_Why it matters:_ Compromised stores can expose customer data and financial information.
+_Suggested action:_ Rotate credentials for Ribon apps and scan stores for malicious scripts.
+[Source](https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/)
 
-🟠 **[Security / High] BragJack attacks hijack AI browser agents through malicious extensions**
-The BragJack proof‑of‑concept uses a malicious browser extension to hijack AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude, earning bounties and leading to two CVEs.
-_Why it matters:_ Malicious extensions can compromise AI agents across browsers, expanding the attack surface.
-_Suggested action:_ Audit and restrict browser extensions that interact with AI services.
-[Source](https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/)
+🟠 **[Vendor / High] WordPress Click2Shell flaw lets hackers execute PHP on the server**
+A new WordPress CSRF vulnerability called Click2Shell enables attackers to execute PHP code on the server.
+_Why it matters:_ Successful exploitation can lead to full server compromise.
+_Suggested action:_ Apply the forthcoming WordPress security update and monitor for suspicious requests.
+[Source](https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/)
 
-🟠 **[Security / High] ShinyHunters hacks Clop leak site, threatens to extort ransomware gang**
-ShinyHunters breached the Clop ransomware leak site, defaced the Tor site, and allegedly stole server data and private onion‑service keys.
-_Why it matters:_ Compromise of the leak site could expose stolen data and undermine ransomware gang operations.
-_Suggested action:_ Monitor for further disclosures and secure any related infrastructure.
-[Source](https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/)
+🟠 **[Windows / High] Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR**
+A malicious installer for a fake LastPass Authenticator drops a Microsoft‑signed kernel driver that disables antivirus and EDR before delivering a password stealer.
+_Why it matters:_ Disabling security tools enables undetected credential theft on Windows machines.
+_Suggested action:_ Block the installer URL and monitor for the signed driver on endpoints.
+[Source](https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html)
 
-🔵 **[Security / Information] Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar**
-A webinar discusses challenges of validating CVE exploitability and the role of AI in shortening the gap between disclosure and exploitation.
-_Why it matters:_ The brief description lacks detail and requires human review to assess relevance.
-_Suggested action:_ Review the webinar content to determine applicability to your environment.
-[Source](https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html)
+🟠 **[Security / High] Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto**
+North Korean actors behind the Contagious Interview campaign have compromised over 30,000 devices across 100+ countries, stealing funds from more than 7,000 crypto wallets.
+_Why it matters:_ The campaign demonstrates a large‑scale threat to individuals handling cryptocurrency.
+_Suggested action:_ Advise at‑risk users to update software, use MFA, and monitor wallet activity.
+[Source](https://thehackernews.com/2026/09/contagious-interview-campaign.html)
 
-🔵 **[Security / Information] Identity Visibility in 2026: The Foundation of Identity Security**
-The article explains identity visibility as a foundation for modern identity security, noting credential theft as a common breach vector.
-_Why it matters:_ The summary is limited; further analysis is needed to gauge impact on your organization.
-_Suggested action:_ Evaluate current identity‑visibility capabilities and consider enhancements.
-[Source](https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html)
+🔵 **[Microsoft 365 / Information] Microsoft to retire Microsoft 365 Companion apps in December**
+Microsoft will retire the Calendar, People, and Files companion apps for Microsoft 365 on December 16 and asks admins to remove them.
+_Why it matters:_ Retired apps will no longer receive updates or support.
+_Suggested action:_ Uninstall the companion apps from managed devices before the retirement date.
+[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/)
 
-🔵 **[Security / Information] Viral AI actress' hotline face-scans every caller, watches their mood**
-AI actress Tilly Norwood's "Talking Tilly" video‑call service scans callers' faces for age verification and mood detection, and will shut down on Sep 27.
-_Why it matters:_ The brief raises privacy concerns that merit human review.
-_Suggested action:_ Assess privacy implications before deploying similar AI‑driven services.
-[Source](https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/)
+🔵 **[Vendor / Information] Google Fined €403 Million Over GDPR Violations Tied to Location Data**
+The EU fined Google €403 million for GDPR breaches related to location data handling between 2018 and 2020, ordering compliance within six months.
+_Why it matters:_ The fine highlights regulatory risks for handling personal location data.
+_Suggested action:_ Review and adjust location data processing to meet GDPR requirements.
+[Source](https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html)
 
 _Advisory only — no automatic changes were made to any system._

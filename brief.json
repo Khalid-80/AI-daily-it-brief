@@ -1,92 +1,92 @@
 [
   {
-    "headline": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+    "headline": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "An anonymous comment can embed a hidden script that executes code on the server when a logged‑in administrator views the page; the flaw was fixed in WordPress 7.1.1.",
+    "whyItMatters": "Exploited, it allows remote code execution on vulnerable WordPress sites.",
+    "recommendedAction": "Update WordPress to version 7.1.1 or later immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html"
+  },
+  {
+    "headline": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "CISA added a patched Zyxel GS1900 switch vulnerability (CVE‑2026‑7273, CVSS 8.8) to its KEV catalog, confirming active exploitation.",
+    "whyItMatters": "Active exploitation could give attackers command‑level control of network infrastructure.",
+    "recommendedAction": "Apply the latest Zyxel firmware patches and verify remediation.",
+    "sourceUrl": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html"
+  },
+  {
+    "headline": "CISA alerts of active exploitation of three Linux kernel flaws",
     "category": "Security",
     "priority": "Critical",
-    "summary": "The WaterPlum group compromised at least 30,000 devices from Dec 2025 to Jul 2026 and transferred over $10.7 million in stolen cryptocurrency to North Korea.",
-    "whyItMatters": "It represents a large‑scale state‑sponsored intrusion with significant financial impact.",
-    "recommendedAction": "Initiate incident response, isolate affected devices, and strengthen network defenses.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/"
+    "summary": "CISA warned that hackers are actively exploiting three Linux kernel vulnerabilities, including one rated critical.",
+    "whyItMatters": "Exploitation can lead to privilege escalation or system compromise on affected Linux systems.",
+    "recommendedAction": "Patch affected Linux kernels immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/"
   },
   {
-    "headline": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "headline": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
     "category": "Security",
     "priority": "High",
-    "summary": "The North Korean threat actor Jade Sleet compromised an India‑based IT services firm, using Apple‑related tools to target developers.",
-    "whyItMatters": "It shows state‑backed actors continue to infiltrate software supply chains.",
-    "recommendedAction": "Review and harden developer environments and supply‑chain controls.",
-    "sourceUrl": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
+    "summary": "A proof‑of‑concept shows malware on a Mac can modify a hidden Meta Muse setting so spoken prompts are sent to an attacker instead of the AI assistant.",
+    "whyItMatters": "If exploited, attackers could silently capture user inputs and gain broader access to the device.",
+    "recommendedAction": "Review and disable any undocumented Muse settings and monitor for suspicious activity.",
+    "sourceUrl": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html"
   },
   {
-    "headline": "Malicious npm packages evade install-script defenses at runtime",
+    "headline": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "BigCommerce warned merchants that attackers compromised credentials for third‑party Ribon applications and injected malicious scripts into online stores.",
+    "whyItMatters": "Compromised stores can expose customer data and financial information.",
+    "recommendedAction": "Rotate credentials for Ribon apps and scan stores for malicious scripts.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/"
+  },
+  {
+    "headline": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "A new WordPress CSRF vulnerability called Click2Shell enables attackers to execute PHP code on the server.",
+    "whyItMatters": "Successful exploitation can lead to full server compromise.",
+    "recommendedAction": "Apply the forthcoming WordPress security update and monitor for suspicious requests.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/"
+  },
+  {
+    "headline": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+    "category": "Windows",
+    "priority": "High",
+    "summary": "A malicious installer for a fake LastPass Authenticator drops a Microsoft‑signed kernel driver that disables antivirus and EDR before delivering a password stealer.",
+    "whyItMatters": "Disabling security tools enables undetected credential theft on Windows machines.",
+    "recommendedAction": "Block the installer URL and monitor for the signed driver on endpoints.",
+    "sourceUrl": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html"
+  },
+  {
+    "headline": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
     "category": "Security",
     "priority": "High",
-    "summary": "An ongoing npm malware campaign using the 'indexed-btree' package hides malicious code in normal runtime behavior to bypass install‑script defenses.",
-    "whyItMatters": "It demonstrates a new technique for evading supply‑chain security measures.",
-    "recommendedAction": "Monitor npm packages for anomalous runtime activity and enforce strict validation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/"
+    "summary": "North Korean actors behind the Contagious Interview campaign have compromised over 30,000 devices across 100+ countries, stealing funds from more than 7,000 crypto wallets.",
+    "whyItMatters": "The campaign demonstrates a large‑scale threat to individuals handling cryptocurrency.",
+    "recommendedAction": "Advise at‑risk users to update software, use MFA, and monitor wallet activity.",
+    "sourceUrl": "https://thehackernews.com/2026/09/contagious-interview-campaign.html"
   },
   {
-    "headline": "Researchers escape OpenAI Codex sandbox to run commands on host",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Researchers escaped OpenAI's Codex sandbox in two ways, executing commands on a developer's machine; OpenAI has patched both issues.",
-    "whyItMatters": "It highlights sandbox‑escape risks in AI code‑generation tools.",
-    "recommendedAction": "Apply OpenAI's patches immediately and monitor AI tool usage for abnormal behavior.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/"
-  },
-  {
-    "headline": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Hacktron researchers used Anthropic's Claude Opus 5 to chain two flaws, compromising OpenAI staff accounts and accessing an internal code repository.",
-    "whyItMatters": "It shows AI models can be leveraged to exploit multiple vulnerabilities in critical systems.",
-    "recommendedAction": "Remediate the forum and login bugs and review AI‑assisted threat models.",
-    "sourceUrl": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html"
-  },
-  {
-    "headline": "BragJack attacks hijack AI browser agents through malicious extensions",
-    "category": "Security",
-    "priority": "High",
-    "summary": "The BragJack proof‑of‑concept uses a malicious browser extension to hijack AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude, earning bounties and leading to two CVEs.",
-    "whyItMatters": "Malicious extensions can compromise AI agents across browsers, expanding the attack surface.",
-    "recommendedAction": "Audit and restrict browser extensions that interact with AI services.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/"
-  },
-  {
-    "headline": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-    "category": "Security",
-    "priority": "High",
-    "summary": "ShinyHunters breached the Clop ransomware leak site, defaced the Tor site, and allegedly stole server data and private onion‑service keys.",
-    "whyItMatters": "Compromise of the leak site could expose stolen data and undermine ransomware gang operations.",
-    "recommendedAction": "Monitor for further disclosures and secure any related infrastructure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
-  },
-  {
-    "headline": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "category": "Security",
+    "headline": "Microsoft to retire Microsoft 365 Companion apps in December",
+    "category": "Microsoft 365",
     "priority": "Information",
-    "summary": "A webinar discusses challenges of validating CVE exploitability and the role of AI in shortening the gap between disclosure and exploitation.",
-    "whyItMatters": "The brief description lacks detail and requires human review to assess relevance.",
-    "recommendedAction": "Review the webinar content to determine applicability to your environment.",
-    "sourceUrl": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
+    "summary": "Microsoft will retire the Calendar, People, and Files companion apps for Microsoft 365 on December 16 and asks admins to remove them.",
+    "whyItMatters": "Retired apps will no longer receive updates or support.",
+    "recommendedAction": "Uninstall the companion apps from managed devices before the retirement date.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/"
   },
   {
-    "headline": "Identity Visibility in 2026: The Foundation of Identity Security",
-    "category": "Security",
+    "headline": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+    "category": "Vendor",
     "priority": "Information",
-    "summary": "The article explains identity visibility as a foundation for modern identity security, noting credential theft as a common breach vector.",
-    "whyItMatters": "The summary is limited; further analysis is needed to gauge impact on your organization.",
-    "recommendedAction": "Evaluate current identity‑visibility capabilities and consider enhancements.",
-    "sourceUrl": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
-  },
-  {
-    "headline": "Viral AI actress' hotline face-scans every caller, watches their mood",
-    "category": "Security",
-    "priority": "Information",
-    "summary": "AI actress Tilly Norwood's \"Talking Tilly\" video‑call service scans callers' faces for age verification and mood detection, and will shut down on Sep 27.",
-    "whyItMatters": "The brief raises privacy concerns that merit human review.",
-    "recommendedAction": "Assess privacy implications before deploying similar AI‑driven services.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/"
+    "summary": "The EU fined Google €403 million for GDPR breaches related to location data handling between 2018 and 2020, ordering compliance within six months.",
+    "whyItMatters": "The fine highlights regulatory risks for handling personal location data.",
+    "recommendedAction": "Review and adjust location data processing to meet GDPR requirements.",
+    "sourceUrl": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html"
   }
 ]
