@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-09-22**
+**AI Daily IT Intelligence Brief — 2026-09-23**
 
-🔴 **[Vendor / Critical] WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session**
-An anonymous comment can embed a hidden script that executes code on the server when a logged‑in administrator views the page; the flaw was fixed in WordPress 7.1.1.
-_Why it matters:_ Exploited, it allows remote code execution on vulnerable WordPress sites.
-_Suggested action:_ Update WordPress to version 7.1.1 or later immediately.
-[Source](https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html)
+🔴 **[Security / Critical] ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants**
+The cyber extortion group ShinyHunters claimed it breached the U.S. FBI and stole data belonging to current and former employees, stating it holds very sensitive data on almost all FBI agents and job applicants.
+_Why it matters:_ Potential exposure of federal law‑enforcement personnel and applicants could have national security implications.
+_Suggested action:_ Monitor for credential misuse and notify affected individuals.
+[Source](https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html)
 
-🔴 **[Vendor / Critical] Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access**
-CISA added a patched Zyxel GS1900 switch vulnerability (CVE‑2026‑7273, CVSS 8.8) to its KEV catalog, confirming active exploitation.
-_Why it matters:_ Active exploitation could give attackers command‑level control of network infrastructure.
-_Suggested action:_ Apply the latest Zyxel firmware patches and verify remediation.
-[Source](https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html)
+🔴 **[Security / Critical] ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach**
+The ShinyHunters extortion gang says it breached FBI systems using a new Oracle PeopleSoft zero‑day, accessing internal services and stealing sensitive employee and applicant data.
+_Why it matters:_ A zero‑day in a critical enterprise application could enable large‑scale compromise of federal data.
+_Suggested action:_ Patch PeopleSoft immediately and monitor for related indicators of compromise.
+[Source](https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/)
 
-🔴 **[Security / Critical] CISA alerts of active exploitation of three Linux kernel flaws**
-CISA warned that hackers are actively exploiting three Linux kernel vulnerabilities, including one rated critical.
-_Why it matters:_ Exploitation can lead to privilege escalation or system compromise on affected Linux systems.
-_Suggested action:_ Patch affected Linux kernels immediately.
-[Source](https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/)
+🟠 **[Security / High] Rogue external MFA providers can steal passwords during logins**
+Security researchers demonstrated an attack where hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts.
+_Why it matters:_ It reveals a new vector for credential theft that bypasses traditional MFA protections.
+_Suggested action:_ Review and restrict MFA provider registrations and monitor for suspicious logins.
+[Source](https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/)
 
-🟠 **[Security / High] One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor**
-A proof‑of‑concept shows malware on a Mac can modify a hidden Meta Muse setting so spoken prompts are sent to an attacker instead of the AI assistant.
-_Why it matters:_ If exploited, attackers could silently capture user inputs and gain broader access to the device.
-_Suggested action:_ Review and disable any undocumented Muse settings and monitor for suspicious activity.
-[Source](https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html)
+🟠 **[Security / High] Chinese hackers exploit WordPress, Zyxel flaws to steal govt data**
+A Chinese‑speaking threat actor exploited vulnerabilities in ZyXEL GS1900 switches and WordPress to steal data from 996 devices and over 18,500 records stored in backend databases.
+_Why it matters:_ Active exploitation of widely used platforms puts government and enterprise data at risk.
+_Suggested action:_ Apply the latest patches to WordPress installations and ZyXEL devices immediately.
+[Source](https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/)
 
-🟠 **[Vendor / High] BigCommerce alerts merchants of data breach linked to Ribon apps**
-BigCommerce warned merchants that attackers compromised credentials for third‑party Ribon applications and injected malicious scripts into online stores.
-_Why it matters:_ Compromised stores can expose customer data and financial information.
-_Suggested action:_ Rotate credentials for Ribon apps and scan stores for malicious scripts.
-[Source](https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/)
+🟠 **[Vendor / High] Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks**
+Attackers exploited an unknown flaw (CVE‑2026‑93616) in Check Point's Security Management Server, allowing script execution without authentication; a fix was released on September 22.
+_Why it matters:_ Compromise of firewall management servers can give attackers control over network defenses.
+_Suggested action:_ Apply the September 22 patch to all Check Point Management Servers without delay.
+[Source](https://thehackernews.com/2026/09/check-point-warns-of-management-server.html)
 
-🟠 **[Vendor / High] WordPress Click2Shell flaw lets hackers execute PHP on the server**
-A new WordPress CSRF vulnerability called Click2Shell enables attackers to execute PHP code on the server.
-_Why it matters:_ Successful exploitation can lead to full server compromise.
-_Suggested action:_ Apply the forthcoming WordPress security update and monitor for suspicious requests.
-[Source](https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/)
+🟠 **[Windows / High] New ClosedQuorum Windows malware uses AI for attack decisions**
+ClosedQuorum is a new Windows malware that leverages AI models such as Google Gemini, DeepSeek, Qwen, and Mistral to autonomously decide post‑compromise actions.
+_Why it matters:_ AI‑driven malware can adapt its behavior, making detection and mitigation more challenging.
+_Suggested action:_ Update endpoint detection tools to recognize ClosedQuorum signatures and monitor for anomalous AI‑related activity.
+[Source](https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/)
 
-🟠 **[Windows / High] Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR**
-A malicious installer for a fake LastPass Authenticator drops a Microsoft‑signed kernel driver that disables antivirus and EDR before delivering a password stealer.
-_Why it matters:_ Disabling security tools enables undetected credential theft on Windows machines.
-_Suggested action:_ Block the installer URL and monitor for the signed driver on endpoints.
-[Source](https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html)
+🟠 **[Vendor / High] WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers**
+WordPress released a critical core fix (WordPress 7.1.2) that stops unauthenticated attackers from loading external PHP files, a flaw that could lead to code execution on certain servers.
+_Why it matters:_ The vulnerability allowed remote code execution without any account, posing a severe risk to millions of sites.
+_Suggested action:_ Upgrade all WordPress installations to version 7.1.2 or later immediately.
+[Source](https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html)
 
-🟠 **[Security / High] Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto**
-North Korean actors behind the Contagious Interview campaign have compromised over 30,000 devices across 100+ countries, stealing funds from more than 7,000 crypto wallets.
-_Why it matters:_ The campaign demonstrates a large‑scale threat to individuals handling cryptocurrency.
-_Suggested action:_ Advise at‑risk users to update software, use MFA, and monitor wallet activity.
-[Source](https://thehackernews.com/2026/09/contagious-interview-campaign.html)
+🟡 **[Vendor / Medium] Sweden fines Miljödata $183,000 over breach affecting 2.2 million**
+Sweden's data privacy regulator imposed a SEK 1.8 million fine on IT systems provider Miljödata for inadequate security measures that led to a breach affecting 2.2 million people.
+_Why it matters:_ The fine underscores the financial and reputational risks of insufficient data protection.
+_Suggested action:_ Conduct a thorough security audit of third‑party vendors and enforce stricter controls.
+[Source](https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/)
 
-🔵 **[Microsoft 365 / Information] Microsoft to retire Microsoft 365 Companion apps in December**
-Microsoft will retire the Calendar, People, and Files companion apps for Microsoft 365 on December 16 and asks admins to remove them.
-_Why it matters:_ Retired apps will no longer receive updates or support.
-_Suggested action:_ Uninstall the companion apps from managed devices before the retirement date.
-[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/)
+🟡 **[Vendor / Medium] Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials**
+Researchers identified a malicious npm package, "tw-pkgprobe-7731," masquerading as a Twilio security tool and designed to harvest sensitive data from developers.
+_Why it matters:_ Supply‑chain attacks via popular package registries can silently compromise developer credentials.
+_Suggested action:_ Remove the package, audit project dependencies, and enforce strict package provenance checks.
+[Source](https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html)
 
-🔵 **[Vendor / Information] Google Fined €403 Million Over GDPR Violations Tied to Location Data**
-The EU fined Google €403 million for GDPR breaches related to location data handling between 2018 and 2020, ordering compliance within six months.
-_Why it matters:_ The fine highlights regulatory risks for handling personal location data.
-_Suggested action:_ Review and adjust location data processing to meet GDPR requirements.
-[Source](https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html)
+🔵 **[Security / Information] Reducing shadow IT visibility gaps with Wazuh**
+Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce shadow IT visibility gaps.
+_Why it matters:_ Unmanaged assets increase attack surface and require human review to assess relevance.
+_Suggested action:_ Evaluate Wazuh for asset discovery and implement its recommended monitoring practices.
+[Source](https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/)
 
 _Advisory only — no automatic changes were made to any system._
