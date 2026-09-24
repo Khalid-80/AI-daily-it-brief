@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-09-23**
+**AI Daily IT Intelligence Brief — 2026-09-24**
 
-🔴 **[Security / Critical] ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants**
-The cyber extortion group ShinyHunters claimed it breached the U.S. FBI and stole data belonging to current and former employees, stating it holds very sensitive data on almost all FBI agents and job applicants.
-_Why it matters:_ Potential exposure of federal law‑enforcement personnel and applicants could have national security implications.
-_Suggested action:_ Monitor for credential misuse and notify affected individuals.
-[Source](https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html)
+🔴 **[Vendor / Critical] Check Point warns of hackers exploiting Security Gateway VPN RCE flaw**
+Check Point confirms active exploitation of CVE-2026-85102, a pre‑authentication remote code execution vulnerability in its Security Gateway VPN certificate handling.
+_Why it matters:_ The flaw allows unauthenticated attackers to execute code on VPN appliances.
+_Suggested action:_ Apply the vendor’s patches and enforce multi‑factor authentication for VPN access.
+[Source](https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/)
 
-🔴 **[Security / Critical] ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach**
-The ShinyHunters extortion gang says it breached FBI systems using a new Oracle PeopleSoft zero‑day, accessing internal services and stealing sensitive employee and applicant data.
-_Why it matters:_ A zero‑day in a critical enterprise application could enable large‑scale compromise of federal data.
-_Suggested action:_ Patch PeopleSoft immediately and monitor for related indicators of compromise.
-[Source](https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/)
+🔴 **[Vendor / Critical] Hackers start exploiting critical WordPress flaw for code execution**
+Threat actors are exploiting CVE-2026-87902 in WordPress to write files that execute shell commands when accessed.
+_Why it matters:_ The vulnerability enables remote code execution on compromised sites.
+_Suggested action:_ Patch WordPress installations immediately and monitor for suspicious file changes.
+[Source](https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/)
 
-🟠 **[Security / High] Rogue external MFA providers can steal passwords during logins**
-Security researchers demonstrated an attack where hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts.
-_Why it matters:_ It reveals a new vector for credential theft that bypasses traditional MFA protections.
-_Suggested action:_ Review and restrict MFA provider registrations and monitor for suspicious logins.
-[Source](https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/)
+🔴 **[Vendor / Critical] MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key**
+Two chained MikroTik RouterOS SSH vulnerabilities (CVE-2026-67279 and CVE-2026-86060) allow attackers to gain full admin control of exposed routers without authentication.
+_Why it matters:_ Compromised routers can be used for network infiltration and traffic interception.
+_Suggested action:_ Update RouterOS to the latest version and restrict SSH access.
+[Source](https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html)
 
-🟠 **[Security / High] Chinese hackers exploit WordPress, Zyxel flaws to steal govt data**
-A Chinese‑speaking threat actor exploited vulnerabilities in ZyXEL GS1900 switches and WordPress to steal data from 996 devices and over 18,500 records stored in backend databases.
-_Why it matters:_ Active exploitation of widely used platforms puts government and enterprise data at risk.
-_Suggested action:_ Apply the latest patches to WordPress installations and ZyXEL devices immediately.
-[Source](https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/)
+🟠 **[Windows / High] Placeholder domain used in dev docs now serves ClickFix attacks**
+A placeholder domain "third-party.com" used in documentation now hosts a fake Cloudflare verification page that attempts to trick Windows users into running PowerShell commands.
+_Why it matters:_ It demonstrates how innocuous placeholder domains can be weaponized to compromise Windows systems.
+_Suggested action:_ Block the domain and educate users about suspicious verification pages.
+[Source](https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/)
 
-🟠 **[Vendor / High] Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks**
-Attackers exploited an unknown flaw (CVE‑2026‑93616) in Check Point's Security Management Server, allowing script execution without authentication; a fix was released on September 22.
-_Why it matters:_ Compromise of firewall management servers can give attackers control over network defenses.
-_Suggested action:_ Apply the September 22 patch to all Check Point Management Servers without delay.
-[Source](https://thehackernews.com/2026/09/check-point-warns-of-management-server.html)
+🟠 **[Security / High] New RemControl Android banking malware targets users in Europe and Canada**
+RemControl is a new Android malware-as-a-service platform that distributes banking trojans via malvertising that impersonates the TVTap IPTV app.
+_Why it matters:_ It targets banking credentials of users in Europe and Canada.
+_Suggested action:_ Update mobile security solutions and advise users to install apps only from trusted sources.
+[Source](https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/)
 
-🟠 **[Windows / High] New ClosedQuorum Windows malware uses AI for attack decisions**
-ClosedQuorum is a new Windows malware that leverages AI models such as Google Gemini, DeepSeek, Qwen, and Mistral to autonomously decide post‑compromise actions.
-_Why it matters:_ AI‑driven malware can adapt its behavior, making detection and mitigation more challenging.
-_Suggested action:_ Update endpoint detection tools to recognize ClosedQuorum signatures and monitor for anomalous AI‑related activity.
-[Source](https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/)
+🟠 **[Vendor / High] Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry**
+Researchers found Go‑based malware distributed through malicious Terraform providers and Go modules hosted on the HashiCorp Registry.
+_Why it matters:_ It introduces a new supply‑chain attack vector for infrastructure‑as‑code tools.
+_Suggested action:_ Verify provider authenticity and restrict registry usage to trusted sources.
+[Source](https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html)
 
-🟠 **[Vendor / High] WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers**
-WordPress released a critical core fix (WordPress 7.1.2) that stops unauthenticated attackers from loading external PHP files, a flaw that could lead to code execution on certain servers.
-_Why it matters:_ The vulnerability allowed remote code execution without any account, posing a severe risk to millions of sites.
-_Suggested action:_ Upgrade all WordPress installations to version 7.1.2 or later immediately.
-[Source](https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html)
+🟠 **[Vendor / High] A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You**
+A leaked private email address used for filing GitLab issues can be abused to push code and trigger CI jobs under the victim’s identity.
+_Why it matters:_ Attackers can gain code execution and repository control without authentication.
+_Suggested action:_ Rotate the issue email address and restrict its usage.
+[Source](https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html)
 
-🟡 **[Vendor / Medium] Sweden fines Miljödata $183,000 over breach affecting 2.2 million**
-Sweden's data privacy regulator imposed a SEK 1.8 million fine on IT systems provider Miljödata for inadequate security measures that led to a breach affecting 2.2 million people.
-_Why it matters:_ The fine underscores the financial and reputational risks of insufficient data protection.
-_Suggested action:_ Conduct a thorough security audit of third‑party vendors and enforce stricter controls.
-[Source](https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/)
+🟠 **[Security / High] Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers**
+A threat actor uses open‑source AI agent frameworks to compromise hundreds of e‑commerce sites, stealing over 600,000 credit cards and deploying skimmers.
+_Why it matters:_ The scale of credential theft poses significant financial risk to consumers and merchants.
+_Suggested action:_ Deploy web‑application firewalls and monitor for unauthorized AI agent activity.
+[Source](https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/)
 
-🟡 **[Vendor / Medium] Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials**
-Researchers identified a malicious npm package, "tw-pkgprobe-7731," masquerading as a Twilio security tool and designed to harvest sensitive data from developers.
-_Why it matters:_ Supply‑chain attacks via popular package registries can silently compromise developer credentials.
-_Suggested action:_ Remove the package, audit project dependencies, and enforce strict package provenance checks.
-[Source](https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html)
+🟡 **[Security / Medium] InfraTrust report warns network management systems under attack**
+The InfraTrust report highlights increasing attacks on network management systems, with several critical vulnerabilities being exploited shortly after disclosure.
+_Why it matters:_ Compromised management systems can give attackers broad control over enterprise infrastructure.
+_Suggested action:_ Prioritize patching of management software and monitor for exploitation attempts.
+[Source](https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/)
 
-🔵 **[Security / Information] Reducing shadow IT visibility gaps with Wazuh**
-Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce shadow IT visibility gaps.
-_Why it matters:_ Unmanaged assets increase attack surface and require human review to assess relevance.
-_Suggested action:_ Evaluate Wazuh for asset discovery and implement its recommended monitoring practices.
-[Source](https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/)
+🔵 **[Microsoft 365 / Information] Reimagining the SOC for the agentic era in Microsoft Defender**
+Microsoft announced ISOC in Microsoft Defender, a new foundation for agentic security integrating SIEM and threat protection.
+_Why it matters:_ It signals a shift toward AI‑driven security operations.
+_Suggested action:_ Review the new capabilities and plan integration into existing SOC workflows.
+[Source](https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/)
 
 _Advisory only — no automatic changes were made to any system._
