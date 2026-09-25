@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "category": "Vendor",
+    "headline": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "Check Point confirms active exploitation of CVE-2026-85102, a pre‑authentication remote code execution vulnerability in its Security Gateway VPN certificate handling.",
-    "whyItMatters": "The flaw allows unauthenticated attackers to execute code on VPN appliances.",
-    "recommendedAction": "Apply the vendor’s patches and enforce multi‑factor authentication for VPN access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/"
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.",
+    "whyItMatters": "Active exploitation of critical flaws is documented by CISA.",
+    "recommendedAction": "Deploy vendor patches immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html"
   },
   {
-    "headline": "Hackers start exploiting critical WordPress flaw for code execution",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "Threat actors are exploiting CVE-2026-87902 in WordPress to write files that execute shell commands when accessed.",
-    "whyItMatters": "The vulnerability enables remote code execution on compromised sites.",
-    "recommendedAction": "Patch WordPress installations immediately and monitor for suspicious file changes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/"
-  },
-  {
-    "headline": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "Two chained MikroTik RouterOS SSH vulnerabilities (CVE-2026-67279 and CVE-2026-86060) allow attackers to gain full admin control of exposed routers without authentication.",
-    "whyItMatters": "Compromised routers can be used for network infiltration and traffic interception.",
-    "recommendedAction": "Update RouterOS to the latest version and restrict SSH access.",
-    "sourceUrl": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html"
-  },
-  {
-    "headline": "Placeholder domain used in dev docs now serves ClickFix attacks",
-    "category": "Windows",
-    "priority": "High",
-    "summary": "A placeholder domain \"third-party.com\" used in documentation now hosts a fake Cloudflare verification page that attempts to trick Windows users into running PowerShell commands.",
-    "whyItMatters": "It demonstrates how innocuous placeholder domains can be weaponized to compromise Windows systems.",
-    "recommendedAction": "Block the domain and educate users about suspicious verification pages.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/"
-  },
-  {
-    "headline": "New RemControl Android banking malware targets users in Europe and Canada",
+    "headline": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
     "category": "Security",
     "priority": "High",
-    "summary": "RemControl is a new Android malware-as-a-service platform that distributes banking trojans via malvertising that impersonates the TVTap IPTV app.",
-    "whyItMatters": "It targets banking credentials of users in Europe and Canada.",
-    "recommendedAction": "Update mobile security solutions and advise users to install apps only from trusted sources.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/"
+    "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.",
+    "whyItMatters": "Container data leakage could expose customer information.",
+    "recommendedAction": "Apply Cloudflare's patch and review container isolation settings.",
+    "sourceUrl": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html"
   },
   {
-    "headline": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Researchers found Go‑based malware distributed through malicious Terraform providers and Go modules hosted on the HashiCorp Registry.",
-    "whyItMatters": "It introduces a new supply‑chain attack vector for infrastructure‑as‑code tools.",
-    "recommendedAction": "Verify provider authenticity and restrict registry usage to trusted sources.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html"
-  },
-  {
-    "headline": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "A leaked private email address used for filing GitLab issues can be abused to push code and trigger CI jobs under the victim’s identity.",
-    "whyItMatters": "Attackers can gain code execution and repository control without authentication.",
-    "recommendedAction": "Rotate the issue email address and restrict its usage.",
-    "sourceUrl": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
-  },
-  {
-    "headline": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+    "headline": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
     "category": "Security",
     "priority": "High",
-    "summary": "A threat actor uses open‑source AI agent frameworks to compromise hundreds of e‑commerce sites, stealing over 600,000 credit cards and deploying skimmers.",
-    "whyItMatters": "The scale of credential theft poses significant financial risk to consumers and merchants.",
-    "recommendedAction": "Deploy web‑application firewalls and monitor for unauthorized AI agent activity.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/"
+    "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control.",
+    "whyItMatters": "The botnet can hijack exposed Docker hosts and install AI agents.",
+    "recommendedAction": "Secure Docker daemons and restrict network access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/"
   },
   {
-    "headline": "InfraTrust report warns network management systems under attack",
+    "headline": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+    "category": "Security",
+    "priority": "High",
+    "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions, by chaining two flaws in OnePlus's own software.",
+    "whyItMatters": "Flaws allow apps to gain root without permissions, compromising device integrity.",
+    "recommendedAction": "Install the vendor security update as soon as available.",
+    "sourceUrl": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html"
+  },
+  {
+    "headline": "MacSync malware uses public iCloud calendars to deliver new payloads",
     "category": "Security",
     "priority": "Medium",
-    "summary": "The InfraTrust report highlights increasing attacks on network management systems, with several critical vulnerabilities being exploited shortly after disclosure.",
-    "whyItMatters": "Compromised management systems can give attackers broad control over enterprise infrastructure.",
-    "recommendedAction": "Prioritize patching of management software and monitor for exploitation attempts.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/"
+    "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads.",
+    "whyItMatters": "Malware uses iCloud calendars to deliver payloads, expanding the attack surface.",
+    "recommendedAction": "Update macOS and scan for MacSync infections.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/"
   },
   {
-    "headline": "Reimagining the SOC for the agentic era in Microsoft Defender",
-    "category": "Microsoft 365",
+    "headline": "Chromium CVE-2026-87612: Type confusion in V8",
+    "category": "Security",
     "priority": "Information",
-    "summary": "Microsoft announced ISOC in Microsoft Defender, a new foundation for agentic security integrating SIEM and threat protection.",
-    "whyItMatters": "It signals a shift toward AI‑driven security operations.",
-    "recommendedAction": "Review the new capabilities and plan integration into existing SOC workflows.",
-    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/"
+    "summary": "Information published.",
+    "whyItMatters": "The vulnerability may affect Chromium users and requires further analysis.",
+    "recommendedAction": "Monitor for vendor patches.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87612"
+  },
+  {
+    "headline": "Chromium CVE-2026-87489: Memory corruption in V8",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "Information published.",
+    "whyItMatters": "The vulnerability may affect Chromium users and requires further analysis.",
+    "recommendedAction": "Monitor for vendor patches.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87489"
+  },
+  {
+    "headline": "Chromium CVE-2026-87536: Use after free in V8",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "Information published.",
+    "whyItMatters": "The vulnerability may affect Chromium users and requires further analysis.",
+    "recommendedAction": "Monitor for vendor patches.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87536"
+  },
+  {
+    "headline": "Chromium CVE-2026-87625: Use after free in V8",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "Information published.",
+    "whyItMatters": "The vulnerability may affect Chromium users and requires further analysis.",
+    "recommendedAction": "Monitor for vendor patches.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87625"
+  },
+  {
+    "headline": "Chromium CVE-2026-87601: Race condition in V8",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "Information published.",
+    "whyItMatters": "The vulnerability may affect Chromium users and requires further analysis.",
+    "recommendedAction": "Monitor for vendor patches.",
+    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87601"
   }
 ]

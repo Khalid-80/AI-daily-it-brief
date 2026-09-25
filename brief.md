@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-09-24**
+**AI Daily IT Intelligence Brief — 2026-09-25**
 
-🔴 **[Vendor / Critical] Check Point warns of hackers exploiting Security Gateway VPN RCE flaw**
-Check Point confirms active exploitation of CVE-2026-85102, a pre‑authentication remote code execution vulnerability in its Security Gateway VPN certificate handling.
-_Why it matters:_ The flaw allows unauthenticated attackers to execute code on VPN appliances.
-_Suggested action:_ Apply the vendor’s patches and enforce multi‑factor authentication for VPN access.
-[Source](https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/)
+🔴 **[Security / Critical] WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV**
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.
+_Why it matters:_ Active exploitation of critical flaws is documented by CISA.
+_Suggested action:_ Deploy vendor patches immediately.
+[Source](https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html)
 
-🔴 **[Vendor / Critical] Hackers start exploiting critical WordPress flaw for code execution**
-Threat actors are exploiting CVE-2026-87902 in WordPress to write files that execute shell commands when accessed.
-_Why it matters:_ The vulnerability enables remote code execution on compromised sites.
-_Suggested action:_ Patch WordPress installations immediately and monitor for suspicious file changes.
-[Source](https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/)
+🟠 **[Security / High] Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data**
+A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.
+_Why it matters:_ Container data leakage could expose customer information.
+_Suggested action:_ Apply Cloudflare's patch and review container isolation settings.
+[Source](https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html)
 
-🔴 **[Vendor / Critical] MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key**
-Two chained MikroTik RouterOS SSH vulnerabilities (CVE-2026-67279 and CVE-2026-86060) allow attackers to gain full admin control of exposed routers without authentication.
-_Why it matters:_ Compromised routers can be used for network infiltration and traffic interception.
-_Suggested action:_ Update RouterOS to the latest version and restrict SSH access.
-[Source](https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html)
+🟠 **[Security / High] New Carbonato malware uses AI agents to hijack exposed Docker hosts**
+A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control.
+_Why it matters:_ The botnet can hijack exposed Docker hosts and install AI agents.
+_Suggested action:_ Secure Docker daemons and restrict network access.
+[Source](https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/)
 
-🟠 **[Windows / High] Placeholder domain used in dev docs now serves ClickFix attacks**
-A placeholder domain "third-party.com" used in documentation now hosts a fake Cloudflare verification page that attempts to trick Windows users into running PowerShell commands.
-_Why it matters:_ It demonstrates how innocuous placeholder domains can be weaponized to compromise Windows systems.
-_Suggested action:_ Block the domain and educate users about suspicious verification pages.
-[Source](https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/)
+🟠 **[Security / High] Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions**
+A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions, by chaining two flaws in OnePlus's own software.
+_Why it matters:_ Flaws allow apps to gain root without permissions, compromising device integrity.
+_Suggested action:_ Install the vendor security update as soon as available.
+[Source](https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html)
 
-🟠 **[Security / High] New RemControl Android banking malware targets users in Europe and Canada**
-RemControl is a new Android malware-as-a-service platform that distributes banking trojans via malvertising that impersonates the TVTap IPTV app.
-_Why it matters:_ It targets banking credentials of users in Europe and Canada.
-_Suggested action:_ Update mobile security solutions and advise users to install apps only from trusted sources.
-[Source](https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/)
+🟡 **[Security / Medium] MacSync malware uses public iCloud calendars to deliver new payloads**
+A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads.
+_Why it matters:_ Malware uses iCloud calendars to deliver payloads, expanding the attack surface.
+_Suggested action:_ Update macOS and scan for MacSync infections.
+[Source](https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/)
 
-🟠 **[Vendor / High] Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry**
-Researchers found Go‑based malware distributed through malicious Terraform providers and Go modules hosted on the HashiCorp Registry.
-_Why it matters:_ It introduces a new supply‑chain attack vector for infrastructure‑as‑code tools.
-_Suggested action:_ Verify provider authenticity and restrict registry usage to trusted sources.
-[Source](https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html)
+🔵 **[Security / Information] Chromium CVE-2026-87612: Type confusion in V8**
+Information published.
+_Why it matters:_ The vulnerability may affect Chromium users and requires further analysis.
+_Suggested action:_ Monitor for vendor patches.
+[Source](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87612)
 
-🟠 **[Vendor / High] A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You**
-A leaked private email address used for filing GitLab issues can be abused to push code and trigger CI jobs under the victim’s identity.
-_Why it matters:_ Attackers can gain code execution and repository control without authentication.
-_Suggested action:_ Rotate the issue email address and restrict its usage.
-[Source](https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html)
+🔵 **[Security / Information] Chromium CVE-2026-87489: Memory corruption in V8**
+Information published.
+_Why it matters:_ The vulnerability may affect Chromium users and requires further analysis.
+_Suggested action:_ Monitor for vendor patches.
+[Source](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87489)
 
-🟠 **[Security / High] Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers**
-A threat actor uses open‑source AI agent frameworks to compromise hundreds of e‑commerce sites, stealing over 600,000 credit cards and deploying skimmers.
-_Why it matters:_ The scale of credential theft poses significant financial risk to consumers and merchants.
-_Suggested action:_ Deploy web‑application firewalls and monitor for unauthorized AI agent activity.
-[Source](https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/)
+🔵 **[Security / Information] Chromium CVE-2026-87536: Use after free in V8**
+Information published.
+_Why it matters:_ The vulnerability may affect Chromium users and requires further analysis.
+_Suggested action:_ Monitor for vendor patches.
+[Source](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87536)
 
-🟡 **[Security / Medium] InfraTrust report warns network management systems under attack**
-The InfraTrust report highlights increasing attacks on network management systems, with several critical vulnerabilities being exploited shortly after disclosure.
-_Why it matters:_ Compromised management systems can give attackers broad control over enterprise infrastructure.
-_Suggested action:_ Prioritize patching of management software and monitor for exploitation attempts.
-[Source](https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/)
+🔵 **[Security / Information] Chromium CVE-2026-87625: Use after free in V8**
+Information published.
+_Why it matters:_ The vulnerability may affect Chromium users and requires further analysis.
+_Suggested action:_ Monitor for vendor patches.
+[Source](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87625)
 
-🔵 **[Microsoft 365 / Information] Reimagining the SOC for the agentic era in Microsoft Defender**
-Microsoft announced ISOC in Microsoft Defender, a new foundation for agentic security integrating SIEM and threat protection.
-_Why it matters:_ It signals a shift toward AI‑driven security operations.
-_Suggested action:_ Review the new capabilities and plan integration into existing SOC workflows.
-[Source](https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/)
+🔵 **[Security / Information] Chromium CVE-2026-87601: Race condition in V8**
+Information published.
+_Why it matters:_ The vulnerability may affect Chromium users and requires further analysis.
+_Suggested action:_ Monitor for vendor patches.
+[Source](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87601)
 
 _Advisory only — no automatic changes were made to any system._
