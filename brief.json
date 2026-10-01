@@ -1,74 +1,92 @@
 [
   {
-    "headline": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+    "headline": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
     "category": "Security",
     "priority": "Critical",
-    "summary": "Researchers disclosed details of a critical Citrix NetScaler ADC and Gateway vulnerability (CVE‑2026‑88772) with a CVSS score of 9.5 that is being actively exploited.",
-    "whyItMatters": "The pre‑authentication flaw allows attackers to execute shellcode and compromise many deployments.",
-    "recommendedAction": "Apply the Citrix patch immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html"
+    "summary": "Bitget confirmed that attackers exploited a zero‑day vulnerability in third‑party security products to steal $387.5 million, and a customized tool used by the attacker was recovered.",
+    "whyItMatters": "The incident shows that vulnerabilities in security vendors can enable massive crypto theft.",
+    "recommendedAction": "Review and patch any third‑party security tools and monitor for related indicators.",
+    "sourceUrl": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html"
   },
   {
-    "headline": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-    "category": "Security",
+    "headline": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+    "category": "Vendor",
     "priority": "Critical",
-    "summary": "Attackers exploited the Citrix NetScaler CVE‑2026‑88772 zero‑day to install custom web shells, steal credentials, and move laterally within networks.",
-    "whyItMatters": "Active exploitation demonstrates the urgent need to patch vulnerable NetScaler devices.",
-    "recommendedAction": "Deploy the Citrix security update and scan for web‑shell indicators.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/"
+    "summary": "Threat actors are exploiting a critical pre‑authentication command injection flaw in Citrix NetScaler ADC and Gateway to drop web shells and steal configuration data.",
+    "whyItMatters": "The vulnerability allows attackers to gain admin‑level access before authentication.",
+    "recommendedAction": "Apply Citrix’s patches immediately and audit for web shells.",
+    "sourceUrl": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html"
   },
   {
-    "headline": "Phishing Abuses RMM Tools for Persistent Access",
+    "headline": "DIVD says Zammad zero-days enabled AI-driven network breach",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "DIVD reported that a chain of two zero‑day vulnerabilities in the open‑source Zammad ticketing system enabled an AI‑driven network breach.",
+    "whyItMatters": "Exploiting multiple zero‑days can lead to full network compromise.",
+    "recommendedAction": "Patch Zammad immediately and review network segmentation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/"
+  },
+  {
+    "headline": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "Threat actors weaponized CVE‑2026‑73570, an unauthenticated command injection flaw in Zimbra Collaboration Suite, to deploy web shells and harvest authentication secrets.",
+    "whyItMatters": "The flaw enables remote code execution and credential theft in email systems.",
+    "recommendedAction": "Apply Zimbra patches and monitor for web shell activity.",
+    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html"
+  },
+  {
+    "headline": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "CISA issued a warning about a new critical pre‑authentication remote code execution vulnerability in MikroTik RouterOS that could also cause denial‑of‑service.",
+    "whyItMatters": "Exploitation could allow attackers to take control of network routers.",
+    "recommendedAction": "Update RouterOS to the patched version and monitor traffic.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/"
+  },
+  {
+    "headline": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
     "category": "Security",
     "priority": "High",
-    "summary": "Microsoft observed phishing campaigns that leveraged MSP360 RMM to deploy ScreenConnect, creating redundant remote‑access channels.",
-    "whyItMatters": "Abusing legitimate remote‑management tools gives attackers persistent footholds in victim networks.",
-    "recommendedAction": "Review RMM configurations and enforce multi‑factor authentication.",
-    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/"
+    "summary": "MetaMask reported an ongoing security incident affecting part of its infrastructure, stating no immediate threat to wallets but that remediation is underway with external partners.",
+    "whyItMatters": "A compromise of MetaMask infrastructure could impact many cryptocurrency users.",
+    "recommendedAction": "Stay updated with MetaMask advisories and monitor wallet activity.",
+    "sourceUrl": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
   },
   {
-    "headline": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+    "headline": "Russian state hackers use new RedFlick technique to push malware",
     "category": "Security",
     "priority": "High",
-    "summary": "Sponsored Google results for custom ChatGPT variants are directing users to malicious sites that use ClickFix attacks to deliver RAT malware.",
-    "whyItMatters": "The tactic shows how AI‑generated content can be weaponized to spread malware.",
-    "recommendedAction": "Block suspicious AI‑related URLs and educate users to avoid unknown links.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/"
+    "summary": "Russian state actor Star Blizzard is using a new malware installation technique called “RedFlick” to deploy its CosmicPulse backdoor.",
+    "whyItMatters": "The novel technique may evade existing defenses and target new victims.",
+    "recommendedAction": "Update detection rules to look for RedFlick indicators.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/"
   },
   {
-    "headline": "Microsoft is rolling out Linux container support to WSL",
-    "category": "Windows",
-    "priority": "Medium",
-    "summary": "Microsoft has made Linux container support in Windows Subsystem for Linux generally available.",
-    "whyItMatters": "It enables developers to run Linux containers natively on Windows without additional virtualization.",
-    "recommendedAction": "Enable and test WSL Containers where needed.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/"
-  },
-  {
-    "headline": "Signal adds encypted local backup support to iOS, desktop apps",
+    "headline": "Over 543,000 valid credentials exposed in public GitHub repositories",
     "category": "Security",
-    "priority": "Medium",
-    "summary": "Signal version 8.30 now offers encrypted local backups on iOS, Android, Linux, macOS, and Windows.",
-    "whyItMatters": "Encrypted backups protect user messages against loss or unauthorized access.",
-    "recommendedAction": "Update Signal to the latest version and enable encrypted backups.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/"
+    "priority": "High",
+    "summary": "More than 543,000 credentials exposed in public GitHub repositories remained valid in July despite platform protections.",
+    "whyItMatters": "Valid leaked credentials can be leveraged for widespread account compromise.",
+    "recommendedAction": "Rotate exposed credentials and enforce secret scanning.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/"
   },
   {
-    "headline": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
-    "category": "Security",
+    "headline": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "Microsoft warned that phishing campaigns distribute the MSP360 installer disguised as meeting invites or updates, which then installs ScreenConnect for remote management.",
+    "whyItMatters": "Abusing legitimate RMM software can give attackers persistent remote access.",
+    "recommendedAction": "Educate users to verify installers and restrict RMM deployments.",
+    "sourceUrl": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html"
+  },
+  {
+    "headline": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
+    "category": "Microsoft 365",
     "priority": "Information",
-    "summary": "The FBI urged members of the ShinyHunters extortion group to surrender after a Dutch police arrest of an alleged leader.",
-    "whyItMatters": "The warning signals ongoing law‑enforcement pressure on ransomware extortion groups.",
-    "recommendedAction": "Monitor for ShinyHunters activity and update threat intel feeds.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/"
-  },
-  {
-    "headline": "Former US Air Force members sent to prison over BEC attacks",
-    "category": "Security",
-    "priority": "Information",
-    "summary": "Two former U.S. Air Force members were sentenced to a combined 189 months for involvement in multi‑year business email compromise and phishing scams.",
-    "whyItMatters": "The case underscores the severe legal consequences of cyber‑crime.",
-    "recommendedAction": "Strengthen employee phishing awareness and reporting.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/"
+    "summary": "Microsoft’s Ignite 2026 guide outlines its AI‑first, end‑to‑end security platform covering identities, devices, data, applications, clouds, infrastructure, and AI agents.",
+    "whyItMatters": "It informs organizations about upcoming security capabilities.",
+    "recommendedAction": "Review the guide to plan adoption of new Microsoft security features.",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/"
   }
 ]
