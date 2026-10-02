@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "category": "Security",
-    "priority": "Critical",
-    "summary": "Bitget confirmed that attackers exploited a zero‑day vulnerability in third‑party security products to steal $387.5 million, and a customized tool used by the attacker was recovered.",
-    "whyItMatters": "The incident shows that vulnerabilities in security vendors can enable massive crypto theft.",
-    "recommendedAction": "Review and patch any third‑party security tools and monitor for related indicators.",
-    "sourceUrl": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html"
-  },
-  {
-    "headline": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+    "headline": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "Threat actors are exploiting a critical pre‑authentication command injection flaw in Citrix NetScaler ADC and Gateway to drop web shells and steal configuration data.",
-    "whyItMatters": "The vulnerability allows attackers to gain admin‑level access before authentication.",
-    "recommendedAction": "Apply Citrix’s patches immediately and audit for web shells.",
-    "sourceUrl": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html"
+    "summary": "CISA added a critical security flaw in Fortinet FortiMail to its KEV catalog after reports of active exploitation; the vulnerability (CVE-2026-104286) allows unauthenticated attackers to write arbitrary files.",
+    "whyItMatters": "The flaw enables attackers to gain persistent control over mail servers.",
+    "recommendedAction": "Apply the FortiMail security update immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html"
   },
   {
-    "headline": "DIVD says Zammad zero-days enabled AI-driven network breach",
+    "headline": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "DIVD reported that a chain of two zero‑day vulnerabilities in the open‑source Zammad ticketing system enabled an AI‑driven network breach.",
-    "whyItMatters": "Exploiting multiple zero‑days can lead to full network compromise.",
-    "recommendedAction": "Patch Zammad immediately and review network segmentation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/"
+    "summary": "Fortinet warns customers that CVE-2026-104286 is being actively exploited in zero‑day attacks to execute unauthorized code on vulnerable devices.",
+    "whyItMatters": "Active exploitation puts organizations at risk of compromise.",
+    "recommendedAction": "Deploy Fortinet’s patch for FortiMail without delay.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/"
   },
   {
-    "headline": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "Threat actors weaponized CVE‑2026‑73570, an unauthenticated command injection flaw in Zimbra Collaboration Suite, to deploy web shells and harvest authentication secrets.",
-    "whyItMatters": "The flaw enables remote code execution and credential theft in email systems.",
-    "recommendedAction": "Apply Zimbra patches and monitor for web shell activity.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html"
-  },
-  {
-    "headline": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "CISA issued a warning about a new critical pre‑authentication remote code execution vulnerability in MikroTik RouterOS that could also cause denial‑of‑service.",
-    "whyItMatters": "Exploitation could allow attackers to take control of network routers.",
-    "recommendedAction": "Update RouterOS to the patched version and monitor traffic.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/"
-  },
-  {
-    "headline": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+    "headline": "Autonomous AI agents tried to hack US, Canadian government websites",
     "category": "Security",
     "priority": "High",
-    "summary": "MetaMask reported an ongoing security incident affecting part of its infrastructure, stating no immediate threat to wallets but that remediation is underway with external partners.",
-    "whyItMatters": "A compromise of MetaMask infrastructure could impact many cryptocurrency users.",
-    "recommendedAction": "Stay updated with MetaMask advisories and monitor wallet activity.",
-    "sourceUrl": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
+    "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics.",
+    "whyItMatters": "AI‑driven attempts show emerging threats to public sector web assets.",
+    "recommendedAction": "Monitor government web assets for suspicious AI activity.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/"
   },
   {
-    "headline": "Russian state hackers use new RedFlick technique to push malware",
+    "headline": "Microsoft says threat actors are ahead in the early AI race",
     "category": "Security",
     "priority": "High",
-    "summary": "Russian state actor Star Blizzard is using a new malware installation technique called “RedFlick” to deploy its CosmicPulse backdoor.",
-    "whyItMatters": "The novel technique may evade existing defenses and target new victims.",
-    "recommendedAction": "Update detection rules to look for RedFlick indicators.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/"
+    "summary": "Microsoft says cyberattackers are benefiting from AI faster than defenders, accelerating vulnerability discovery, malware development, and post‑compromise activity.",
+    "whyItMatters": "The AI advantage could increase the speed and scale of attacks.",
+    "recommendedAction": "Accelerate AI security controls and monitoring.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/"
   },
   {
-    "headline": "Over 543,000 valid credentials exposed in public GitHub repositories",
+    "headline": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
     "category": "Security",
     "priority": "High",
-    "summary": "More than 543,000 credentials exposed in public GitHub repositories remained valid in July despite platform protections.",
-    "whyItMatters": "Valid leaked credentials can be leveraged for widespread account compromise.",
-    "recommendedAction": "Rotate exposed credentials and enforce secret scanning.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/"
+    "summary": "Researchers described a WordPress compromise where a backdoor named SC uses multiple persistence mechanisms to rebuild itself after cleanup.",
+    "whyItMatters": "The self‑healing backdoor can persist despite removal attempts.",
+    "recommendedAction": "Inspect WordPress sites for the SC backdoor and remediate.",
+    "sourceUrl": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html"
   },
   {
-    "headline": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Microsoft warned that phishing campaigns distribute the MSP360 installer disguised as meeting invites or updates, which then installs ScreenConnect for remote management.",
-    "whyItMatters": "Abusing legitimate RMM software can give attackers persistent remote access.",
-    "recommendedAction": "Educate users to verify installers and restrict RMM deployments.",
-    "sourceUrl": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html"
+    "headline": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "Police in Spain arrested a 16‑year‑old suspected of running the KillSec ransomware group and seized its leak site and servers.",
+    "whyItMatters": "Disrupting the group reduces the immediate ransomware threat.",
+    "recommendedAction": "Review exposure to ransomware and ensure reliable backups.",
+    "sourceUrl": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
   },
   {
-    "headline": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-    "category": "Microsoft 365",
+    "headline": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "Operation KillSwitch seized KillSec’s data leak site and servers, leading to three arrests and identifying a 16‑year‑old as the alleged administrator.",
+    "whyItMatters": "Law enforcement action curtails the ransomware operation.",
+    "recommendedAction": "Review exposure to ransomware and ensure reliable backups.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/"
+  },
+  {
+    "headline": "The Day-One Hole in Zero Trust Architecture",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "The piece explains that onboarding creates a trust gap before strong authentication, suggesting identity verification should begin earlier.",
+    "whyItMatters": "Early trust gaps can be exploited before MFA is applied.",
+    "recommendedAction": "Implement identity verification earlier in onboarding.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/"
+  },
+  {
+    "headline": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "category": "Security",
     "priority": "Information",
-    "summary": "Microsoft’s Ignite 2026 guide outlines its AI‑first, end‑to‑end security platform covering identities, devices, data, applications, clouds, infrastructure, and AI agents.",
-    "whyItMatters": "It informs organizations about upcoming security capabilities.",
-    "recommendedAction": "Review the guide to plan adoption of new Microsoft security features.",
-    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/"
+    "summary": "The article highlights various attack vectors such as model inspection RCE, cache misuse, and long‑living public secrets.",
+    "whyItMatters": "It illustrates how ordinary system functions can become attack paths.",
+    "recommendedAction": "Conduct a review of the highlighted attack techniques.",
+    "sourceUrl": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html"
+  },
+  {
+    "headline": "Preparing governments for an era of interconnected cyber risk",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "Microsoft’s Digital Defense Report notes that government agencies accounted for 27% of observed cyber activity in 2026, up from 17% in 2025.",
+    "whyItMatters": "Governments face a rising share of cyber threats.",
+    "recommendedAction": "Assess government‑related cyber risk posture.",
+    "sourceUrl": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/"
   }
 ]
