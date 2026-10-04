@@ -65,3 +65,11 @@ jobs:
         env:
           TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
         run: python scripts/publish_to_teams.py
+
+      - name: Commit publish history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history.json
+          git diff --quiet --cached || git commit -m "Update publish history - $(date -u +%Y-%m-%d)"
+          git push
