@@ -106,4 +106,57 @@ def build_adaptive_card(items):
 
 
 def update_history(items):
-    """Record today's published URLs so tomorrow's
+    """Record today's published URLs so tomorrow's run won't repeat them,
+    even if they're still inside the RSS lookback window."""
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    existing = []
+    if HISTORY_PATH.exists():
+        try:
+            existing = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            existing = []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=HISTORY_RETENTION_DAYS)
+    kept = []
+    for e in existing:
+        try:
+            if datetime.fromisoformat(e["published_date"]) >= cutoff:
+                kept.append(e)
+        except Exception:
+            continue
+
+    for item in items:
+        url = item.get("sourceUrl")
+        if url:
+            kept.append({"url": url, "published_date": today})
+
+    HISTORY_PATH.write_text(json.dumps(kept, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[info] history.json updated ({len(kept)} entries retained)", file=sys.stderr)
+
+
+def main():
+    webhook_url = os.environ.get("TEAMS_WEBHOOK_URL")
+    if not webhook_url:
+        print("TEAMS_WEBHOOK_URL environment variable is required.", file=sys.stderr)
+        sys.exit(1)
+
+    if not BRIEF_JSON_PATH.exists():
+        print("brief.json not found — run generate_brief.py first.", file=sys.stderr)
+        sys.exit(1)
+
+    items = json.loads(BRIEF_JSON_PATH.read_text(encoding="utf-8"))
+    payload = build_adaptive_card(items)
+
+    resp = requests.post(webhook_url, json=payload, timeout=30)
+    if resp.status_code >= 300:
+        print(f"[error] Teams webhook returned {resp.status_code}: {resp.text}", file=sys.stderr)
+        sys.exit(1)
+
+    print("[info] brief published to Teams", file=sys.stderr)
+
+    update_history(items)
+
+
+if __name__ == "__main__":
+    main()
