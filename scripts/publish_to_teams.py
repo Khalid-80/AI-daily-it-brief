@@ -2,13 +2,15 @@
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 BRIEF_JSON_PATH = ROOT / "brief.json"
+HISTORY_PATH = ROOT / "history.json"
+HISTORY_RETENTION_DAYS = 14
 
 PRIORITY_EMOJI = {
     "Critical": "🔴",
@@ -103,26 +105,5 @@ def build_adaptive_card(items):
     }
 
 
-def main():
-    webhook_url = os.environ.get("TEAMS_WEBHOOK_URL")
-    if not webhook_url:
-        print("TEAMS_WEBHOOK_URL environment variable is required.", file=sys.stderr)
-        sys.exit(1)
-
-    if not BRIEF_JSON_PATH.exists():
-        print("brief.json not found — run generate_brief.py first.", file=sys.stderr)
-        sys.exit(1)
-
-    items = json.loads(BRIEF_JSON_PATH.read_text(encoding="utf-8"))
-    payload = build_adaptive_card(items)
-
-    resp = requests.post(webhook_url, json=payload, timeout=30)
-    if resp.status_code >= 300:
-        print(f"[error] Teams webhook returned {resp.status_code}: {resp.text}", file=sys.stderr)
-        sys.exit(1)
-
-    print("[info] brief published to Teams", file=sys.stderr)
-
-
-if __name__ == "__main__":
-    main()
+def update_history(items):
+    """Record today's published URLs so tomorrow's
