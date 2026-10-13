@@ -1,42 +1,42 @@
 [
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54986",
-    "published_date": "2026-10-11"
+    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50448",
-    "published_date": "2026-10-11"
+    "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50677",
-    "published_date": "2026-10-11"
+    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50375",
-    "published_date": "2026-10-11"
+    "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62744",
-    "published_date": "2026-10-11"
+    "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68875",
-    "published_date": "2026-10-11"
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68878",
-    "published_date": "2026-10-11"
+    "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69281",
-    "published_date": "2026-10-11"
+    "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69337",
-    "published_date": "2026-10-11"
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12429",
+    "published_date": "2026-10-13"
   },
   {
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69451",
-    "published_date": "2026-10-11"
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12428",
+    "published_date": "2026-10-13"
   }
 ]
