@@ -1,92 +1,92 @@
 [
   {
-    "headline": "GitLab warns of max severity code execution vulnerability",
+    "headline": "SAP warns of maximum severity OAuth2 SSRF security flaw",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "GitLab disclosed a maximum‑severity remote code execution vulnerability in its CI/CD Regular Expression Compiler that could let attackers run arbitrary code on instances.",
-    "whyItMatters": "Exploitation could compromise CI/CD pipelines and downstream software releases.",
-    "recommendedAction": "Apply the GitLab security patch immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
+    "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum‑severity vulnerability in the Cloud SDK for Python.",
+    "whyItMatters": "A maximum‑severity OAuth2 SSRF flaw could enable remote code execution in SAP cloud services.",
+    "recommendedAction": "Apply SAP’s October 2026 security updates immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/"
   },
   {
-    "headline": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+    "headline": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "A critical CVE‑2026‑102255 SSRF vulnerability in SonicWall SMA 1000 appliances is being actively exploited by threat actors.",
-    "whyItMatters": "Exploitation allows remote attackers to misuse the appliance for malicious requests.",
-    "recommendedAction": "Apply SonicWall’s security patch without delay.",
-    "sourceUrl": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+    "summary": "Two of 31 newly disclosed flaws in MarkLogic Server could let an account with limited privileges obtain administrator control; five flaws were rated critical.",
+    "whyItMatters": "Privileged‑escalation vulnerabilities could allow attackers to fully compromise MarkLogic databases.",
+    "recommendedAction": "Upgrade to MarkLogic 11.3.7 or 12.1.0 as advised by the vendor.",
+    "sourceUrl": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html"
   },
   {
-    "headline": "Cyberattack shuts down refrigerators at French supermarkets",
+    "headline": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "GitLab released patches for a maximum‑severity flaw that could allow an unauthenticated user to execute arbitrary code on the server via a crafted regular expression in CI/CD.",
+    "whyItMatters": "Unauthenticated code execution could lead to full server compromise.",
+    "recommendedAction": "Apply the GitLab patches to all affected installations immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html"
+  },
+  {
+    "headline": "The MFA Gaps Attackers are Still Exploiting",
     "category": "Security",
     "priority": "High",
-    "summary": "Attackers remotely defrosted refrigerators at French supermarket chains by targeting Danfoss refrigeration controllers.",
-    "whyItMatters": "The incident disrupts food supply chains and poses safety risks.",
-    "recommendedAction": "Isolate affected controllers and apply firmware updates promptly.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/"
+    "summary": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone.",
+    "whyItMatters": "Unaddressed MFA gaps allow attackers to bypass multi‑factor defenses and compromise critical infrastructure.",
+    "recommendedAction": "Implement MFA for all remote access methods and eliminate password‑only logins.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/"
   },
   {
-    "headline": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-    "category": "Security",
-    "priority": "High",
-    "summary": "AvisLoader is a Windows malware loader that uses encrypted peer‑to‑peer communications, ClickFix delivery, shortcut‑based persistence, and remote command execution.",
-    "whyItMatters": "Its design makes detection and disruption of the malware’s command‑and‑control infrastructure more difficult.",
-    "recommendedAction": "Update detection signatures and monitor for suspicious shortcut files.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/"
-  },
-  {
-    "headline": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Ahold Delhaize took some systems offline in response to a cybersecurity incident affecting its network.",
-    "whyItMatters": "A disruption at a major food retailer could impact large numbers of consumers and supply chains.",
-    "recommendedAction": "Conduct a thorough incident response review and monitor for further activity.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/"
-  },
-  {
-    "headline": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-    "category": "Windows",
-    "priority": "High",
-    "summary": "Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates in 30 days.",
-    "whyItMatters": "Systems that remain unpatched will become vulnerable to new threats.",
-    "recommendedAction": "Upgrade to a supported Windows version before the deadline.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/"
-  },
-  {
-    "headline": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+    "headline": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Ledger paused sales via CryptoBilis after discovering unauthorized hardware implants that led to fund theft exceeding $86 million.",
-    "whyItMatters": "Compromised hardware threatens the security of cryptocurrency assets.",
-    "recommendedAction": "Verify hardware authenticity before use and avoid the affected reseller.",
-    "sourceUrl": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
+    "summary": "The Norwegian Data Protection Authority fined Xandr, a Microsoft advertising unit, €8.6 million for illegally relaying Grindr users' sensitive data to advertisers.",
+    "whyItMatters": "The fine highlights serious privacy violations involving the handling of users' sexual orientation data.",
+    "recommendedAction": "Review and remediate data handling practices for third‑party advertising integrations.",
+    "sourceUrl": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html"
   },
   {
-    "headline": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+    "headline": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
     "category": "Security",
-    "priority": "Medium",
-    "summary": "The article discusses privacy and security concerns surrounding personal AI agents, noting incidents such as Amazon blocking Meta's Muse and broader privacy issues.",
-    "whyItMatters": "Uncontrolled AI agents can expose corporate data and employee privacy.",
-    "recommendedAction": "Establish and enforce policies governing the use of personal AI agents.",
-    "sourceUrl": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html"
+    "priority": "High",
+    "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.",
+    "whyItMatters": "Unauthenticated attackers can gain full control of vulnerable LG Smart TVs on the local network.",
+    "recommendedAction": "Update affected LG TVs with the fix released by the vendor.",
+    "sourceUrl": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html"
   },
   {
-    "headline": "Chromium: CVE-2025-12429 Inappropriate implementation in V8",
+    "headline": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets, heating them up to 50 °C by hijacking Danfoss controllers.",
+    "whyItMatters": "Compromised refrigeration systems caused food waste and operational disruption across retail chains.",
+    "recommendedAction": "Audit and secure remote access to Danfoss controllers and apply vendor patches.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html"
+  },
+  {
+    "headline": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Low‑cost Android smartphones shipped with preinstalled malware on MediaTek platforms, enabling covert app installation, ad fraud, and use as residential proxies.",
+    "whyItMatters": "Preinstalled malware turns consumer devices into a botnet for illicit activities.",
+    "recommendedAction": "Avoid purchasing affected devices and work with manufacturers to remove the malicious firmware.",
+    "sourceUrl": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html"
+  },
+  {
+    "headline": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "The webinar discusses how AI accelerates reconnaissance, exploitation, and privilege escalation, and how runtime identity controls can mitigate these risks.",
+    "whyItMatters": "AI‑driven attacks can outpace traditional security investigations, increasing breach impact.",
+    "recommendedAction": "Attend the webinar to learn runtime identity control strategies.",
+    "sourceUrl": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html"
+  },
+  {
+    "headline": "Product Walkthrough: Bitdefender AI Visibility and Control",
     "category": "Vendor",
     "priority": "Information",
-    "summary": "Information published.",
-    "whyItMatters": "Details are insufficient; human review is needed to assess impact.",
-    "recommendedAction": "Review the full CVE details from the source.",
-    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12429"
-  },
-  {
-    "headline": "Chromium: CVE-2025-12428 Type Confusion in V8",
-    "category": "Vendor",
-    "priority": "Information",
-    "summary": "Information published.",
-    "whyItMatters": "Details are insufficient; human review is needed to assess impact.",
-    "recommendedAction": "Review the full CVE details from the source.",
-    "sourceUrl": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12428"
+    "summary": "The walkthrough shows Bitdefender AI Visibility and Control features that process data locally without installing additional software.",
+    "whyItMatters": "Understanding AI‑based security tools helps organizations evaluate data‑privacy impacts.",
+    "recommendedAction": "Review the Bitdefender AI product documentation for deployment considerations.",
+    "sourceUrl": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html"
   }
 ]
