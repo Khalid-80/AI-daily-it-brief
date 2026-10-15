@@ -1,42 +1,30 @@
 [
   {
-    "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-    "published_date": "2026-10-14"
+    "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+    "published_date": "2026-10-15"
   },
   {
-    "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-    "published_date": "2026-10-14"
+    "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+    "published_date": "2026-10-15"
   },
   {
-    "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-    "published_date": "2026-10-14"
+    "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+    "published_date": "2026-10-15"
   },
   {
-    "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
-    "published_date": "2026-10-14"
+    "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+    "published_date": "2026-10-15"
   },
   {
-    "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
-    "published_date": "2026-10-14"
+    "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+    "published_date": "2026-10-15"
   },
   {
-    "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-    "published_date": "2026-10-14"
+    "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+    "published_date": "2026-10-15"
   },
   {
-    "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-    "published_date": "2026-10-14"
-  },
-  {
-    "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-    "published_date": "2026-10-14"
-  },
-  {
-    "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-    "published_date": "2026-10-14"
-  },
-  {
-    "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-    "published_date": "2026-10-14"
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+    "published_date": "2026-10-15"
   }
 ]
