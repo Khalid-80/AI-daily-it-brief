@@ -1,65 +1,92 @@
 [
   {
-    "headline": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+    "headline": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
     "category": "Security",
     "priority": "Critical",
-    "summary": "XBOW researchers used the public GPT-5.6 Sol model to chain three unknown Chrome bugs into a full‑chain exploit that runs code on Windows when a page loads, prompting Google to patch the bugs.",
-    "whyItMatters": "It shows AI can accelerate creation of powerful browser exploits.",
-    "recommendedAction": "Update Chrome to the latest version immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html"
+    "summary": "Drupal core's Field UI module contains a critical RCE flaw that can be exploited via contributed modules without login; patches were released on Oct 14 for Drupal 11.4.10, 11.3.19, and 10.6.19.",
+    "whyItMatters": "If unpatched, attackers could execute code on affected Drupal sites.",
+    "recommendedAction": "Apply the Drupal security updates immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html"
   },
   {
-    "headline": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-    "category": "Security",
+    "headline": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+    "category": "Vendor",
     "priority": "Critical",
-    "summary": "A flaw in Linux’s vhost subsystem (CVE‑2026‑74580, named Vghost) allows local users to gain root and enables a virtual machine to write to host memory, potentially hijacking the host.",
-    "whyItMatters": "It threatens the integrity of Linux hosts and virtualized environments.",
-    "recommendedAction": "Apply the forthcoming kernel patches as soon as they are available.",
-    "sourceUrl": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html"
+    "summary": "Palo Alto Networks released updates for a high‑severity, actively exploited CVE‑2026‑0322 RCE vulnerability in the PAN‑OS management interface (CVSS 8.6).",
+    "whyItMatters": "Active exploitation could allow remote code execution on firewalls.",
+    "recommendedAction": "Deploy the PAN‑OS security updates without delay.",
+    "sourceUrl": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
   },
   {
-    "headline": "Hirudo Android malware replaces banking apps to evade security checks",
+    "headline": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "A critical authenticated RCE vulnerability (CVE‑2026‑105740, CVSS 9.9) in Langflow was targeted in 1,423 honeypot exploit attempts.",
+    "whyItMatters": "Exploitation could allow attackers to run code on servers hosting Langflow applications.",
+    "recommendedAction": "Apply the vendor’s patch for Langflow immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html"
+  },
+  {
+    "headline": "Police arrests 95 suspects in international CSAM crackdown action",
     "category": "Security",
     "priority": "High",
-    "summary": "The Hirudo Android malware replaces legitimate banking apps with modified versions that disable security checks, stealing users' bank account credentials.",
-    "whyItMatters": "It enables large‑scale financial credential theft.",
-    "recommendedAction": "Install reputable mobile security software and avoid unknown app sources.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/"
+    "summary": "Law enforcement from 17 countries arrested 95 suspects in an INTERPOL‑coordinated operation targeting CSAM distribution through online messaging groups.",
+    "whyItMatters": "The operation highlights large‑scale abuse of messaging platforms for child exploitation.",
+    "recommendedAction": "Review and strengthen monitoring of messaging services for illicit content.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/"
   },
   {
-    "headline": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+    "headline": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
     "category": "Security",
     "priority": "High",
-    "summary": "The Hirudo trojan replaces eight Indonesian banking apps with patched versions that bypass built‑in security checks, facilitating credential theft.",
-    "whyItMatters": "It represents a new escalation in mobile financial fraud.",
-    "recommendedAction": "Monitor banking app integrity and use security solutions on Android devices.",
-    "sourceUrl": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+    "summary": "Attackers impersonate popular AI products to deliver malware, steal browser sessions, and compromise business accounts, with 1,258 sandbox analyses linked to fake AI campaigns between April and October 2026.",
+    "whyItMatters": "These campaigns increase risk to US companies and pressure MSSPs.",
+    "recommendedAction": "Implement strict verification of AI‑related communications and monitor for suspicious activity.",
+    "sourceUrl": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html"
   },
   {
-    "headline": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+    "headline": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "GhostAction credential‑theft campaign compromised about 1,900 GitHub accounts, targeting over 30,000 repositories and attempting to extract more than 3,000 secrets.",
+    "whyItMatters": "Compromised accounts can expose sensitive code and credentials.",
+    "recommendedAction": "Rotate secrets and enforce MFA on GitHub accounts.",
+    "sourceUrl": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html"
+  },
+  {
+    "headline": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
     "category": "Security",
     "priority": "High",
-    "summary": "An AI pentesting agent discovered a critical authentication bypass on a major insurer’s production site, allowing the attacker to choose the destination of the one‑time passcode.",
-    "whyItMatters": "The flaw could let attackers hijack user accounts.",
-    "recommendedAction": "Review and harden OTP delivery mechanisms immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html"
+    "summary": "Hackers breached the UK Legal Aid Agency's IT systems in April 2025, stealing records dating back to 1978.",
+    "whyItMatters": "Sensitive legal records of decades are now exposed.",
+    "recommendedAction": "Conduct a thorough breach investigation and notify affected individuals.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/"
   },
   {
-    "headline": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
-    "category": "Windows",
-    "priority": "High",
-    "summary": "Researchers exploited a four‑byte write and timing bug to execute code inside the Windows SmartScreen VBS enclave that protects anti‑phishing secrets.",
-    "whyItMatters": "Compromising the enclave undermines a core Windows security component.",
-    "recommendedAction": "Install the upcoming Windows update that addresses the bug.",
-    "sourceUrl": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html"
-  },
-  {
-    "headline": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+    "headline": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
     "category": "Windows",
     "priority": "Medium",
-    "summary": "Microsoft confirmed that recent Windows updates can prevent non‑admin users from connecting via Remote Desktop when the Administrator protection feature is enabled.",
-    "whyItMatters": "It may disrupt remote management and support workflows.",
-    "recommendedAction": "Check RDP settings or defer the updates until a fix is released.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/"
+    "summary": "Microsoft fixed an issue that caused black screens, desktop loading problems, and Explorer crashes after installing Windows 11 updates released since August.",
+    "whyItMatters": "The bug affected user productivity and system stability.",
+    "recommendedAction": "Install the latest Windows 11 update that includes the fix.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/"
+  },
+  {
+    "headline": "Why AI Confidence Is Not Validation",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "The article discusses the growing confidence of AI tools in digital forensics and incident response without adequate governance or validation standards.",
+    "whyItMatters": "Unvalidated AI outputs can lead to inaccurate forensic conclusions.",
+    "recommendedAction": "Establish governance and validation procedures for AI use in security workflows.",
+    "sourceUrl": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html"
+  },
+  {
+    "headline": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "India's Department of Telecommunications ordered telecom providers to display registered caller names on 4G and newer networks from Nov 1, 2026 to help identify unknown and fraudulent calls.",
+    "whyItMatters": "The measure aims to reduce spam and fraud calls for consumers.",
+    "recommendedAction": "Telecom operators should update systems to comply with the new caller‑ID requirement.",
+    "sourceUrl": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
   }
 ]
