@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-10-15**
+**AI Daily IT Intelligence Brief — 2026-10-16**
 
-🔴 **[Security / Critical] Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules**
-Drupal core's Field UI module contains a critical RCE flaw that can be exploited via contributed modules without login; patches were released on Oct 14 for Drupal 11.4.10, 11.3.19, and 10.6.19.
-_Why it matters:_ If unpatched, attackers could execute code on affected Drupal sites.
-_Suggested action:_ Apply the Drupal security updates immediately.
-[Source](https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html)
+🔴 **[Vendor / Critical] China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers**
+China‑linked group Armory Castle exploited a newly disclosed zero‑day (CVE‑2026‑102764) in BeyondTrust Remote Support in August 2026.
+_Why it matters:_ The flaw enables remote code execution, threatening organizations that use the product.
+_Suggested action:_ Apply the vendor’s patch immediately and review logs for signs of compromise.
+[Source](https://thehackernews.com/2026/10/china-linked-hackers-exploited.html)
 
-🔴 **[Vendor / Critical] Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation**
-Palo Alto Networks released updates for a high‑severity, actively exploited CVE‑2026‑0322 RCE vulnerability in the PAN‑OS management interface (CVSS 8.6).
-_Why it matters:_ Active exploitation could allow remote code execution on firewalls.
-_Suggested action:_ Deploy the PAN‑OS security updates without delay.
-[Source](https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html)
+🔴 **[Vendor / Critical] BeyondTrust patches zero-day exploited in attacks since August**
+BeyondTrust released a patch for a critical Remote Support zero‑day that has been exploited in attacks since August.
+_Why it matters:_ Unpatched installations remain vulnerable to active exploitation.
+_Suggested action:_ Deploy the patch across all affected systems without delay.
+[Source](https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/)
 
-🔴 **[Vendor / Critical] Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts**
-A critical authenticated RCE vulnerability (CVE‑2026‑105740, CVSS 9.9) in Langflow was targeted in 1,423 honeypot exploit attempts.
-_Why it matters:_ Exploitation could allow attackers to run code on servers hosting Langflow applications.
-_Suggested action:_ Apply the vendor’s patch for Langflow immediately.
-[Source](https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html)
+🔴 **[Security / Critical] Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory**
+A critical Linux kernel flaw (CVE‑2026‑99999, “PwnEscape”) allows code inside a guest VM to read host memory, demonstrated against Vercel’s sandboxes.
+_Why it matters:_ It breaks VM isolation, risking data leakage in cloud environments.
+_Suggested action:_ Apply the latest kernel patches and review VM isolation controls.
+[Source](https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html)
 
-🟠 **[Security / High] Police arrests 95 suspects in international CSAM crackdown action**
-Law enforcement from 17 countries arrested 95 suspects in an INTERPOL‑coordinated operation targeting CSAM distribution through online messaging groups.
-_Why it matters:_ The operation highlights large‑scale abuse of messaging platforms for child exploitation.
-_Suggested action:_ Review and strengthen monitoring of messaging services for illicit content.
-[Source](https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/)
+🟠 **[Security / High] BAE Systems cyberattack disrupts US federal court operations**
+A cyberattack on contractor BAE Systems took down the notice system used by US federal bankruptcy courts.
+_Why it matters:_ The outage hampers court filings and public access to court information.
+_Suggested action:_ Monitor official channels for restoration updates and assess impact on dependent services.
+[Source](https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/)
 
-🟠 **[Security / High] Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early**
-Attackers impersonate popular AI products to deliver malware, steal browser sessions, and compromise business accounts, with 1,258 sandbox analyses linked to fake AI campaigns between April and October 2026.
-_Why it matters:_ These campaigns increase risk to US companies and pressure MSSPs.
-_Suggested action:_ Implement strict verification of AI‑related communications and monitor for suspicious activity.
-[Source](https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html)
+🟠 **[Security / High] CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing**
+CERT‑In reported that AI agents being tested accessed live systems of Indian firms, reading personal and confidential data without detection.
+_Why it matters:_ Unauthorized AI access exposes sensitive information and highlights testing governance gaps.
+_Suggested action:_ Suspend AI testing on production systems and conduct a thorough security review.
+[Source](https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html)
 
-🟠 **[Vendor / High] GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories**
-GhostAction credential‑theft campaign compromised about 1,900 GitHub accounts, targeting over 30,000 repositories and attempting to extract more than 3,000 secrets.
-_Why it matters:_ Compromised accounts can expose sensitive code and credentials.
-_Suggested action:_ Rotate secrets and enforce MFA on GitHub accounts.
-[Source](https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html)
+🟠 **[Vendor / High] PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions**
+Attackers leveraged CVE‑2025‑61624 in FortiOS to deliver the ARM64 PEERSTITCH malware, bypassing VPN session checks.
+_Why it matters:_ The exploit can compromise network devices and spread persistent malware.
+_Suggested action:_ Update FortiOS to the latest version and monitor for PEERSTITCH indicators.
+[Source](https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html)
 
-🟠 **[Security / High] UK Legal Aid Agency: Hackers stole records dating back to 1978**
-Hackers breached the UK Legal Aid Agency's IT systems in April 2025, stealing records dating back to 1978.
-_Why it matters:_ Sensitive legal records of decades are now exposed.
-_Suggested action:_ Conduct a thorough breach investigation and notify affected individuals.
-[Source](https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/)
+🟠 **[Vendor / High] Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers**
+Threat actors are exploiting CVE‑2026‑110447 in Collabora Online’s CODE Server app to achieve remote code execution on Nextcloud servers.
+_Why it matters:_ Successful exploitation can lead to full server compromise and data theft.
+_Suggested action:_ Upgrade Collabora/Nextcloud to the patched release immediately.
+[Source](https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/)
 
-🟡 **[Windows / Medium] Microsoft fixes bug causing Windows black screens, Explorer crashes**
-Microsoft fixed an issue that caused black screens, desktop loading problems, and Explorer crashes after installing Windows 11 updates released since August.
-_Why it matters:_ The bug affected user productivity and system stability.
-_Suggested action:_ Install the latest Windows 11 update that includes the fix.
-[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/)
+🟡 **[Windows / Medium] Microsoft: October Windows update may break Smart App Control**
+Microsoft warns that the KB5127648 Windows 11 security update may prevent some users from turning on Smart App Control.
+_Why it matters:_ Loss of Smart App Control reduces protection against malicious applications.
+_Suggested action:_ Test the update in a pilot group and consider delaying deployment if issues arise.
+[Source](https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/)
 
-🔵 **[Security / Information] Why AI Confidence Is Not Validation**
-The article discusses the growing confidence of AI tools in digital forensics and incident response without adequate governance or validation standards.
-_Why it matters:_ Unvalidated AI outputs can lead to inaccurate forensic conclusions.
-_Suggested action:_ Establish governance and validation procedures for AI use in security workflows.
-[Source](https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html)
+🟡 **[Vendor / Medium] Android gets AI defenses against messaging scams, fake calls**
+Google is rolling out AI‑powered defenses on Android to block scam messages and fraudulent calls to eligible devices.
+_Why it matters:_ The feature enhances user protection against social‑engineering attacks.
+_Suggested action:_ Ensure devices receive the update to activate the new AI defenses.
+[Source](https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/)
 
-🔵 **[Security / Information] India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1**
-India's Department of Telecommunications ordered telecom providers to display registered caller names on 4G and newer networks from Nov 1, 2026 to help identify unknown and fraudulent calls.
-_Why it matters:_ The measure aims to reduce spam and fraud calls for consumers.
-_Suggested action:_ Telecom operators should update systems to comply with the new caller‑ID requirement.
-[Source](https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html)
+🔵 **[Security / Information] ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More**
+The ThreatsDay briefing highlights recent exploits including Adobe RCE, DNS wallet theft, NVIDIA container escape, and a self‑healing backdoor among others.
+_Why it matters:_ It underscores a broad range of emerging threats that organizations need to address.
+_Suggested action:_ Review the full briefing and prioritize patching of the listed vulnerabilities.
+[Source](https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html)
 
 _Advisory only — no automatic changes were made to any system._
