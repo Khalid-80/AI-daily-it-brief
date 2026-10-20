@@ -1,92 +1,92 @@
 [
   {
-    "headline": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "F5 released out-of-band patches addressing multiple critical‑severity NGINX vulnerabilities that could allow remote code execution.",
-    "whyItMatters": "Unpatched systems remain exposed to attackers who can execute arbitrary code on web servers.",
-    "recommendedAction": "Apply the out‑of‑band patches immediately on all affected NGINX deployments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/"
-  },
-  {
-    "headline": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "A flaw in Broadcom’s Wi‑Fi setup software allows an attacker within radio range to execute code as root on Broadcom‑based routers without a password.",
-    "whyItMatters": "Compromised routers can be used to intercept traffic and gain network control.",
-    "recommendedAction": "Patch affected routers or disable the vulnerable Wi‑Fi setup feature until a fix is available.",
-    "sourceUrl": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html"
-  },
-  {
-    "headline": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-    "category": "Security",
-    "priority": "Critical",
-    "summary": "Attackers are exploiting an OS command injection vulnerability in SiteGuard Server Edition to run commands as root or SYSTEM on affected servers.",
-    "whyItMatters": "Successful exploitation grants full control over the compromised server.",
-    "recommendedAction": "Apply the vendor’s patch or mitigate by disabling the vulnerable functionality.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
-  },
-  {
-    "headline": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+    "headline": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
     "category": "Security",
     "priority": "High",
-    "summary": "GhostAction attackers are delivering a credential‑stealer disguised as a fake font file across 94 compromised GitHub repositories.",
-    "whyItMatters": "The stealer can harvest developer credentials, leading to further supply‑chain compromises.",
-    "recommendedAction": "Audit and remove malicious font files from repositories and enforce signed workflow policies.",
-    "sourceUrl": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
+    "summary": "Attackers compromised the OVHcloud open‑source CLI on GitHub, inserting malware that steals developer secrets.",
+    "whyItMatters": "Compromised developer tools can expose credentials across many environments.",
+    "recommendedAction": "Stop using the affected CLI versions and verify integrity before reinstalling.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/"
   },
   {
-    "headline": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "headline": "Ahold Delhaize: Cyberattack affects services across US and Europe",
     "category": "Security",
     "priority": "High",
-    "summary": "A fraudulent Web3 accelerator distributed malicious npm packages that install information stealers and backdoors on Windows and macOS under the guise of AI credits.",
-    "whyItMatters": "Developers may inadvertently install malware, compromising systems and data.",
-    "recommendedAction": "Avoid installing npm packages from untrusted sources and verify package authenticity.",
-    "sourceUrl": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
+    "summary": "Ahold Delhaize reported a cyberattack that disrupted services at stores in Europe and the United States.",
+    "whyItMatters": "Disruption of a major food retailer can affect supply chains and consumer access.",
+    "recommendedAction": "Monitor for further updates and assess exposure of any connected systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
   },
   {
-    "headline": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+    "headline": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Attackers used a hijacked GitHub contributor account to replace archives of five OVHcloud CLI releases with malware that steals stored secrets, active for about 94 minutes.",
+    "whyItMatters": "Even brief exposure can compromise systems that download the compromised releases.",
+    "recommendedAction": "Avoid downloading the affected releases and verify checksums of any CLI binaries.",
+    "sourceUrl": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
+  },
+  {
+    "headline": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+    "category": "Security",
+    "priority": "High",
+    "summary": "A high‑severity DLL sideloading vulnerability (CVE‑2026‑110936) in Siemens Software Center was exploited to deliver a remote‑access trojan.",
+    "whyItMatters": "Exploitation can give attackers system‑level access on affected machines.",
+    "recommendedAction": "Apply Siemens’ patch for the vulnerability immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+  },
+  {
+    "headline": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Researchers identified the ROMULUS ClickFix platform used to deliver malware like Legion Loader via deceptive landing pages.",
+    "whyItMatters": "Such delivery mechanisms can compromise users who interact with malicious links.",
+    "recommendedAction": "Block known ROMULUS URLs and educate users about suspicious ClickFix lures.",
+    "sourceUrl": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
+  },
+  {
+    "headline": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Nikkei Inc. disclosed a third breach in a month, exposing approximately 1.83 million personal records.",
+    "whyItMatters": "Large exposure of personal data can lead to identity theft and regulatory penalties.",
+    "recommendedAction": "Notify affected individuals and review breach response procedures.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
+  },
+  {
+    "headline": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Downloads of Rank Math PRO from the official site were found to contain malware that installs hidden backdoors, constituting a supply‑chain attack.",
+    "whyItMatters": "Compromised plugins can give attackers persistent access to WordPress sites.",
+    "recommendedAction": "Remove the infected plugin version and reinstall from a clean source, then scan sites.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
+  },
+  {
+    "headline": "Windows Server 2025 gets support for quick machine recovery",
     "category": "Windows",
-    "priority": "High",
-    "summary": "Microsoft confirmed that the October Windows Server security updates cause Outlook Web Access sign‑in and mail delivery problems on some Exchange Server installations.",
-    "whyItMatters": "Disrupted email flow can impact business operations and user productivity.",
-    "recommendedAction": "Review the update impact and apply recommended mitigations or roll back if necessary.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/"
-  },
-  {
-    "headline": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-    "category": "Security",
-    "priority": "High",
-    "summary": "An intruder accessed a legacy OpenCode system and may have exposed stored API keys for OpenAI, Anthropic, and Google.",
-    "whyItMatters": "Exposed API keys can be abused to consume services and access sensitive AI data.",
-    "recommendedAction": "Rotate all compromised API keys and audit access logs for suspicious activity.",
-    "sourceUrl": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
-  },
-  {
-    "headline": "Inside the Underground Market for Know Your Client Services",
-    "category": "Security",
     "priority": "Medium",
-    "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass KYC checks, as detailed by Flare.",
-    "whyItMatters": "These services enable fraudsters to create fraudulent verified accounts, increasing the risk of financial and identity theft.",
-    "recommendedAction": "Monitor for synthetic identity abuse and strengthen KYC verification processes.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/"
+    "summary": "Microsoft added quick machine recovery support to Windows Server 2025 via the October 2026 security update.",
+    "whyItMatters": "It enables faster restoration of server instances after failures.",
+    "recommendedAction": "Apply the October 2026 update to enable the feature.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/"
   },
   {
-    "headline": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-    "category": "Microsoft 365",
-    "priority": "Medium",
-    "summary": "Microsoft fixed an issue that caused the Copilot Chat and Copilot buttons to disappear in the classic Outlook desktop client for some Windows users.",
-    "whyItMatters": "Restoring the UI ensures users can access Copilot features without disruption.",
-    "recommendedAction": "Update Outlook to the latest version to restore Copilot functionality.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/"
-  },
-  {
-    "headline": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+    "headline": "Revolut outage disrupts online banking operations worldwide",
     "category": "Vendor",
-    "priority": "Information",
-    "summary": "The article discusses how Salesforce Agentforce uses Flows for agent responses and how Email‑to‑Case and Web‑to‑Case integrate with agents, highlighting governance challenges.",
-    "whyItMatters": "The complexity may lead to governance gaps that affect security and compliance.",
-    "recommendedAction": "Conduct a detailed review of Agentforce configurations and governance policies.",
-    "sourceUrl": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html"
+    "priority": "Medium",
+    "summary": "Revolut experienced a widespread outage that halted most of its online banking services globally.",
+    "whyItMatters": "Customers lose access to financial services, impacting transactions.",
+    "recommendedAction": "Check Revolut status page for restoration updates.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/"
+  },
+  {
+    "headline": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "A former OpenAI engineer was detained for allegedly planting a recording device to steal company secrets, with ties to Saudi contacts revealed.",
+    "whyItMatters": "Highlights insider threat risks and espionage targeting AI firms.",
+    "recommendedAction": "Review and tighten physical and digital security controls for sensitive areas.",
+    "sourceUrl": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
   }
 ]
