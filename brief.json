@@ -1,92 +1,92 @@
 [
   {
-    "headline": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "headline": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
     "category": "Security",
-    "priority": "High",
-    "summary": "Attackers compromised the OVHcloud open‑source CLI on GitHub, inserting malware that steals developer secrets.",
-    "whyItMatters": "Compromised developer tools can expose credentials across many environments.",
-    "recommendedAction": "Stop using the affected CLI versions and verify integrity before reinstalling.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/"
+    "priority": "Critical",
+    "summary": "Two critical PHP remote code execution flaws rated 9.2 CVSS are slated for a patch at 14:00 UTC on October 21, and current workarounds are insufficient.",
+    "whyItMatters": "Unpatched PHP servers remain vulnerable to full system compromise.",
+    "recommendedAction": "Apply the official PHP patch immediately upon release.",
+    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
   },
   {
-    "headline": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+    "headline": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
     "category": "Security",
-    "priority": "High",
-    "summary": "Ahold Delhaize reported a cyberattack that disrupted services at stores in Europe and the United States.",
-    "whyItMatters": "Disruption of a major food retailer can affect supply chains and consumer access.",
-    "recommendedAction": "Monitor for further updates and assess exposure of any connected systems.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
+    "priority": "Critical",
+    "summary": "PHP will issue an out‑of‑cycle security release at 14:00 UTC on October 21 to fix two critical RCE vulnerabilities rated 9.2 CVSS.",
+    "whyItMatters": "The vulnerabilities allow attackers to execute arbitrary code on affected PHP installations.",
+    "recommendedAction": "Update PHP to the patched version as soon as it becomes available.",
+    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
   },
   {
-    "headline": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "headline": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
     "category": "Security",
     "priority": "High",
-    "summary": "Attackers used a hijacked GitHub contributor account to replace archives of five OVHcloud CLI releases with malware that steals stored secrets, active for about 94 minutes.",
-    "whyItMatters": "Even brief exposure can compromise systems that download the compromised releases.",
-    "recommendedAction": "Avoid downloading the affected releases and verify checksums of any CLI binaries.",
-    "sourceUrl": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
+    "summary": "Researchers found attackers compromised over 300 Tor exit relays in early October, redirecting SSH connections to servers that harvested login credentials.",
+    "whyItMatters": "Tor users' SSH credentials can be stolen, undermining anonymity and security.",
+    "recommendedAction": "Avoid password authentication over Tor and monitor for suspicious SSH activity.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html"
   },
   {
-    "headline": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-    "category": "Security",
-    "priority": "High",
-    "summary": "A high‑severity DLL sideloading vulnerability (CVE‑2026‑110936) in Siemens Software Center was exploited to deliver a remote‑access trojan.",
-    "whyItMatters": "Exploitation can give attackers system‑level access on affected machines.",
-    "recommendedAction": "Apply Siemens’ patch for the vulnerability immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
-  },
-  {
-    "headline": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Researchers identified the ROMULUS ClickFix platform used to deliver malware like Legion Loader via deceptive landing pages.",
-    "whyItMatters": "Such delivery mechanisms can compromise users who interact with malicious links.",
-    "recommendedAction": "Block known ROMULUS URLs and educate users about suspicious ClickFix lures.",
-    "sourceUrl": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
-  },
-  {
-    "headline": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Nikkei Inc. disclosed a third breach in a month, exposing approximately 1.83 million personal records.",
-    "whyItMatters": "Large exposure of personal data can lead to identity theft and regulatory penalties.",
-    "recommendedAction": "Notify affected individuals and review breach response procedures.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
-  },
-  {
-    "headline": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Downloads of Rank Math PRO from the official site were found to contain malware that installs hidden backdoors, constituting a supply‑chain attack.",
-    "whyItMatters": "Compromised plugins can give attackers persistent access to WordPress sites.",
-    "recommendedAction": "Remove the infected plugin version and reinstall from a clean source, then scan sites.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
-  },
-  {
-    "headline": "Windows Server 2025 gets support for quick machine recovery",
+    "headline": "Microsoft says October updates didn’t actually fix VPN issues",
     "category": "Windows",
-    "priority": "Medium",
-    "summary": "Microsoft added quick machine recovery support to Windows Server 2025 via the October 2026 security update.",
-    "whyItMatters": "It enables faster restoration of server instances after failures.",
-    "recommendedAction": "Apply the October 2026 update to enable the feature.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/"
+    "priority": "High",
+    "summary": "Microsoft admitted that the October 2026 Windows 11 cumulative updates did not actually resolve the Always On VPN bug, leaving connectivity issues unresolved.",
+    "whyItMatters": "Organizations relying on Always On VPN may continue experiencing connection failures.",
+    "recommendedAction": "Monitor Microsoft advisories and consider alternative VPN solutions until fixed.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
   },
   {
-    "headline": "Revolut outage disrupts online banking operations worldwide",
+    "headline": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
     "category": "Vendor",
-    "priority": "Medium",
-    "summary": "Revolut experienced a widespread outage that halted most of its online banking services globally.",
-    "whyItMatters": "Customers lose access to financial services, impacting transactions.",
-    "recommendedAction": "Check Revolut status page for restoration updates.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/"
+    "priority": "High",
+    "summary": "Threat actors breached TeamUpdraft's site and accessed UpdraftCentral, UpdraftVault, and UpdraftClone keys, using them to install backdoors on WordPress sites.",
+    "whyItMatters": "Compromised keys enable widespread compromise of WordPress installations using a popular backup plugin.",
+    "recommendedAction": "Rotate all UpdraftCentral keys and audit WordPress sites for unauthorized changes.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html"
   },
   {
-    "headline": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+    "headline": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
     "category": "Security",
-    "priority": "Medium",
-    "summary": "A former OpenAI engineer was detained for allegedly planting a recording device to steal company secrets, with ties to Saudi contacts revealed.",
-    "whyItMatters": "Highlights insider threat risks and espionage targeting AI firms.",
-    "recommendedAction": "Review and tighten physical and digital security controls for sensitive areas.",
-    "sourceUrl": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
+    "priority": "High",
+    "summary": "CISA reports that the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024.",
+    "whyItMatters": "The extensive impact threatens essential services and public safety.",
+    "recommendedAction": "Implement ransomware defenses and incident response plans immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+  },
+  {
+    "headline": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "The Department of Homeland Security ordered federal civilian agencies to remove DeepSeek AI products and cease new purchases due to security concerns.",
+    "whyItMatters": "Continued use of DeepSeek could expose federal systems to supply‑chain risks.",
+    "recommendedAction": "Audit and purge DeepSeek components from all federal IT environments.",
+    "sourceUrl": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html"
+  },
+  {
+    "headline": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+    "category": "Security",
+    "priority": "High",
+    "summary": "State Bank of India disclosed that 3,897 customer records were found on the dark web, though the source of the leak remains unknown.",
+    "whyItMatters": "Customer personal data exposure can lead to fraud and reputational damage.",
+    "recommendedAction": "Notify affected customers and strengthen data protection measures.",
+    "sourceUrl": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
+  },
+  {
+    "headline": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+    "category": "Windows",
+    "priority": "Information",
+    "summary": "Microsoft released PowerToys 0.102, adding CursorHide and Button Lock mouse utilities along with new command-line tools and Command Palette improvements.",
+    "whyItMatters": "These tools enhance user productivity and accessibility on Windows.",
+    "recommendedAction": "Upgrade to PowerToys 0.102.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/"
+  },
+  {
+    "headline": "The Harness Is the Hard Part of Agentic Pentesting",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "The article discusses the importance of the harness surrounding AI agents for safe and effective pentesting, highlighting engineering challenges.",
+    "whyItMatters": "Proper harness design is essential to safely leverage AI in security testing.",
+    "recommendedAction": "Review and implement robust harness controls before using AI agents.",
+    "sourceUrl": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
   }
 ]
