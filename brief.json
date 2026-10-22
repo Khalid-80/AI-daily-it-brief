@@ -1,92 +1,92 @@
 [
   {
-    "headline": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-    "category": "Security",
+    "headline": "GitLab warns of new max severity code execution vulnerability",
+    "category": "Vendor",
     "priority": "Critical",
-    "summary": "Two critical PHP remote code execution flaws rated 9.2 CVSS are slated for a patch at 14:00 UTC on October 21, and current workarounds are insufficient.",
-    "whyItMatters": "Unpatched PHP servers remain vulnerable to full system compromise.",
-    "recommendedAction": "Apply the official PHP patch immediately upon release.",
-    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
+    "summary": "GitLab released patches for a maximum‑severity Regular Expression Compiler flaw that could allow remote attackers to execute arbitrary code on vulnerable servers.",
+    "whyItMatters": "The vulnerability could lead to full system compromise of GitLab instances.",
+    "recommendedAction": "Apply the GitLab security patches immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
   },
   {
-    "headline": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-    "category": "Security",
+    "headline": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "category": "Vendor",
     "priority": "Critical",
-    "summary": "PHP will issue an out‑of‑cycle security release at 14:00 UTC on October 21 to fix two critical RCE vulnerabilities rated 9.2 CVSS.",
-    "whyItMatters": "The vulnerabilities allow attackers to execute arbitrary code on affected PHP installations.",
-    "recommendedAction": "Update PHP to the patched version as soon as it becomes available.",
-    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
+    "summary": "Node.js fixed a critical bug in its Brotli decompression code that could allow remote code execution across all supported versions.",
+    "whyItMatters": "Unpatched systems are vulnerable to arbitrary code execution.",
+    "recommendedAction": "Upgrade Node.js to the patched versions for 22.x, 24.x, and 26.x.",
+    "sourceUrl": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
   },
   {
-    "headline": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Researchers found attackers compromised over 300 Tor exit relays in early October, redirecting SSH connections to servers that harvested login credentials.",
-    "whyItMatters": "Tor users' SSH credentials can be stolen, undermining anonymity and security.",
-    "recommendedAction": "Avoid password authentication over Tor and monitor for suspicious SSH activity.",
-    "sourceUrl": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html"
-  },
-  {
-    "headline": "Microsoft says October updates didn’t actually fix VPN issues",
-    "category": "Windows",
-    "priority": "High",
-    "summary": "Microsoft admitted that the October 2026 Windows 11 cumulative updates did not actually resolve the Always On VPN bug, leaving connectivity issues unresolved.",
-    "whyItMatters": "Organizations relying on Always On VPN may continue experiencing connection failures.",
-    "recommendedAction": "Monitor Microsoft advisories and consider alternative VPN solutions until fixed.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
-  },
-  {
-    "headline": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+    "headline": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Threat actors breached TeamUpdraft's site and accessed UpdraftCentral, UpdraftVault, and UpdraftClone keys, using them to install backdoors on WordPress sites.",
-    "whyItMatters": "Compromised keys enable widespread compromise of WordPress installations using a popular backup plugin.",
-    "recommendedAction": "Rotate all UpdraftCentral keys and audit WordPress sites for unauthorized changes.",
-    "sourceUrl": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html"
+    "summary": "Railway disclosed anomalous activity that may have let an unauthorized party access encrypted environment variables and, in some cases, retrieve their decrypted contents.",
+    "whyItMatters": "Compromised secrets could expose customer applications and data.",
+    "recommendedAction": "Rotate all affected credentials and review environment variable security.",
+    "sourceUrl": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
   },
   {
-    "headline": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-    "category": "Security",
+    "headline": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+    "category": "Windows",
     "priority": "High",
-    "summary": "CISA reports that the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024.",
-    "whyItMatters": "The extensive impact threatens essential services and public safety.",
-    "recommendedAction": "Implement ransomware defenses and incident response plans immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+    "summary": "A flaw in the OpenCode AI coding agent allowed a malicious MCP server to execute code on a developer's Windows or WSL machine during sign‑in.",
+    "whyItMatters": "Code runs with the developer's privileges, potentially compromising the host system.",
+    "recommendedAction": "Update OpenCode to version 1.18.33 or later.",
+    "sourceUrl": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html"
   },
   {
-    "headline": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+    "headline": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
     "category": "Vendor",
     "priority": "High",
-    "summary": "The Department of Homeland Security ordered federal civilian agencies to remove DeepSeek AI products and cease new purchases due to security concerns.",
-    "whyItMatters": "Continued use of DeepSeek could expose federal systems to supply‑chain risks.",
-    "recommendedAction": "Audit and purge DeepSeek components from all federal IT environments.",
-    "sourceUrl": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html"
+    "summary": "LiteLLM reported that threat actors compromised its release pipeline to publish a malicious Python package containing a credential stealer and backdoor.",
+    "whyItMatters": "Supply‑chain compromise can spread malware to downstream users.",
+    "recommendedAction": "Verify package integrity and revoke the compromised release.",
+    "sourceUrl": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
   },
   {
-    "headline": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+    "headline": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
     "category": "Security",
     "priority": "High",
-    "summary": "State Bank of India disclosed that 3,897 customer records were found on the dark web, though the source of the leak remains unknown.",
-    "whyItMatters": "Customer personal data exposure can lead to fraud and reputational damage.",
-    "recommendedAction": "Notify affected customers and strengthen data protection measures.",
-    "sourceUrl": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
+    "summary": "Researchers disclosed remote‑attacker‑controlled QPACK flaws that can crash HTTP/3 servers and cause up to 4,000‑fold memory amplification.",
+    "whyItMatters": "Servers can be taken down with minimal effort, affecting availability.",
+    "recommendedAction": "Apply vendor patches or mitigations for the QPACK vulnerabilities.",
+    "sourceUrl": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html"
   },
   {
-    "headline": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-    "category": "Windows",
-    "priority": "Information",
-    "summary": "Microsoft released PowerToys 0.102, adding CursorHide and Button Lock mouse utilities along with new command-line tools and Command Palette improvements.",
-    "whyItMatters": "These tools enhance user productivity and accessibility on Windows.",
-    "recommendedAction": "Upgrade to PowerToys 0.102.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/"
-  },
-  {
-    "headline": "The Harness Is the Hard Part of Agentic Pentesting",
+    "headline": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
     "category": "Security",
-    "priority": "Information",
-    "summary": "The article discusses the importance of the harness surrounding AI agents for safe and effective pentesting, highlighting engineering challenges.",
-    "whyItMatters": "Proper harness design is essential to safely leverage AI in security testing.",
-    "recommendedAction": "Review and implement robust harness controls before using AI agents.",
-    "sourceUrl": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
+    "priority": "High",
+    "summary": "Amazon’s Threat Intelligence team observed attempts to exploit newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot.",
+    "whyItMatters": "Early exploitation indicates active threat actors targeting the flaws.",
+    "recommendedAction": "Ensure all PHP installations are patched against PHP2Shell.",
+    "sourceUrl": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
+  },
+  {
+    "headline": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "Microsoft disclosed that a China‑state‑aligned group used the ARTEX AI agent framework in a supply‑chain attack against ConnectWise Cloud Backup.",
+    "whyItMatters": "The use of AI tools accelerates sophisticated supply‑chain compromises.",
+    "recommendedAction": "Audit ConnectWise deployments and apply any security updates.",
+    "sourceUrl": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+  },
+  {
+    "headline": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "Law enforcement disrupted nearly 11,000 cybercrime networks and arrested over 1,400 people in Operation Serengeti III, targeting BEC, ransomware, and scams.",
+    "whyItMatters": "The operation reduces active cyber‑crime infrastructure affecting global victims.",
+    "recommendedAction": "Monitor for any residual threats linked to the takedown.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
+  },
+  {
+    "headline": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+    "category": "Vendor",
+    "priority": "Medium",
+    "summary": "Chrome introduced Gemini‑powered scam detection that warns users about deceptive sites and ClickFix command‑copy attacks.",
+    "whyItMatters": "Enhanced detection helps protect users from emerging phishing and command‑injection scams.",
+    "recommendedAction": "Update Chrome to the latest version to enable the new protection.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/"
   }
 ]
