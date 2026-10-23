@@ -1,92 +1,92 @@
 [
   {
-    "headline": "GitLab warns of new max severity code execution vulnerability",
-    "category": "Vendor",
+    "headline": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "GitLab released patches for a maximum‑severity Regular Expression Compiler flaw that could allow remote attackers to execute arbitrary code on vulnerable servers.",
-    "whyItMatters": "The vulnerability could lead to full system compromise of GitLab instances.",
-    "recommendedAction": "Apply the GitLab security patches immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
+    "summary": "The Pillow library (CVE-2026-112900) can execute OS commands when processing crafted EPS images because it passes the filename to Ghostscript without validation.",
+    "whyItMatters": "Exploiting the flaw can lead to remote code execution on servers using Pillow.",
+    "recommendedAction": "Apply any available patches or mitigate by validating image inputs.",
+    "sourceUrl": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
   },
   {
-    "headline": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-    "category": "Vendor",
+    "headline": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "Node.js fixed a critical bug in its Brotli decompression code that could allow remote code execution across all supported versions.",
-    "whyItMatters": "Unpatched systems are vulnerable to arbitrary code execution.",
-    "recommendedAction": "Upgrade Node.js to the patched versions for 22.x, 24.x, and 26.x.",
-    "sourceUrl": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
+    "summary": "Researchers showed that crafted Brotli data can trigger code execution in the official Node.js 24.22.0 Linux arm64 image via the built‑in Brotli decoder (CVE-2026-111497).",
+    "whyItMatters": "The vulnerability affects default Node.js builds without custom modifications.",
+    "recommendedAction": "Update Node.js to a version that addresses CVE-2026-111497.",
+    "sourceUrl": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
   },
   {
-    "headline": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+    "headline": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "category": "Security",
+    "priority": "High",
+    "summary": "The Sandworm group and another actor carried out a destructive wiping attack on a Ukrainian logistics company using the UAC-0099 (Earth Sirrush) backdoor after a spear‑phishing email on July 16, 2025.",
+    "whyItMatters": "It demonstrates evolving destructive capabilities targeting critical infrastructure.",
+    "recommendedAction": "Monitor for indicators of the UAC-0099 backdoor and strengthen email defenses.",
+    "sourceUrl": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+  },
+  {
+    "headline": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+    "category": "Security",
+    "priority": "High",
+    "summary": "The x402 SDK default client allowed malicious APIs to drain an AI agent’s token balance by signing full‑balance payments, affecting agents that auto‑sign payments.",
+    "whyItMatters": "It could result in unauthorized depletion of token funds for AI agents.",
+    "recommendedAction": "Ensure spending limits are configured and update to SDK releases after August 18.",
+    "sourceUrl": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
+  },
+  {
+    "headline": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Threat actors attempted to exploit the newly disclosed PHP2Shell vulnerabilities (CVE-2026-109618, CVE-2026-109619) to install a Mirai‑like botnet called Potassium, but the attempts were largely unsuccessful.",
+    "whyItMatters": "It highlights ongoing exploitation attempts of high‑severity PHP flaws.",
+    "recommendedAction": "Verify that systems are patched against PHP2Shell vulnerabilities.",
+    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+  },
+  {
+    "headline": "Railway warns devs to rotate secrets after potential breach",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Railway disclosed anomalous activity that may have let an unauthorized party access encrypted environment variables and, in some cases, retrieve their decrypted contents.",
-    "whyItMatters": "Compromised secrets could expose customer applications and data.",
-    "recommendedAction": "Rotate all affected credentials and review environment variable security.",
-    "sourceUrl": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
+    "summary": "Cloud platform Railway issued an urgent warning after detecting suspicious activity on systems that store customer environment variables, urging users to rotate secrets.",
+    "whyItMatters": "Potential exposure of secret keys could compromise deployed applications.",
+    "recommendedAction": "Rotate all environment variable secrets immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
   },
   {
-    "headline": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-    "category": "Windows",
-    "priority": "High",
-    "summary": "A flaw in the OpenCode AI coding agent allowed a malicious MCP server to execute code on a developer's Windows or WSL machine during sign‑in.",
-    "whyItMatters": "Code runs with the developer's privileges, potentially compromising the host system.",
-    "recommendedAction": "Update OpenCode to version 1.18.33 or later.",
-    "sourceUrl": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html"
-  },
-  {
-    "headline": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "headline": "Capcom confirms data breach affecting 11.7 million accounts",
     "category": "Vendor",
     "priority": "High",
-    "summary": "LiteLLM reported that threat actors compromised its release pipeline to publish a malicious Python package containing a credential stealer and backdoor.",
+    "summary": "Capcom confirmed a breach of its CAPCOM ID service, exposing more than 11.7 million customer email addresses and associated information.",
+    "whyItMatters": "The large‑scale exposure puts millions at risk of phishing and fraud.",
+    "recommendedAction": "Monitor for phishing attempts and consider password changes for affected accounts.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/"
+  },
+  {
+    "headline": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images that steal credentials, secrets, and environment variables.",
     "whyItMatters": "Supply‑chain compromise can spread malware to downstream users.",
-    "recommendedAction": "Verify package integrity and revoke the compromised release.",
-    "sourceUrl": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
+    "recommendedAction": "Verify package integrity and replace any compromised images.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
   },
   {
-    "headline": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Researchers disclosed remote‑attacker‑controlled QPACK flaws that can crash HTTP/3 servers and cause up to 4,000‑fold memory amplification.",
-    "whyItMatters": "Servers can be taken down with minimal effort, affecting availability.",
-    "recommendedAction": "Apply vendor patches or mitigations for the QPACK vulnerabilities.",
-    "sourceUrl": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html"
-  },
-  {
-    "headline": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Amazon’s Threat Intelligence team observed attempts to exploit newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot.",
-    "whyItMatters": "Early exploitation indicates active threat actors targeting the flaws.",
-    "recommendedAction": "Ensure all PHP installations are patched against PHP2Shell.",
-    "sourceUrl": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
-  },
-  {
-    "headline": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Microsoft disclosed that a China‑state‑aligned group used the ARTEX AI agent framework in a supply‑chain attack against ConnectWise Cloud Backup.",
-    "whyItMatters": "The use of AI tools accelerates sophisticated supply‑chain compromises.",
-    "recommendedAction": "Audit ConnectWise deployments and apply any security updates.",
-    "sourceUrl": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
-  },
-  {
-    "headline": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "headline": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
     "category": "Security",
     "priority": "Medium",
-    "summary": "Law enforcement disrupted nearly 11,000 cybercrime networks and arrested over 1,400 people in Operation Serengeti III, targeting BEC, ransomware, and scams.",
-    "whyItMatters": "The operation reduces active cyber‑crime infrastructure affecting global victims.",
-    "recommendedAction": "Monitor for any residual threats linked to the takedown.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
+    "summary": "PHP warned of a new code execution issue (CVE-2026-115560) affecting web applications with an unusual configuration, but no emergency fix is planned, only a recommendation to turn off a feature.",
+    "whyItMatters": "The issue could allow attackers to run code on vulnerable servers.",
+    "recommendedAction": "Review and disable the mentioned feature in affected PHP configurations.",
+    "sourceUrl": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
   },
   {
-    "headline": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-    "category": "Vendor",
+    "headline": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+    "category": "Security",
     "priority": "Medium",
-    "summary": "Chrome introduced Gemini‑powered scam detection that warns users about deceptive sites and ClickFix command‑copy attacks.",
-    "whyItMatters": "Enhanced detection helps protect users from emerging phishing and command‑injection scams.",
-    "recommendedAction": "Update Chrome to the latest version to enable the new protection.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/"
+    "summary": "An article warns that unsupervised AI agents can store API keys and passwords, acting as insider threats without proper oversight.",
+    "whyItMatters": "Unmanaged AI agents can become hidden vectors for data exfiltration.",
+    "recommendedAction": "Implement governance and access controls for AI agents.",
+    "sourceUrl": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
   }
 ]
