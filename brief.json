@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+    "headline": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
     "category": "Security",
     "priority": "Critical",
-    "summary": "The Pillow library (CVE-2026-112900) can execute OS commands when processing crafted EPS images because it passes the filename to Ghostscript without validation.",
-    "whyItMatters": "Exploiting the flaw can lead to remote code execution on servers using Pillow.",
-    "recommendedAction": "Apply any available patches or mitigate by validating image inputs.",
-    "sourceUrl": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
+    "summary": "Two critical flaws in the Wasmtime WebAssembly runtime could allow a malicious module to break out of its sandbox, and fixed versions have been released.",
+    "whyItMatters": "Sandbox escape could let attackers execute code on vulnerable hosts.",
+    "recommendedAction": "Update Wasmtime to the patched version immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
   },
   {
-    "headline": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+    "headline": "PHP2Shell security flaws now sucessfully exploited in the wild",
     "category": "Security",
     "priority": "Critical",
-    "summary": "Researchers showed that crafted Brotli data can trigger code execution in the official Node.js 24.22.0 Linux arm64 image via the built‑in Brotli decoder (CVE-2026-111497).",
-    "whyItMatters": "The vulnerability affects default Node.js builds without custom modifications.",
-    "recommendedAction": "Update Node.js to a version that addresses CVE-2026-111497.",
-    "sourceUrl": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
+    "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619) known as PHP2Shell are being actively exploited in the wild.",
+    "whyItMatters": "Active exploitation puts vulnerable PHP applications at immediate risk of compromise.",
+    "recommendedAction": "Patch affected PHP installations and monitor for exploitation attempts.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
   },
   {
-    "headline": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "headline": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
     "category": "Security",
     "priority": "High",
-    "summary": "The Sandworm group and another actor carried out a destructive wiping attack on a Ukrainian logistics company using the UAC-0099 (Earth Sirrush) backdoor after a spear‑phishing email on July 16, 2025.",
-    "whyItMatters": "It demonstrates evolving destructive capabilities targeting critical infrastructure.",
-    "recommendedAction": "Monitor for indicators of the UAC-0099 backdoor and strengthen email defenses.",
-    "sourceUrl": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+    "summary": "The uCreator Android spyware kit hides malicious code in tampered Telegram and WeChat apps to steal 2FA passwords and clone accounts.",
+    "whyItMatters": "It enables credential theft and unauthorized access to popular messaging platforms.",
+    "recommendedAction": "Block and remove any tampered app installations and monitor for compromised accounts.",
+    "sourceUrl": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html"
   },
   {
-    "headline": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+    "headline": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "category": "Microsoft 365",
+    "priority": "High",
+    "summary": "A campaign used adversary‑in‑the‑middle token replay to hijack Microsoft 365 sign‑in sessions, compromising 97 accounts across 79 organizations.",
+    "whyItMatters": "Token replay can give attackers persistent access to corporate email and data.",
+    "recommendedAction": "Enforce MFA, monitor token usage, and rotate compromised tokens.",
+    "sourceUrl": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
+  },
+  {
+    "headline": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "The Gheist campaign steals GitHub tokens, plants workflows that log repository secrets, then extracts and deletes the logs.",
+    "whyItMatters": "Exfiltrated secrets can lead to further compromise of private code and infrastructure.",
+    "recommendedAction": "Revoke compromised tokens, rotate secrets, and audit GitHub Actions for unauthorized workflows.",
+    "sourceUrl": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+  },
+  {
+    "headline": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
     "category": "Security",
     "priority": "High",
-    "summary": "The x402 SDK default client allowed malicious APIs to drain an AI agent’s token balance by signing full‑balance payments, affecting agents that auto‑sign payments.",
-    "whyItMatters": "It could result in unauthorized depletion of token funds for AI agents.",
-    "recommendedAction": "Ensure spending limits are configured and update to SDK releases after August 18.",
-    "sourceUrl": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
+    "summary": "Two flaws in Tailscale SSH allow a compromised device with port‑forwarding enabled to gain root access on reachable servers within the network.",
+    "whyItMatters": "Lateral movement could lead to full network compromise.",
+    "recommendedAction": "Apply the available patches and disable unnecessary port forwarding.",
+    "sourceUrl": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
   },
   {
-    "headline": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+    "headline": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
     "category": "Security",
     "priority": "High",
-    "summary": "Threat actors attempted to exploit the newly disclosed PHP2Shell vulnerabilities (CVE-2026-109618, CVE-2026-109619) to install a Mirai‑like botnet called Potassium, but the attempts were largely unsuccessful.",
-    "whyItMatters": "It highlights ongoing exploitation attempts of high‑severity PHP flaws.",
-    "recommendedAction": "Verify that systems are patched against PHP2Shell vulnerabilities.",
-    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+    "summary": "Palo Alto Networks reports ongoing exploitation attempts of PHP2Shell flaws targeting a European government agency, amid broader scanning activity.",
+    "whyItMatters": "Continued attacks indicate persistent threat actors targeting vulnerable PHP sites.",
+    "recommendedAction": "Ensure all PHP systems are patched and increase monitoring for exploitation signatures.",
+    "sourceUrl": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
   },
   {
-    "headline": "Railway warns devs to rotate secrets after potential breach",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Cloud platform Railway issued an urgent warning after detecting suspicious activity on systems that store customer environment variables, urging users to rotate secrets.",
-    "whyItMatters": "Potential exposure of secret keys could compromise deployed applications.",
-    "recommendedAction": "Rotate all environment variable secrets immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
-  },
-  {
-    "headline": "Capcom confirms data breach affecting 11.7 million accounts",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Capcom confirmed a breach of its CAPCOM ID service, exposing more than 11.7 million customer email addresses and associated information.",
-    "whyItMatters": "The large‑scale exposure puts millions at risk of phishing and fraud.",
-    "recommendedAction": "Monitor for phishing attempts and consider password changes for affected accounts.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/"
-  },
-  {
-    "headline": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images that steal credentials, secrets, and environment variables.",
-    "whyItMatters": "Supply‑chain compromise can spread malware to downstream users.",
-    "recommendedAction": "Verify package integrity and replace any compromised images.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
-  },
-  {
-    "headline": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+    "headline": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
     "category": "Security",
     "priority": "Medium",
-    "summary": "PHP warned of a new code execution issue (CVE-2026-115560) affecting web applications with an unusual configuration, but no emergency fix is planned, only a recommendation to turn off a feature.",
-    "whyItMatters": "The issue could allow attackers to run code on vulnerable servers.",
-    "recommendedAction": "Review and disable the mentioned feature in affected PHP configurations.",
-    "sourceUrl": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
+    "summary": "A malicious instruction file in a developer's Downloads folder attempted to persuade an AI coding agent to install a known‑malicious npm package, which was blocked by security monitoring.",
+    "whyItMatters": "AI‑assisted development tools can be leveraged to deliver malware silently.",
+    "recommendedAction": "Implement file integrity monitoring and restrict AI agent actions on untrusted inputs.",
+    "sourceUrl": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
   },
   {
-    "headline": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+    "headline": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
     "category": "Security",
-    "priority": "Medium",
-    "summary": "An article warns that unsupervised AI agents can store API keys and passwords, acting as insider threats without proper oversight.",
-    "whyItMatters": "Unmanaged AI agents can become hidden vectors for data exfiltration.",
-    "recommendedAction": "Implement governance and access controls for AI agents.",
-    "sourceUrl": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
+    "priority": "Information",
+    "summary": "The article discusses how SOCs struggle with alert overload and the need for network detection to connect alerts into a coherent intrusion timeline.",
+    "whyItMatters": "The thin description requires human review to assess actionable insights.",
+    "recommendedAction": "Have analysts review the detection workflow for gaps.",
+    "sourceUrl": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
+  },
+  {
+    "headline": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "Kali Linux 2026.3 adds six new hacking tools, desktop environment improvements, and refreshed build scripts.",
+    "whyItMatters": "New tools may affect security testing and toolchains.",
+    "recommendedAction": "Review the new tools for relevance to your environment.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/"
   }
 ]
