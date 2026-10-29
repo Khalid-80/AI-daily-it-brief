@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-10-28**
+**AI Daily IT Intelligence Brief — 2026-10-29**
 
-🔴 **[Vendor / Critical] Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass**
-Adobe released patches for eight critical vulnerabilities in Campaign Classic that could allow arbitrary code execution, security feature bypass, and privilege escalation.
-_Why it matters:_ These flaws could be exploited to compromise Adobe Campaign environments.
-_Suggested action:_ Apply the Adobe Campaign Classic patches without delay.
-[Source](https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html)
+🔴 **[Vendor / Critical] New Cisco firewall zero-day exploited to crash SSL VPN devices**
+Cisco disclosed a denial‑of‑service zero‑day in ASA and FTD software that is being exploited to crash SSL VPN devices.
+_Why it matters:_ Active exploitation can cause denial‑of‑service outages on critical network infrastructure.
+_Suggested action:_ Apply Cisco’s security updates to the affected ASA/FTD devices promptly.
+[Source](https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/)
 
-🔴 **[Security / Critical] CISA warns of hackers now exploiting critical Node2Shell flaw**
-CISA reported that attackers are exploiting a critical Brotli‑based vulnerability known as Node2Shell/Broccoli2Shell/HTTP2Shell.
-_Why it matters:_ The flaw enables remote code execution on affected servers.
-_Suggested action:_ Deploy vendor patches or mitigations for the Node2Shell vulnerability immediately.
-[Source](https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/)
+🔴 **[Vendor / Critical] Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls**
+Cisco released patches for CVE‑2026‑76418, an unauthenticated remote code execution flaw in ASA and FTD that is actively exploited.
+_Why it matters:_ The flaw enables remote attackers to crash firewalls, threatening network availability.
+_Suggested action:_ Install the released patches on all vulnerable Cisco firewalls without delay.
+[Source](https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html)
 
-🔴 **[Security / Critical] ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws**
-Researchers disclosed that the Oracle PeopleSoft vulnerability exploited by ShinyHunters comprises three chained flaws, including an SSRF that reaches an internal management interface, all patched under CVE‑2026‑35273.
-_Why it matters:_ Understanding the chain clarifies the attack surface and the importance of the patch.
-_Suggested action:_ Apply the Oracle PeopleSoft security update covering CVE‑2026‑35273.
-[Source](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
+🟠 **[Security / High] Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls**
+A flaw in Telegram for Android allowed code execution via a voice call when the victim answered, and was fixed in version 12.10.4.
+_Why it matters:_ The vulnerability could allow attackers to run arbitrary code on users’ devices.
+_Suggested action:_ Update Telegram to version 12.10.4 immediately.
+[Source](https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html)
 
-🟠 **[Security / High] Hackers now scanning systems for recently-patched Oracle flaw**
-Attackers are scanning the Internet for Oracle E‑Business Suite installations that have not yet applied the recently disclosed critical patch.
-_Why it matters:_ Unpatched Oracle EBS systems remain at risk of exploitation.
-_Suggested action:_ Verify and apply the latest Oracle EBS security patches immediately.
-[Source](https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/)
+🟠 **[Security / High] 26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories**
+Researchers found 26,400 active cloud and AI credentials exposed in public Gitee repositories, many of which could be used by attackers.
+_Why it matters:_ Exposed credentials present a substantial risk of unauthorized access to cloud and AI services.
+_Suggested action:_ Rotate any discovered credentials and improve secret scanning.
+[Source](https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html)
 
-🟠 **[Security / High] American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed**
-The Skyw4lker campaign uses device‑code phishing to compromise U.S. organizations by abusing legitimate cloud services and authentication flows.
-_Why it matters:_ It bypasses traditional credential‑theft detection, increasing breach risk.
-_Suggested action:_ Educate users and enforce MFA with device‑code flow monitoring.
-[Source](https://thehackernews.com/2026/10/american-organizations-under-attack.html)
+🟠 **[Vendor / High] Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open**
+An attacker attempted to exploit a critical CVE‑2026‑97229 GitLab vulnerability on Alpine Linux’s server shortly after a fix was released.
+_Why it matters:_ Successful exploitation could lead to arbitrary code execution on GitLab servers.
+_Suggested action:_ Confirm the GitLab patch is applied and monitor for suspicious activity.
+[Source](https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html)
 
-🟠 **[Security / High] Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach**
-GMO Internet Group is offering up to $1 million for tips leading to the arrest of attackers who breached its Onamae.com Desktop Cloud FX‑trading service.
-_Why it matters:_ The breach exposed a cloud platform used for financial trading, posing significant risk.
-_Suggested action:_ Review and harden cloud service configurations and monitor for indicators of compromise.
-[Source](https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html)
+🟠 **[Vendor / High] Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys**
+Hackers leveraged a previously fixed Cisco SD‑WAN flaw to install KeyDrift malware that steals encryption keys from SD‑WAN traffic.
+_Why it matters:_ KeyDrift malware can compromise the confidentiality of encrypted inter‑site traffic.
+_Suggested action:_ Patch SD‑WAN devices and scan for KeyDrift malware.
+[Source](https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html)
 
-🟠 **[Vendor / High] Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers**
-Tailscale released version 1.104.4 fixing SSH server flaws that could allow an attacker to gain root‑level access to other servers via forwarded connections.
-_Why it matters:_ Exploitation could lead to lateral movement and full system compromise.
-_Suggested action:_ Upgrade to Tailscale 1.104.4 or later immediately.
-[Source](https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html)
+🟡 **[Windows / Medium] Windows 11 KB5127936 update released with 41 changes and fixes**
+Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, containing 41 changes such as File Explorer and Cloud rebuild improvements.
+_Why it matters:_ Applying the update ensures Windows 11 systems receive the latest stability and security improvements.
+_Suggested action:_ Test and deploy the KB5127936 update on affected Windows 11 devices.
+[Source](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/)
 
-🟡 **[Security / Medium] Nefilim and Hive ransomware affiliate gets 70 months in prison**
-A Ukrainian national received a 70‑month prison sentence for his role in Nefilim and Hive ransomware attacks on hospitals, governments, and high‑revenue businesses.
-_Why it matters:_ The sentencing underscores law‑enforcement focus on ransomware actors.
-_Suggested action:_ Review and strengthen incident response and ransomware defenses.
-[Source](https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/)
+🟡 **[Vendor / Medium] GitHub Launches npm Firewall to Block Malicious Packages Before Installation**
+GitHub introduced a preview npm firewall that blocks installation of suspicious packages by inspecting metadata and downloads.
+_Why it matters:_ Blocking malicious npm packages helps protect developers from supply‑chain attacks.
+_Suggested action:_ Enable the npm firewall preview in your GitHub repositories.
+[Source](https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html)
 
-🟡 **[Security / Medium] FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering**
-The DOJ seized the Virtualine domain used by a bullet‑proof hosting provider implicated in child sexual‑abuse material distribution and money‑laundering activities.
-_Why it matters:_ Disruption of the hosting service hinders ongoing cyber‑criminal operations.
-_Suggested action:_ Monitor for related malicious infrastructure and update blocklists.
-[Source](https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html)
+🔵 **[Security / Information] Webinar: How to Build AI Threat Readiness Into Your Security Operations**
+The webinar discusses how AI can accelerate threat detection and response, highlighting challenges and strategies for security teams.
+_Why it matters:_ Understanding AI‑driven threat readiness is essential as attackers adopt advanced models.
+_Suggested action:_ Review the webinar materials or attend the session.
+[Source](https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html)
 
-🔵 **[Security / Information] Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits**
-An unreleased Anthropic AI model discovered and chained multiple security flaws in Chrome, Safari, Android, Windows, and Linux into proof‑of‑concept exploits that were reported and patched.
-_Why it matters:_ It demonstrates AI can rapidly identify and combine vulnerabilities, highlighting the need for proactive patching.
-_Suggested action:_ Ensure all systems are updated with the latest vendor patches.
-[Source](https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html)
+🔵 **[Security / Information] The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers**
+The article examines how AI is automating traditional security analyst tasks and reshaping SOC operations and careers.
+_Why it matters:_ AI‑driven automation will significantly change security analyst roles and SOC processes.
+_Suggested action:_ Read the article to assess AI impact on your SOC.
+[Source](https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html)
 
 _Advisory only — no automatic changes were made to any system._

@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "headline": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "Adobe released patches for eight critical vulnerabilities in Campaign Classic that could allow arbitrary code execution, security feature bypass, and privilege escalation.",
-    "whyItMatters": "These flaws could be exploited to compromise Adobe Campaign environments.",
-    "recommendedAction": "Apply the Adobe Campaign Classic patches without delay.",
-    "sourceUrl": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
+    "summary": "Cisco disclosed a denial‑of‑service zero‑day in ASA and FTD software that is being exploited to crash SSL VPN devices.",
+    "whyItMatters": "Active exploitation can cause denial‑of‑service outages on critical network infrastructure.",
+    "recommendedAction": "Apply Cisco’s security updates to the affected ASA/FTD devices promptly.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
   },
   {
-    "headline": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-    "category": "Security",
+    "headline": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "category": "Vendor",
     "priority": "Critical",
-    "summary": "CISA reported that attackers are exploiting a critical Brotli‑based vulnerability known as Node2Shell/Broccoli2Shell/HTTP2Shell.",
-    "whyItMatters": "The flaw enables remote code execution on affected servers.",
-    "recommendedAction": "Deploy vendor patches or mitigations for the Node2Shell vulnerability immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/"
+    "summary": "Cisco released patches for CVE‑2026‑76418, an unauthenticated remote code execution flaw in ASA and FTD that is actively exploited.",
+    "whyItMatters": "The flaw enables remote attackers to crash firewalls, threatening network availability.",
+    "recommendedAction": "Install the released patches on all vulnerable Cisco firewalls without delay.",
+    "sourceUrl": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
   },
   {
-    "headline": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "category": "Security",
-    "priority": "Critical",
-    "summary": "Researchers disclosed that the Oracle PeopleSoft vulnerability exploited by ShinyHunters comprises three chained flaws, including an SSRF that reaches an internal management interface, all patched under CVE‑2026‑35273.",
-    "whyItMatters": "Understanding the chain clarifies the attack surface and the importance of the patch.",
-    "recommendedAction": "Apply the Oracle PeopleSoft security update covering CVE‑2026‑35273.",
-    "sourceUrl": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
-  },
-  {
-    "headline": "Hackers now scanning systems for recently-patched Oracle flaw",
+    "headline": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
     "category": "Security",
     "priority": "High",
-    "summary": "Attackers are scanning the Internet for Oracle E‑Business Suite installations that have not yet applied the recently disclosed critical patch.",
-    "whyItMatters": "Unpatched Oracle EBS systems remain at risk of exploitation.",
-    "recommendedAction": "Verify and apply the latest Oracle EBS security patches immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
+    "summary": "A flaw in Telegram for Android allowed code execution via a voice call when the victim answered, and was fixed in version 12.10.4.",
+    "whyItMatters": "The vulnerability could allow attackers to run arbitrary code on users’ devices.",
+    "recommendedAction": "Update Telegram to version 12.10.4 immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
   },
   {
-    "headline": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+    "headline": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
     "category": "Security",
     "priority": "High",
-    "summary": "The Skyw4lker campaign uses device‑code phishing to compromise U.S. organizations by abusing legitimate cloud services and authentication flows.",
-    "whyItMatters": "It bypasses traditional credential‑theft detection, increasing breach risk.",
-    "recommendedAction": "Educate users and enforce MFA with device‑code flow monitoring.",
-    "sourceUrl": "https://thehackernews.com/2026/10/american-organizations-under-attack.html"
+    "summary": "Researchers found 26,400 active cloud and AI credentials exposed in public Gitee repositories, many of which could be used by attackers.",
+    "whyItMatters": "Exposed credentials present a substantial risk of unauthorized access to cloud and AI services.",
+    "recommendedAction": "Rotate any discovered credentials and improve secret scanning.",
+    "sourceUrl": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html"
   },
   {
-    "headline": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-    "category": "Security",
-    "priority": "High",
-    "summary": "GMO Internet Group is offering up to $1 million for tips leading to the arrest of attackers who breached its Onamae.com Desktop Cloud FX‑trading service.",
-    "whyItMatters": "The breach exposed a cloud platform used for financial trading, posing significant risk.",
-    "recommendedAction": "Review and harden cloud service configurations and monitor for indicators of compromise.",
-    "sourceUrl": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
-  },
-  {
-    "headline": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+    "headline": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Tailscale released version 1.104.4 fixing SSH server flaws that could allow an attacker to gain root‑level access to other servers via forwarded connections.",
-    "whyItMatters": "Exploitation could lead to lateral movement and full system compromise.",
-    "recommendedAction": "Upgrade to Tailscale 1.104.4 or later immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+    "summary": "An attacker attempted to exploit a critical CVE‑2026‑97229 GitLab vulnerability on Alpine Linux’s server shortly after a fix was released.",
+    "whyItMatters": "Successful exploitation could lead to arbitrary code execution on GitLab servers.",
+    "recommendedAction": "Confirm the GitLab patch is applied and monitor for suspicious activity.",
+    "sourceUrl": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
   },
   {
-    "headline": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-    "category": "Security",
+    "headline": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "Hackers leveraged a previously fixed Cisco SD‑WAN flaw to install KeyDrift malware that steals encryption keys from SD‑WAN traffic.",
+    "whyItMatters": "KeyDrift malware can compromise the confidentiality of encrypted inter‑site traffic.",
+    "recommendedAction": "Patch SD‑WAN devices and scan for KeyDrift malware.",
+    "sourceUrl": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+  },
+  {
+    "headline": "Windows 11 KB5127936 update released with 41 changes and fixes",
+    "category": "Windows",
     "priority": "Medium",
-    "summary": "A Ukrainian national received a 70‑month prison sentence for his role in Nefilim and Hive ransomware attacks on hospitals, governments, and high‑revenue businesses.",
-    "whyItMatters": "The sentencing underscores law‑enforcement focus on ransomware actors.",
-    "recommendedAction": "Review and strengthen incident response and ransomware defenses.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/"
+    "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, containing 41 changes such as File Explorer and Cloud rebuild improvements.",
+    "whyItMatters": "Applying the update ensures Windows 11 systems receive the latest stability and security improvements.",
+    "recommendedAction": "Test and deploy the KB5127936 update on affected Windows 11 devices.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/"
   },
   {
-    "headline": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-    "category": "Security",
+    "headline": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+    "category": "Vendor",
     "priority": "Medium",
-    "summary": "The DOJ seized the Virtualine domain used by a bullet‑proof hosting provider implicated in child sexual‑abuse material distribution and money‑laundering activities.",
-    "whyItMatters": "Disruption of the hosting service hinders ongoing cyber‑criminal operations.",
-    "recommendedAction": "Monitor for related malicious infrastructure and update blocklists.",
-    "sourceUrl": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html"
+    "summary": "GitHub introduced a preview npm firewall that blocks installation of suspicious packages by inspecting metadata and downloads.",
+    "whyItMatters": "Blocking malicious npm packages helps protect developers from supply‑chain attacks.",
+    "recommendedAction": "Enable the npm firewall preview in your GitHub repositories.",
+    "sourceUrl": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html"
   },
   {
-    "headline": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+    "headline": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
     "category": "Security",
     "priority": "Information",
-    "summary": "An unreleased Anthropic AI model discovered and chained multiple security flaws in Chrome, Safari, Android, Windows, and Linux into proof‑of‑concept exploits that were reported and patched.",
-    "whyItMatters": "It demonstrates AI can rapidly identify and combine vulnerabilities, highlighting the need for proactive patching.",
-    "recommendedAction": "Ensure all systems are updated with the latest vendor patches.",
-    "sourceUrl": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html"
+    "summary": "The webinar discusses how AI can accelerate threat detection and response, highlighting challenges and strategies for security teams.",
+    "whyItMatters": "Understanding AI‑driven threat readiness is essential as attackers adopt advanced models.",
+    "recommendedAction": "Review the webinar materials or attend the session.",
+    "sourceUrl": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html"
+  },
+  {
+    "headline": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "The article examines how AI is automating traditional security analyst tasks and reshaping SOC operations and careers.",
+    "whyItMatters": "AI‑driven automation will significantly change security analyst roles and SOC processes.",
+    "recommendedAction": "Read the article to assess AI impact on your SOC.",
+    "sourceUrl": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
   }
 ]
