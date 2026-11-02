@@ -1,92 +1,74 @@
 [
   {
-    "headline": "CISA says max severity GitLab flaw now exploited in the wild",
+    "headline": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
     "category": "Security",
     "priority": "Critical",
-    "summary": "Attackers are exploiting a maximum‑severity GitLab vulnerability that was patched earlier this month, according to CISA.",
-    "whyItMatters": "Exploitation of a critical, unpatched flaw puts GitLab users at immediate risk.",
-    "recommendedAction": "Apply the latest GitLab patches immediately and verify remediation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
+    "summary": "An Iran‑aligned threat actor compromised a high‑profile Israeli individual and a Kurdish government cloud environment between August and October 2026.",
+    "whyItMatters": "State‑sponsored espionage against government cloud assets poses national security risks.",
+    "recommendedAction": "Conduct a thorough cloud security review and monitor for related indicators of compromise.",
+    "sourceUrl": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html"
   },
   {
-    "headline": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+    "headline": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
     "category": "Security",
     "priority": "Critical",
-    "summary": "Drupal warned administrators to patch a critical access‑bypass vulnerability in the Commerce Core module that is being actively exploited.",
-    "whyItMatters": "Exploitation can allow attackers to bypass authentication and compromise e‑commerce sites.",
-    "recommendedAction": "Apply the Drupal Commerce Core security patch immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
+    "summary": "More than 1,000 Internet‑exposed GitLab servers remain unpatched against a maximum‑severity remote code execution flaw actively exploited in the wild.",
+    "whyItMatters": "Unpatched servers are at immediate risk of compromise and data loss.",
+    "recommendedAction": "Apply the latest GitLab security patches to all exposed instances without delay.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/"
   },
   {
-    "headline": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "headline": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
     "category": "Security",
     "priority": "Critical",
-    "summary": "Drupal reported that threat actors are actively exploiting a highly critical authorization bypass flaw (CVE‑2026‑118539) in Commerce Core versions up to 3.3.13.",
-    "whyItMatters": "Ongoing exploitation can lead to unauthorized transactions on e‑commerce sites.",
-    "recommendedAction": "Update to a patched version of Drupal Commerce Core without delay.",
-    "sourceUrl": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "summary": "Two critical vulnerabilities in Langflow allow unauthenticated attackers to bypass authentication or execute arbitrary code, fixed only in version 1.13.0.",
+    "whyItMatters": "Exploitation could lead to full server compromise.",
+    "recommendedAction": "Upgrade Langflow to version 1.13.0 immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
   },
   {
-    "headline": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-    "category": "Security",
-    "priority": "Critical",
-    "summary": "CISA added two actively exploited flaws—a GitLab RCE (CVE‑2026‑97229) and a Cisco firewall DoS vulnerability—to its Known Exploited Vulnerabilities list.",
-    "whyItMatters": "Inclusion in KEV signals immediate threat to organizations using these products.",
-    "recommendedAction": "Deploy vendor patches for GitLab and Cisco firewall immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
-  },
-  {
-    "headline": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "A Trezor Safe 5 wallet sold by CryptoBilis contains an extra circuit board that transmits the recovery phrase over a mobile network, prompting users to move funds to a new wallet.",
-    "whyItMatters": "The implant could expose private keys, leading to theft of cryptocurrency.",
-    "recommendedAction": "Transfer funds to a new wallet with a new recovery phrase.",
-    "sourceUrl": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html"
-  },
-  {
-    "headline": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Binance attributed a $6.3 billion cryptocurrency theft to a compromised DevOps engineer’s laptop.",
-    "whyItMatters": "A single compromised internal device can lead to massive financial loss.",
-    "recommendedAction": "Conduct a thorough security review of privileged workstations and enforce strict access controls.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
-  },
-  {
-    "headline": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+    "headline": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
     "category": "Security",
     "priority": "High",
-    "summary": "Researchers discovered a trojanized version of Anthropic’s Claude Code extension distributed via the Cursor Marketplace that installs a persistent SSH backdoor.",
-    "whyItMatters": "The malicious update can give attackers long‑term remote access to affected systems.",
-    "recommendedAction": "Remove the compromised extension and verify system integrity.",
-    "sourceUrl": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+    "summary": "The maintainer of BTCPay Server warns that hackers are draining hot wallets on instances running older versions and urges users to upgrade.",
+    "whyItMatters": "Outdated installations expose cryptocurrency funds to theft.",
+    "recommendedAction": "Update BTCPay Server to the latest version immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/"
   },
   {
-    "headline": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+    "headline": "Hackers disrupt refrigeration systems at European supermarkets",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Hackers remotely altered temperature settings on refrigeration systems, disrupting stores across several European countries.",
+    "whyItMatters": "Manipulating cold‑chain equipment can cause food spoilage and economic loss.",
+    "recommendedAction": "Isolate affected OT networks and apply security patches to the control systems.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+  },
+  {
+    "headline": "Your Mobile Carrier Stores Your Call Logs for Years",
     "category": "Security",
     "priority": "Medium",
-    "summary": "Security teams see critical alerts and known fixes, but changes are delayed due to concerns about breaking services, extending exposure to attackers.",
-    "whyItMatters": "Delays in applying fixes increase the window for attackers to exploit known vulnerabilities.",
-    "recommendedAction": "Establish clear change‑validation procedures to expedite critical patches.",
-    "sourceUrl": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html"
+    "summary": "Mobile carriers retain years of call and text metadata, creating privacy risks if the data is breached.",
+    "whyItMatters": "Long‑term storage increases the potential impact of a data breach on personal privacy.",
+    "recommendedAction": "Review carrier data‑retention policies and consider services that delete records promptly.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/"
   },
   {
-    "headline": "Microsoft finally fixes VPN issues caused by September updates",
+    "headline": "Microsoft fixes Smart App Control broken by October Windows update",
     "category": "Windows",
     "priority": "Medium",
-    "summary": "Microsoft released a fix for Always On VPN connection failures that occurred after the September 2026 Windows 11 security updates.",
-    "whyItMatters": "The VPN outage affected connectivity for enterprise users relying on Always On VPN.",
-    "recommendedAction": "Deploy the latest Windows 11 update that includes the VPN fix.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/"
+    "summary": "Microsoft resolved an issue that prevented activation of Smart App Control after the October 2026 KB5127648 Windows 11 update.",
+    "whyItMatters": "Ensuring Smart App Control works is essential for endpoint protection.",
+    "recommendedAction": "Install the latest Windows update that includes the fix.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/"
   },
   {
-    "headline": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+    "headline": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
     "category": "Security",
     "priority": "Information",
-    "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker, was sentenced to 42 months in prison for a hacking conspiracy targeting Western news outlets.",
-    "whyItMatters": "The conviction demonstrates law‑enforcement action against state‑linked cyber‑espionage.",
-    "recommendedAction": "Monitor for similar disinformation campaigns.",
-    "sourceUrl": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
+    "summary": "A survey shows 40% of security teams use AI daily, prompting a need to assess SOC readiness for AI agents before deployment.",
+    "whyItMatters": "Deploying AI without proper maturity can create gaps in security operations.",
+    "recommendedAction": "Perform a SOC AI maturity assessment using the provided checklist.",
+    "sourceUrl": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html"
   }
 ]
