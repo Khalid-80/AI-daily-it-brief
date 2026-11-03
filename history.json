@@ -1,42 +1,34 @@
 [
   {
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "published_date": "2026-11-01"
+    "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+    "published_date": "2026-11-03"
   },
   {
-    "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "published_date": "2026-11-01"
+    "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+    "published_date": "2026-11-03"
   },
   {
-    "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-    "published_date": "2026-11-01"
+    "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+    "published_date": "2026-11-03"
   },
   {
-    "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-    "published_date": "2026-11-01"
+    "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+    "published_date": "2026-11-03"
   },
   {
-    "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-    "published_date": "2026-11-01"
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+    "published_date": "2026-11-03"
   },
   {
-    "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-    "published_date": "2026-11-01"
+    "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+    "published_date": "2026-11-03"
   },
   {
-    "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-    "published_date": "2026-11-01"
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+    "published_date": "2026-11-03"
   },
   {
-    "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-    "published_date": "2026-11-01"
-  },
-  {
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-    "published_date": "2026-11-01"
-  },
-  {
-    "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-    "published_date": "2026-11-01"
+    "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+    "published_date": "2026-11-03"
   }
 ]
