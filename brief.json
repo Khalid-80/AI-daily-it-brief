@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+    "headline": "CISA flags WordPress RCE flaw as actively exploited in attacks",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "Red Hat released kernel patches for CVE-2026-98432, a remote unauthenticated use‑after‑free RCE in Linux TCP, while Ubuntu's fixes remain in testing.",
-    "whyItMatters": "Unpatched systems are vulnerable to a critical remote code execution attack.",
-    "recommendedAction": "Apply Red Hat kernel patches immediately and monitor Ubuntu for the final update.",
-    "sourceUrl": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    "summary": "CISA warned that a recently patched high‑severity WordPress vulnerability is being actively exploited in the wild.",
+    "whyItMatters": "Active exploitation puts federal and other WordPress sites at risk of remote code execution.",
+    "recommendedAction": "Ensure all WordPress installations are patched to the latest version immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
   },
   {
-    "headline": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-    "category": "Security",
-    "priority": "High",
-    "summary": "A 3AM ransomware affiliate encrypted around 37 of nearly 50 machines in a UK school estate via an unmanaged host.",
-    "whyItMatters": "Ransomware affecting the education sector highlights the risk to critical public services.",
-    "recommendedAction": "Patch and manage all endpoints and isolate unmanaged hosts promptly.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/"
+    "headline": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "A critical Ruby on Rails flaw in Active Storage allows unauthenticated attackers to write arbitrary files via crafted ImageMagick uploads; patches are in Rails 8.1.4.1 and 8.0.5.2.",
+    "whyItMatters": "Exploitable Rails apps could be compromised to achieve full server control.",
+    "recommendedAction": "Update Rails to the patched versions without delay.",
+    "sourceUrl": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
   },
   {
-    "headline": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-    "category": "Security",
-    "priority": "High",
-    "summary": "The Gorbag group used a WinRAR vulnerability to deliver information‑stealer malware against Ukrainian law‑enforcement, local administrations, and defense entities.",
-    "whyItMatters": "Exploitation of a common archive tool shows how everyday software can be weaponized against critical sectors.",
-    "recommendedAction": "Update WinRAR to the latest version and monitor for related malware indicators.",
-    "sourceUrl": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
+    "headline": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "Two Xen hypervisor flaws enable a malicious guest VM to read and write memory of other VMs, including dom0; patches have been released.",
+    "whyItMatters": "The vulnerabilities allow cross‑VM attacks that could compromise entire virtualized environments.",
+    "recommendedAction": "Apply the Xen patches to all affected hosts immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
   },
   {
-    "headline": "Harvard University data breach exposed info of 851,000 accounts",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Hackers breached Harvard’s Alumni Affairs and Development systems in November 2025, compromising data linked to over 850,000 email addresses.",
-    "whyItMatters": "The breach exposes a large volume of personal data from a major academic institution.",
-    "recommendedAction": "Notify affected individuals and enforce stronger authentication for alumni portals.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/"
-  },
-  {
-    "headline": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+    "headline": "SonicWall warns of unpatched flaws in end-of-life GMS software",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Attackers stole Bitcoin and Litecoin from hot wallets on BTCPay Server instances running version 2.4.1 or earlier, prompting an urgent upgrade request.",
-    "whyItMatters": "The vulnerability can cause direct financial loss for cryptocurrency merchants.",
-    "recommendedAction": "Upgrade BTCPay Server to the latest version immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
+    "summary": "SonicWall warned customers of two security flaws affecting its end-of-life Global Management System (GMS) that will not receive patches.",
+    "whyItMatters": "Unpatched vulnerabilities in legacy GMS deployments could be exploited by attackers.",
+    "recommendedAction": "Isolate or upgrade GMS systems and apply any available mitigations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/"
   },
   {
-    "headline": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-    "category": "Vendor",
+    "headline": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "category": "Security",
     "priority": "High",
-    "summary": "Threat actors exploited a DSM vulnerability patched in December 2024 to ransomware older Synology NAS devices, encrypting data.",
-    "whyItMatters": "Outdated NAS devices remain a ransomware target despite available patches.",
-    "recommendedAction": "Update DSM to the latest version on all Synology devices.",
-    "sourceUrl": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
+    "summary": "APT29 used a compromised Ukrainian web‑analytics service to inject JavaScript that delivers iOS and Android exploits via watering‑hole sites.",
+    "whyItMatters": "Visitors to compromised sites can be infected with mobile malware without any user interaction.",
+    "recommendedAction": "Block the malicious domains and scan for compromised analytics scripts.",
+    "sourceUrl": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
   },
   {
-    "headline": "Police seizes over 100 servers in investment scam crackdown",
+    "headline": "US charges two Canadians accused of hacking US universities",
     "category": "Security",
-    "priority": "Medium",
-    "summary": "European law enforcement arrested seven suspects and seized more than 100 servers linked to a company providing fraudulent trading websites to criminal gangs.",
-    "whyItMatters": "The operation reveals the extensive infrastructure supporting investment scams.",
-    "recommendedAction": "Block connections to identified malicious server IPs and monitor related traffic.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/"
+    "priority": "High",
+    "summary": "A federal grand jury indicted two Canadians for hacking multiple US universities and using the compromised systems to mine cryptocurrency.",
+    "whyItMatters": "Academic networks are being leveraged for illicit crypto‑mining, exposing sensitive research data.",
+    "recommendedAction": "Audit university networks for unauthorized mining activity and strengthen access controls.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
   },
   {
-    "headline": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+    "headline": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "category": "Windows",
+    "priority": "High",
+    "summary": "China‑aligned group SlippyNunchucks hijacked DNS requests from the Windows version of Sogou Input Method to install the DarkVigil backdoor.",
+    "whyItMatters": "A popular Windows input method becomes a covert vector for espionage implants.",
+    "recommendedAction": "Block or uninstall Sogou Input Method on Windows and monitor DNS traffic for anomalies.",
+    "sourceUrl": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
+  },
+  {
+    "headline": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
     "category": "Security",
-    "priority": "Medium",
-    "summary": "Attackers remotely changed refrigeration controls in supermarkets across several European countries, causing food spoilage and waste.",
-    "whyItMatters": "The incidents expose the vulnerability of IoT/ICS in the food supply chain.",
-    "recommendedAction": "Secure and restrict remote access to refrigeration control systems.",
-    "sourceUrl": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
+    "priority": "High",
+    "summary": "A large‑scale watering‑hole campaign leveraged n‑day exploits to deliver zero‑click attacks against iOS and Android users via compromised or fake sites.",
+    "whyItMatters": "Users can be compromised without any interaction, increasing the threat surface for mobile devices.",
+    "recommendedAction": "Deploy mobile threat protection and educate users to avoid suspicious sites.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/"
   },
   {
-    "headline": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-    "category": "Vendor",
-    "priority": "Information",
-    "summary": "Google expanded its Cloud Vulnerability Reward Program with a top‑tier $250,000 reward for high‑impact root‑in‑cloud bugs.",
-    "whyItMatters": "The increased bounty encourages discovery of critical cloud security flaws.",
-    "recommendedAction": "Consider participating in the program if you have relevant expertise.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/"
-  },
-  {
-    "headline": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+    "headline": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
     "category": "Security",
     "priority": "Information",
-    "summary": "Gartner’s report notes that fewer than 10% of vulnerabilities are exploited yet most are treated as urgent, urging better exposure prioritization.",
-    "whyItMatters": "Organizations may waste effort on low‑risk vulnerabilities while high‑risk exposures linger.",
-    "recommendedAction": "Align remediation processes with exposure‑prioritization best practices.",
-    "sourceUrl": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html"
+    "summary": "The article explains how runtime security agents can miss attacks when not integrated with broader controls, illustrated by an AI‑assistant‑triggered mass‑email incident.",
+    "whyItMatters": "It highlights the need for layered defenses beyond endpoint agents.",
+    "recommendedAction": "Review and strengthen the overall security architecture with defense‑in‑depth measures.",
+    "sourceUrl": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html"
+  },
+  {
+    "headline": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "Russian authorities arrested three members of the VasyGrek (Fluffy Wolf) group and dismantled its criminal infrastructure.",
+    "whyItMatters": "Disrupting the group reduces the likelihood of future attacks against Russian and international companies.",
+    "recommendedAction": "Monitor for any residual activity linked to VasyGrek and update threat intel feeds.",
+    "sourceUrl": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
   }
 ]
