@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-    "category": "Security",
+    "headline": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+    "category": "Vendor",
     "priority": "Critical",
-    "summary": "Hackers are actively exploiting the SSHole vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and maintain persistent access.",
-    "whyItMatters": "A critical flaw in a core component of Linux servers could lead to widespread compromise.",
-    "recommendedAction": "Apply available patches or mitigations for the SSHole vulnerability immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/"
+    "summary": "SAP released November 2026 updates fixing 35 vulnerabilities, including four maximum‑severity flaws in NetWeaver, Web Dispatcher, and Gateway.",
+    "whyItMatters": "Unpatched flaws could allow remote code execution against SAP systems.",
+    "recommendedAction": "Apply the SAP November 2026 security patches immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/"
   },
   {
-    "headline": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+    "headline": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "Barracuda Networks warned that attackers are exploiting two recently patched Email Security Gateway vulnerabilities to execute commands with root privileges.",
+    "whyItMatters": "Compromise could give attackers full control over email security infrastructure.",
+    "recommendedAction": "Ensure all Barracuda ESG devices are patched to the latest version.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/"
+  },
+  {
+    "headline": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "SAP patched four CVSS 10.0 vulnerabilities—three in NetWeaver and one in Web Dispatcher—that could allow unauthenticated remote code execution.",
+    "whyItMatters": "These flaws could be exploited to take over SAP applications.",
+    "recommendedAction": "Deploy the SAP Security Patch Day updates immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html"
+  },
+  {
+    "headline": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
     "category": "Security",
     "priority": "High",
-    "summary": "A former FBI agent pleaded guilty to stealing nearly $2.5 million from wallets belonging to fraud victims and nation‑state hackers under investigation.",
-    "whyItMatters": "The case underscores insider‑threat risks even within law‑enforcement agencies.",
-    "recommendedAction": "Review and strengthen internal controls and monitoring for privileged access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
+    "summary": "A GitHub‑published iOS sandbox escape (worse_query) can read other apps' files on iOS 26/27, exposing seed phrases and private keys, and Apple’s recent updates do not list a fix.",
+    "whyItMatters": "Crypto wallets on vulnerable iOS versions could be compromised.",
+    "recommendedAction": "Users should avoid installing untrusted apps and monitor for iOS updates addressing the issue.",
+    "sourceUrl": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
   },
   {
-    "headline": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "headline": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "Apple released updates fixing an iMessage flaw that lets remote attackers join group chats and read messages, plus a Bluetooth pairing vulnerability.",
+    "whyItMatters": "Exploits could allow unauthorized access to private communications.",
+    "recommendedAction": "Update affected Apple devices to the latest iOS/iPadOS versions.",
+    "sourceUrl": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
+  },
+  {
+    "headline": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+    "category": "Microsoft 365",
+    "priority": "High",
+    "summary": "Turla is using a new toolset called Cereal to infiltrate Microsoft Exchange servers and exfiltrate emails from government organizations.",
+    "whyItMatters": "Compromised Exchange servers can leak sensitive government communications.",
+    "recommendedAction": "Check Exchange servers for indicators of Cereal and apply relevant security updates.",
+    "sourceUrl": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
+  },
+  {
+    "headline": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+    "category": "Microsoft 365",
+    "priority": "High",
+    "summary": "The Russian state‑backed group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations.",
+    "whyItMatters": "Compromised Exchange servers can leak sensitive government communications.",
+    "recommendedAction": "Check Exchange servers for indicators of Cereal and apply relevant security updates.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/"
+  },
+  {
+    "headline": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
     "category": "Security",
     "priority": "High",
-    "summary": "The Bitter APT group is using a newly discovered remote‑access trojan called PapRAT, with C++ and Rust implementations, to target organizations in South Asia.",
-    "whyItMatters": "The introduction of a novel RAT raises the espionage threat level for regional entities.",
-    "recommendedAction": "Deploy detection rules and block indicators associated with PapRAT.",
-    "sourceUrl": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
+    "summary": "France attributes an October cyberattack on refrigeration controllers at ~700 retail sites to Iran’s IRGC, which altered defrost settings causing food loss and fires.",
+    "whyItMatters": "Compromise of IoT controllers can lead to physical damage and supply chain disruption.",
+    "recommendedAction": "Audit and segment industrial control systems and apply security hardening.",
+    "sourceUrl": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
   },
   {
-    "headline": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-    "category": "Security",
-    "priority": "High",
-    "summary": "The U.S. Treasury has cut off MEXC Global from the U.S. financial system due to sanctions evasion and connections to cybercrime gangs.",
-    "whyItMatters": "The ban impacts users and businesses dealing with MEXC and signals heightened regulatory enforcement.",
-    "recommendedAction": "Cease all transactions with MEXC and assess any exposure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/"
-  },
-  {
-    "headline": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Researchers discovered default admin:admin credentials on servers behind two automakers' mobile apps, enabling full account takeover and remote vehicle unlocking and start.",
-    "whyItMatters": "The flaw presents a serious safety risk for owners of connected cars.",
-    "recommendedAction": "Reset default credentials and enforce strong authentication for all vehicle‑related services.",
-    "sourceUrl": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html"
-  },
-  {
-    "headline": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Attackers exploited a vulnerability in Web3Auth, used for Google/Apple sign‑in to Keplr wallets, stealing funds; Web3Auth subsequently emptied at‑risk wallets to protect users.",
-    "whyItMatters": "Shows the risk of third‑party authentication services in crypto wallet security.",
-    "recommendedAction": "Update wallet authentication methods and monitor accounts for unauthorized activity.",
-    "sourceUrl": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html"
-  },
-  {
-    "headline": "Binance denies data breach after alleged ShinyHunters claims",
+    "headline": "Ransomware recovery is now a client retention metric",
     "category": "Security",
     "priority": "Medium",
-    "summary": "Binance denied allegations of a new security breach made by the threat actor ShinyHunters on an underground cybercrime forum.",
-    "whyItMatters": "Users need assurance that their assets on the world’s largest crypto exchange remain secure.",
-    "recommendedAction": "Monitor official Binance communications for any further updates.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/"
+    "summary": "Recovering from ransomware does not guarantee MSP client retention due to delays, poor communication, and unexpected costs, according to Kaseya.",
+    "whyItMatters": "Retention issues can affect MSP revenue and client trust.",
+    "recommendedAction": "MSPs should integrate recovery tools with transparent workflows.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/"
   },
   {
-    "headline": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
-    "category": "Security",
-    "priority": "Medium",
-    "summary": "AI agents are automating routine governance, risk, and compliance tasks, urging professionals to develop data literacy, agent governance, and communication skills.",
-    "whyItMatters": "GRC professionals must adapt to remain effective in an AI‑driven workplace.",
-    "recommendedAction": "Invest in training to build AI‑related competencies.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/"
-  },
-  {
-    "headline": "Ukraine dismantles crypto scam network that stole €4.3 million",
-    "category": "Security",
-    "priority": "Medium",
-    "summary": "Ukrainian law enforcement arrested four suspects linked to a cryptocurrency investment‑scam call‑center network that stole over €4.3 million.",
-    "whyItMatters": "Disrupting the scam protects investors and curtails large‑scale crypto fraud.",
-    "recommendedAction": "Monitor for related scam tactics and educate users on safe investment practices.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/"
-  },
-  {
-    "headline": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+    "headline": "Beyond the Alert: The Case for Rich Network Data",
     "category": "Security",
     "priority": "Information",
-    "summary": "A weekly roundup covering multiple security incidents including SSHole exploitation, APT root RCE, robot takeovers, and thousands of compromised sites.",
-    "whyItMatters": "Provides a broad view of current threats but requires detailed review for actionable intel.",
-    "recommendedAction": "Read the full article to identify relevant incidents.",
-    "sourceUrl": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html"
+    "summary": "The article argues that richer network data improves detection and interdiction after alerts.",
+    "whyItMatters": "Deeper network visibility can enhance security response effectiveness.",
+    "recommendedAction": "Review the article to assess network monitoring improvements.",
+    "sourceUrl": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html"
   }
 ]
