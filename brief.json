@@ -1,92 +1,92 @@
 [
   {
-    "headline": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+    "headline": "N-able releases security hotfixes for zero-day vulnerabilities",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "SAP released November 2026 updates fixing 35 vulnerabilities, including four maximum‑severity flaws in NetWeaver, Web Dispatcher, and Gateway.",
-    "whyItMatters": "Unpatched flaws could allow remote code execution against SAP systems.",
-    "recommendedAction": "Apply the SAP November 2026 security patches immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/"
+    "summary": "N-able issued hotfixes for zero‑day vulnerabilities in its N‑central remote monitoring and management platform after public disclosure forced vulnerable hosted environments offline.",
+    "whyItMatters": "Unpatched zero‑day flaws could allow attackers to compromise remote management infrastructure.",
+    "recommendedAction": "Apply the N‑central hotfixes immediately to all deployments.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/"
   },
   {
-    "headline": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+    "headline": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "Barracuda Networks warned that attackers are exploiting two recently patched Email Security Gateway vulnerabilities to execute commands with root privileges.",
-    "whyItMatters": "Compromise could give attackers full control over email security infrastructure.",
-    "recommendedAction": "Ensure all Barracuda ESG devices are patched to the latest version.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/"
+    "summary": "CISA warned that a high‑severity vulnerability in Cisco BroadWorks is being actively exploited in attacks.",
+    "whyItMatters": "Ongoing exploitation puts affected BroadWorks deployments at immediate risk.",
+    "recommendedAction": "Apply Cisco’s mitigations or patches without delay.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/"
   },
   {
-    "headline": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "SAP patched four CVSS 10.0 vulnerabilities—three in NetWeaver and one in Web Dispatcher—that could allow unauthenticated remote code execution.",
-    "whyItMatters": "These flaws could be exploited to take over SAP applications.",
-    "recommendedAction": "Deploy the SAP Security Patch Day updates immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html"
-  },
-  {
-    "headline": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-    "category": "Security",
-    "priority": "High",
-    "summary": "A GitHub‑published iOS sandbox escape (worse_query) can read other apps' files on iOS 26/27, exposing seed phrases and private keys, and Apple’s recent updates do not list a fix.",
-    "whyItMatters": "Crypto wallets on vulnerable iOS versions could be compromised.",
-    "recommendedAction": "Users should avoid installing untrusted apps and monitor for iOS updates addressing the issue.",
-    "sourceUrl": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
-  },
-  {
-    "headline": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+    "headline": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Apple released updates fixing an iMessage flaw that lets remote attackers join group chats and read messages, plus a Bluetooth pairing vulnerability.",
-    "whyItMatters": "Exploits could allow unauthorized access to private communications.",
-    "recommendedAction": "Update affected Apple devices to the latest iOS/iPadOS versions.",
-    "sourceUrl": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
+    "summary": "Threat actors attempted to deliver PowerShell reverse shells to Qlik Sense servers in October 2026, affecting several EU customers within a three‑minute window and sharing characteristics with known exploits.",
+    "whyItMatters": "Active targeting of Qlik Sense infrastructure requires immediate defensive review.",
+    "recommendedAction": "Review and harden Qlik Sense server configurations and monitor for malicious PowerShell activity.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
   },
   {
-    "headline": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-    "category": "Microsoft 365",
+    "headline": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+    "category": "Vendor",
     "priority": "High",
-    "summary": "Turla is using a new toolset called Cereal to infiltrate Microsoft Exchange servers and exfiltrate emails from government organizations.",
-    "whyItMatters": "Compromised Exchange servers can leak sensitive government communications.",
-    "recommendedAction": "Check Exchange servers for indicators of Cereal and apply relevant security updates.",
-    "sourceUrl": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
+    "summary": "Researchers discovered 37,571 Grok‑built apps publicly accessible, with 35,578 open without authentication, including some containing internal business data and passwords.",
+    "whyItMatters": "Open apps expose confidential information and credentials to the internet.",
+    "recommendedAction": "Secure or remove publicly accessible Grok apps and enforce authentication.",
+    "sourceUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
   },
   {
-    "headline": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-    "category": "Microsoft 365",
+    "headline": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "category": "Windows",
     "priority": "High",
-    "summary": "The Russian state‑backed group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations.",
-    "whyItMatters": "Compromised Exchange servers can leak sensitive government communications.",
-    "recommendedAction": "Check Exchange servers for indicators of Cereal and apply relevant security updates.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/"
+    "summary": "Microsoft released patches for 1,259 vulnerabilities across its software portfolio, including 726 Windows flaws and an exploited Outlook bug that could expose NTLMv2 hashes.",
+    "whyItMatters": "Unpatched vulnerabilities could be leveraged to compromise systems and credentials.",
+    "recommendedAction": "Apply the latest Microsoft security updates promptly.",
+    "sourceUrl": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
   },
   {
-    "headline": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-    "category": "Security",
+    "headline": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "category": "Vendor",
     "priority": "High",
-    "summary": "France attributes an October cyberattack on refrigeration controllers at ~700 retail sites to Iran’s IRGC, which altered defrost settings causing food loss and fires.",
-    "whyItMatters": "Compromise of IoT controllers can lead to physical damage and supply chain disruption.",
-    "recommendedAction": "Audit and segment industrial control systems and apply security hardening.",
-    "sourceUrl": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
+    "summary": "Railway disclosed that stolen AI provider API keys stored on its platform were used in October to generate approximately $740,000 in unauthorized usage charges.",
+    "whyItMatters": "Insecure secret storage can lead to costly abuse and data breaches.",
+    "recommendedAction": "Rotate compromised API keys and improve secret management controls.",
+    "sourceUrl": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
   },
   {
-    "headline": "Ransomware recovery is now a client retention metric",
-    "category": "Security",
+    "headline": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+    "category": "Vendor",
     "priority": "Medium",
-    "summary": "Recovering from ransomware does not guarantee MSP client retention due to delays, poor communication, and unexpected costs, according to Kaseya.",
-    "whyItMatters": "Retention issues can affect MSP revenue and client trust.",
-    "recommendedAction": "MSPs should integrate recovery tools with transparent workflows.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/"
+    "summary": "eMudhra revoked eight additional intermediate certificate authorities after a Python script error caused unintended revocations, though the keys remain secure.",
+    "whyItMatters": "Revoked CAs may affect trust chains for issued certificates.",
+    "recommendedAction": "Verify and update any certificates relying on the revoked intermediate CAs.",
+    "sourceUrl": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
   },
   {
-    "headline": "Beyond the Alert: The Case for Rich Network Data",
+    "headline": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+    "category": "Microsoft 365",
+    "priority": "Medium",
+    "summary": "Microsoft resolved Outlook sign‑in and mail delivery problems on Exchange Server caused by October 2026 Windows Server security updates.",
+    "whyItMatters": "Restores email functionality for organizations impacted by the update.",
+    "recommendedAction": "Deploy the provided fix to affected Exchange servers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/"
+  },
+  {
+    "headline": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
     "category": "Security",
     "priority": "Information",
-    "summary": "The article argues that richer network data improves detection and interdiction after alerts.",
-    "whyItMatters": "Deeper network visibility can enhance security response effectiveness.",
-    "recommendedAction": "Review the article to assess network monitoring improvements.",
-    "sourceUrl": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html"
+    "summary": "Token explains how an AI agent they built violated identity, access, and traceability security principles, illustrating defensive considerations for such agents.",
+    "whyItMatters": "Highlights emerging security challenges in AI agent deployments that need attention.",
+    "recommendedAction": "Incorporate identity, least‑privilege access, and traceability controls for AI agents.",
+    "sourceUrl": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
+  },
+  {
+    "headline": "Microsoft fixes audio issues caused by September security updates",
+    "category": "Windows",
+    "priority": "Information",
+    "summary": "Microsoft released November 2026 cumulative updates that resolve USB audio problems introduced by September security updates on Windows.",
+    "whyItMatters": "Users experiencing audio failures after recent security patches can now restore functionality.",
+    "recommendedAction": "Install the November cumulative update.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/"
   }
 ]
