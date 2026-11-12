@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-11-11**
+**AI Daily IT Intelligence Brief — 2026-11-12**
 
-🔴 **[Vendor / Critical] N-able releases security hotfixes for zero-day vulnerabilities**
-N-able issued hotfixes for zero‑day vulnerabilities in its N‑central remote monitoring and management platform after public disclosure forced vulnerable hosted environments offline.
-_Why it matters:_ Unpatched zero‑day flaws could allow attackers to compromise remote management infrastructure.
-_Suggested action:_ Apply the N‑central hotfixes immediately to all deployments.
-[Source](https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/)
+🔴 **[Vendor / Critical] PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution**
+PTC released patches for a critical vulnerability (CVE‑2026‑126325) in Windchill and FlexPLM that could allow remote code execution.
+_Why it matters:_ Exploitation could lead to full compromise of affected PLM systems.
+_Suggested action:_ Apply the PTC patches immediately.
+[Source](https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html)
 
-🔴 **[Vendor / Critical] CISA flags Cisco BroadWorks flaw as actively exploited in attacks**
-CISA warned that a high‑severity vulnerability in Cisco BroadWorks is being actively exploited in attacks.
-_Why it matters:_ Ongoing exploitation puts affected BroadWorks deployments at immediate risk.
-_Suggested action:_ Apply Cisco’s mitigations or patches without delay.
-[Source](https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/)
+🟠 **[Security / High] Police dismantle Gootloader, CastleRAT, StealC malware infrastructure**
+Europol and partners seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations.
+_Why it matters:_ Disrupting this infrastructure reduces the threat to victims worldwide.
+_Suggested action:_ Monitor for related indicators and update detection rules.
+[Source](https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/)
 
-🟠 **[Vendor / High] Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits**
-Threat actors attempted to deliver PowerShell reverse shells to Qlik Sense servers in October 2026, affecting several EU customers within a three‑minute window and sharing characteristics with known exploits.
-_Why it matters:_ Active targeting of Qlik Sense infrastructure requires immediate defensive review.
-_Suggested action:_ Review and harden Qlik Sense server configurations and monitor for malicious PowerShell activity.
-[Source](https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html)
+🟠 **[Security / High] Your Endpoint Management Platform Could Be Your Biggest Security Risk**
+Compromised endpoint management platforms can let attackers deploy malware, execute commands, and disrupt thousands of devices; Action1 suggests cryptographic authorization to prevent abuse.
+_Why it matters:_ A breached platform could provide attackers broad control over an organization’s endpoints.
+_Suggested action:_ Implement customer‑controlled cryptographic authorization for endpoint operations.
+[Source](https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/)
 
-🟠 **[Vendor / High] Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords**
-Researchers discovered 37,571 Grok‑built apps publicly accessible, with 35,578 open without authentication, including some containing internal business data and passwords.
-_Why it matters:_ Open apps expose confidential information and credentials to the internet.
-_Suggested action:_ Secure or remove publicly accessible Grok apps and enforce authentication.
-[Source](https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html)
+🟠 **[Vendor / High] Apify rotates API tokens, prompts 2FA resets after breach**
+Apify rotated internal secrets and revoked some OAuth connections after detecting unauthorized access to its systems.
+_Why it matters:_ Compromise of API tokens could expose customer data or services.
+_Suggested action:_ Verify token rotations and enforce 2FA for all accounts.
+[Source](https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/)
 
-🟠 **[Windows / High] Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes**
-Microsoft released patches for 1,259 vulnerabilities across its software portfolio, including 726 Windows flaws and an exploited Outlook bug that could expose NTLMv2 hashes.
-_Why it matters:_ Unpatched vulnerabilities could be leveraged to compromise systems and credentials.
-_Suggested action:_ Apply the latest Microsoft security updates promptly.
-[Source](https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html)
+🟠 **[Security / High] Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs**
+Google Cloud VMs on AMD Turin chips need OS patches and VM restarts to mitigate three side‑channel flaws that could allow data leakage between processes.
+_Why it matters:_ Unpatched VMs risk cross‑VM data exposure.
+_Suggested action:_ Apply the guest OS patches and restart affected VMs promptly.
+[Source](https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html)
 
-🟠 **[Vendor / High] Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges**
-Railway disclosed that stolen AI provider API keys stored on its platform were used in October to generate approximately $740,000 in unauthorized usage charges.
-_Why it matters:_ Insecure secret storage can lead to costly abuse and data breaches.
-_Suggested action:_ Rotate compromised API keys and improve secret management controls.
-[Source](https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html)
+🟠 **[Vendor / High] New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access**
+N-able reports new public disclosures of vulnerabilities in on‑premise N‑central versions that can allow root RCE and SYSTEM access when the Legacy API is exposed to the internet.
+_Why it matters:_ Exploits can compromise servers even if patched, if misconfigured.
+_Suggested action:_ Disable the Legacy API or restrict its exposure.
+[Source](https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html)
 
-🟡 **[Vendor / Medium] eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise**
-eMudhra revoked eight additional intermediate certificate authorities after a Python script error caused unintended revocations, though the keys remain secure.
-_Why it matters:_ Revoked CAs may affect trust chains for issued certificates.
-_Suggested action:_ Verify and update any certificates relying on the revoked intermediate CAs.
-[Source](https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html)
+🟠 **[Security / High] Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign**
+Since August 2026 a phishing operation has been stealing live Google sessions from corporate users, using clean links and leading to takedown of attacker domains.
+_Why it matters:_ Compromised sessions give attackers access to corporate Google accounts.
+_Suggested action:_ Educate users and enforce MFA for Google sessions.
+[Source](https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html)
 
-🟡 **[Microsoft 365 / Medium] Microsoft fixes Exchange sign-ins broken by Windows Server updates**
-Microsoft resolved Outlook sign‑in and mail delivery problems on Exchange Server caused by October 2026 Windows Server security updates.
-_Why it matters:_ Restores email functionality for organizations impacted by the update.
-_Suggested action:_ Deploy the provided fix to affected Exchange servers.
-[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/)
+🟡 **[Windows / Medium] Microsoft: Recent Windows updates cause SQL Server performance issues**
+Microsoft confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability problems.
+_Why it matters:_ SQL Server workloads may be degraded on updated Windows systems.
+_Suggested action:_ Review update rollouts and consider delaying affected patches.
+[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/)
 
-🔵 **[Security / Information] We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.**
-Token explains how an AI agent they built violated identity, access, and traceability security principles, illustrating defensive considerations for such agents.
-_Why it matters:_ Highlights emerging security challenges in AI agent deployments that need attention.
-_Suggested action:_ Incorporate identity, least‑privilege access, and traceability controls for AI agents.
-[Source](https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html)
+🟡 **[Windows / Medium] Microsoft confirms Windows security updates installation issues**
+Microsoft confirmed that November 2026 security updates fail to install on Windows 11 systems with the October preview update, showing error codes.
+_Why it matters:_ Failed updates leave systems unpatched against known threats.
+_Suggested action:_ Investigate the errors and apply workarounds or defer updates.
+[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/)
 
-🔵 **[Windows / Information] Microsoft fixes audio issues caused by September security updates**
-Microsoft released November 2026 cumulative updates that resolve USB audio problems introduced by September security updates on Windows.
-_Why it matters:_ Users experiencing audio failures after recent security patches can now restore functionality.
-_Suggested action:_ Install the November cumulative update.
-[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/)
+🔵 **[Security / Information] Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them**
+A webinar discusses how identity blind spots hinder SOC investigations and how to close them.
+_Why it matters:_ Understanding blind spots can improve detection and response.
+_Suggested action:_ Attend the webinar or review its materials.
+[Source](https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html)
 
 _Advisory only — no automatic changes were made to any system._

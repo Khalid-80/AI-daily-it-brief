@@ -1,92 +1,92 @@
 [
   {
-    "headline": "N-able releases security hotfixes for zero-day vulnerabilities",
+    "headline": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "N-able issued hotfixes for zero‑day vulnerabilities in its N‑central remote monitoring and management platform after public disclosure forced vulnerable hosted environments offline.",
-    "whyItMatters": "Unpatched zero‑day flaws could allow attackers to compromise remote management infrastructure.",
-    "recommendedAction": "Apply the N‑central hotfixes immediately to all deployments.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/"
+    "summary": "PTC released patches for a critical vulnerability (CVE‑2026‑126325) in Windchill and FlexPLM that could allow remote code execution.",
+    "whyItMatters": "Exploitation could lead to full compromise of affected PLM systems.",
+    "recommendedAction": "Apply the PTC patches immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
   },
   {
-    "headline": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "CISA warned that a high‑severity vulnerability in Cisco BroadWorks is being actively exploited in attacks.",
-    "whyItMatters": "Ongoing exploitation puts affected BroadWorks deployments at immediate risk.",
-    "recommendedAction": "Apply Cisco’s mitigations or patches without delay.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/"
+    "headline": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Europol and partners seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations.",
+    "whyItMatters": "Disrupting this infrastructure reduces the threat to victims worldwide.",
+    "recommendedAction": "Monitor for related indicators and update detection rules.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/"
   },
   {
-    "headline": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+    "headline": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Compromised endpoint management platforms can let attackers deploy malware, execute commands, and disrupt thousands of devices; Action1 suggests cryptographic authorization to prevent abuse.",
+    "whyItMatters": "A breached platform could provide attackers broad control over an organization’s endpoints.",
+    "recommendedAction": "Implement customer‑controlled cryptographic authorization for endpoint operations.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/"
+  },
+  {
+    "headline": "Apify rotates API tokens, prompts 2FA resets after breach",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Threat actors attempted to deliver PowerShell reverse shells to Qlik Sense servers in October 2026, affecting several EU customers within a three‑minute window and sharing characteristics with known exploits.",
-    "whyItMatters": "Active targeting of Qlik Sense infrastructure requires immediate defensive review.",
-    "recommendedAction": "Review and harden Qlik Sense server configurations and monitor for malicious PowerShell activity.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
+    "summary": "Apify rotated internal secrets and revoked some OAuth connections after detecting unauthorized access to its systems.",
+    "whyItMatters": "Compromise of API tokens could expose customer data or services.",
+    "recommendedAction": "Verify token rotations and enforce 2FA for all accounts.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/"
   },
   {
-    "headline": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+    "headline": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Google Cloud VMs on AMD Turin chips need OS patches and VM restarts to mitigate three side‑channel flaws that could allow data leakage between processes.",
+    "whyItMatters": "Unpatched VMs risk cross‑VM data exposure.",
+    "recommendedAction": "Apply the guest OS patches and restart affected VMs promptly.",
+    "sourceUrl": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html"
+  },
+  {
+    "headline": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Researchers discovered 37,571 Grok‑built apps publicly accessible, with 35,578 open without authentication, including some containing internal business data and passwords.",
-    "whyItMatters": "Open apps expose confidential information and credentials to the internet.",
-    "recommendedAction": "Secure or remove publicly accessible Grok apps and enforce authentication.",
-    "sourceUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
+    "summary": "N-able reports new public disclosures of vulnerabilities in on‑premise N‑central versions that can allow root RCE and SYSTEM access when the Legacy API is exposed to the internet.",
+    "whyItMatters": "Exploits can compromise servers even if patched, if misconfigured.",
+    "recommendedAction": "Disable the Legacy API or restrict its exposure.",
+    "sourceUrl": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
   },
   {
-    "headline": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "headline": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Since August 2026 a phishing operation has been stealing live Google sessions from corporate users, using clean links and leading to takedown of attacker domains.",
+    "whyItMatters": "Compromised sessions give attackers access to corporate Google accounts.",
+    "recommendedAction": "Educate users and enforce MFA for Google sessions.",
+    "sourceUrl": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html"
+  },
+  {
+    "headline": "Microsoft: Recent Windows updates cause SQL Server performance issues",
     "category": "Windows",
-    "priority": "High",
-    "summary": "Microsoft released patches for 1,259 vulnerabilities across its software portfolio, including 726 Windows flaws and an exploited Outlook bug that could expose NTLMv2 hashes.",
-    "whyItMatters": "Unpatched vulnerabilities could be leveraged to compromise systems and credentials.",
-    "recommendedAction": "Apply the latest Microsoft security updates promptly.",
-    "sourceUrl": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
-  },
-  {
-    "headline": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Railway disclosed that stolen AI provider API keys stored on its platform were used in October to generate approximately $740,000 in unauthorized usage charges.",
-    "whyItMatters": "Insecure secret storage can lead to costly abuse and data breaches.",
-    "recommendedAction": "Rotate compromised API keys and improve secret management controls.",
-    "sourceUrl": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
-  },
-  {
-    "headline": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-    "category": "Vendor",
     "priority": "Medium",
-    "summary": "eMudhra revoked eight additional intermediate certificate authorities after a Python script error caused unintended revocations, though the keys remain secure.",
-    "whyItMatters": "Revoked CAs may affect trust chains for issued certificates.",
-    "recommendedAction": "Verify and update any certificates relying on the revoked intermediate CAs.",
-    "sourceUrl": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
+    "summary": "Microsoft confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability problems.",
+    "whyItMatters": "SQL Server workloads may be degraded on updated Windows systems.",
+    "recommendedAction": "Review update rollouts and consider delaying affected patches.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/"
   },
   {
-    "headline": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-    "category": "Microsoft 365",
+    "headline": "Microsoft confirms Windows security updates installation issues",
+    "category": "Windows",
     "priority": "Medium",
-    "summary": "Microsoft resolved Outlook sign‑in and mail delivery problems on Exchange Server caused by October 2026 Windows Server security updates.",
-    "whyItMatters": "Restores email functionality for organizations impacted by the update.",
-    "recommendedAction": "Deploy the provided fix to affected Exchange servers.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/"
+    "summary": "Microsoft confirmed that November 2026 security updates fail to install on Windows 11 systems with the October preview update, showing error codes.",
+    "whyItMatters": "Failed updates leave systems unpatched against known threats.",
+    "recommendedAction": "Investigate the errors and apply workarounds or defer updates.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
   },
   {
-    "headline": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+    "headline": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
     "category": "Security",
     "priority": "Information",
-    "summary": "Token explains how an AI agent they built violated identity, access, and traceability security principles, illustrating defensive considerations for such agents.",
-    "whyItMatters": "Highlights emerging security challenges in AI agent deployments that need attention.",
-    "recommendedAction": "Incorporate identity, least‑privilege access, and traceability controls for AI agents.",
-    "sourceUrl": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
-  },
-  {
-    "headline": "Microsoft fixes audio issues caused by September security updates",
-    "category": "Windows",
-    "priority": "Information",
-    "summary": "Microsoft released November 2026 cumulative updates that resolve USB audio problems introduced by September security updates on Windows.",
-    "whyItMatters": "Users experiencing audio failures after recent security patches can now restore functionality.",
-    "recommendedAction": "Install the November cumulative update.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/"
+    "summary": "A webinar discusses how identity blind spots hinder SOC investigations and how to close them.",
+    "whyItMatters": "Understanding blind spots can improve detection and response.",
+    "recommendedAction": "Attend the webinar or review its materials.",
+    "sourceUrl": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html"
   }
 ]
