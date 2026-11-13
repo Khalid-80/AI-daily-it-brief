@@ -1,92 +1,92 @@
 [
   {
-    "headline": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+    "headline": "Check Point warns of zero-day flaw exploited for root access",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "PTC released patches for a critical vulnerability (CVE‑2026‑126325) in Windchill and FlexPLM that could allow remote code execution.",
-    "whyItMatters": "Exploitation could lead to full compromise of affected PLM systems.",
-    "recommendedAction": "Apply the PTC patches immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
+    "summary": "Check Point released emergency hotfixes for a high‑severity zero‑day flaw that has been exploited to gain root privileges on vulnerable devices since late October.",
+    "whyItMatters": "Root access allows attackers full control of affected devices, posing severe risk.",
+    "recommendedAction": "Apply the emergency hotfixes immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
   },
   {
-    "headline": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+    "headline": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
     "category": "Security",
     "priority": "High",
-    "summary": "Europol and partners seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations.",
-    "whyItMatters": "Disrupting this infrastructure reduces the threat to victims worldwide.",
-    "recommendedAction": "Monitor for related indicators and update detection rules.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/"
+    "summary": "A spying group named SilentAir used compromised equipment in Asian telecom operators to intercept calls and SMS, targeting mainly Taiwanese users.",
+    "whyItMatters": "Intercepted 2FA codes undermine authentication security for targeted users.",
+    "recommendedAction": "Telecom operators should audit and secure network equipment.",
+    "sourceUrl": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
   },
   {
-    "headline": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+    "headline": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
     "category": "Security",
     "priority": "High",
-    "summary": "Compromised endpoint management platforms can let attackers deploy malware, execute commands, and disrupt thousands of devices; Action1 suggests cryptographic authorization to prevent abuse.",
-    "whyItMatters": "A breached platform could provide attackers broad control over an organization’s endpoints.",
-    "recommendedAction": "Implement customer‑controlled cryptographic authorization for endpoint operations.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/"
+    "summary": "International police seized servers behind Gootloader, CastleRAT, and StealC, and recovered about 6.4 million stolen login credentials.",
+    "whyItMatters": "Removing these malware infrastructures reduces the risk of credential theft and ransomware.",
+    "recommendedAction": "Ensure removal of Gootloader, CastleRAT, and StealC from systems.",
+    "sourceUrl": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
   },
   {
-    "headline": "Apify rotates API tokens, prompts 2FA resets after breach",
+    "headline": "Microsoft confirms Windows activation failures after November updates",
+    "category": "Windows",
+    "priority": "High",
+    "summary": "Microsoft confirmed that the latest Patch Tuesday updates are causing Windows activation and licensing failures with error code 0x80041008.",
+    "whyItMatters": "Activation failures can leave systems unlicensed and vulnerable to compliance issues.",
+    "recommendedAction": "Rollback the updates or contact Microsoft support for remediation.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/"
+  },
+  {
+    "headline": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
     "category": "Vendor",
     "priority": "High",
-    "summary": "Apify rotated internal secrets and revoked some OAuth connections after detecting unauthorized access to its systems.",
-    "whyItMatters": "Compromise of API tokens could expose customer data or services.",
-    "recommendedAction": "Verify token rotations and enforce 2FA for all accounts.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/"
+    "summary": "Threat actors exploited unpatched PHP2Shell vulnerabilities in Check Point Security Gateways and a local privilege escalation flaw to install a TSGA backdoor.",
+    "whyItMatters": "Compromised gateways provide attackers persistent access to network traffic.",
+    "recommendedAction": "Patch the Check Point gateways and disable vulnerable features.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
   },
   {
-    "headline": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Google Cloud VMs on AMD Turin chips need OS patches and VM restarts to mitigate three side‑channel flaws that could allow data leakage between processes.",
-    "whyItMatters": "Unpatched VMs risk cross‑VM data exposure.",
-    "recommendedAction": "Apply the guest OS patches and restart affected VMs promptly.",
-    "sourceUrl": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html"
-  },
-  {
-    "headline": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+    "headline": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
     "category": "Vendor",
     "priority": "High",
-    "summary": "N-able reports new public disclosures of vulnerabilities in on‑premise N‑central versions that can allow root RCE and SYSTEM access when the Legacy API is exposed to the internet.",
-    "whyItMatters": "Exploits can compromise servers even if patched, if misconfigured.",
-    "recommendedAction": "Disable the Legacy API or restrict its exposure.",
-    "sourceUrl": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+    "summary": "N‑able disclosed new N‑central vulnerabilities (4EverAble2Shell and Agent2Shell) and is restricting certain features while patches are applied.",
+    "whyItMatters": "Exploited N‑central flaws could allow attackers to compromise multiple servers.",
+    "recommendedAction": "Apply N‑central patches and follow the vendor’s mitigation guidance.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
   },
   {
-    "headline": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+    "headline": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
     "category": "Security",
     "priority": "High",
-    "summary": "Since August 2026 a phishing operation has been stealing live Google sessions from corporate users, using clean links and leading to takedown of attacker domains.",
-    "whyItMatters": "Compromised sessions give attackers access to corporate Google accounts.",
-    "recommendedAction": "Educate users and enforce MFA for Google sessions.",
-    "sourceUrl": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html"
+    "summary": "The SCKit worm-like toolkit was used in ScreenConnect attacks to spread from compromised customer devices to MSP technicians' systems.",
+    "whyItMatters": "The malware can propagate across managed service provider networks, expanding the attack surface.",
+    "recommendedAction": "Isolate affected machines and update ScreenConnect to the latest version.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/"
   },
   {
-    "headline": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+    "headline": "Microsoft says November security updates cause printing issues",
     "category": "Windows",
     "priority": "Medium",
-    "summary": "Microsoft confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability problems.",
-    "whyItMatters": "SQL Server workloads may be degraded on updated Windows systems.",
-    "recommendedAction": "Review update rollouts and consider delaying affected patches.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/"
+    "summary": "Microsoft warned that the November 2026 security updates may break printing for documents with complex formatting.",
+    "whyItMatters": "Printing disruptions can halt business operations and affect document workflows.",
+    "recommendedAction": "Test the updates in a controlled environment before wide deployment.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/"
   },
   {
-    "headline": "Microsoft confirms Windows security updates installation issues",
-    "category": "Windows",
+    "headline": "Police arrest 354 suspects in dark web cybercrime crackdown",
+    "category": "Security",
     "priority": "Medium",
-    "summary": "Microsoft confirmed that November 2026 security updates fail to install on Windows 11 systems with the October preview update, showing error codes.",
-    "whyItMatters": "Failed updates leave systems unpatched against known threats.",
-    "recommendedAction": "Investigate the errors and apply workarounds or defer updates.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
+    "summary": "Authorities arrested 354 suspects in a coordinated operation targeting vendors and buyers on several dark‑web marketplaces.",
+    "whyItMatters": "The arrests demonstrate a significant disruption of cybercrime marketplaces.",
+    "recommendedAction": "Review threat intelligence feeds for related indicators.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/"
   },
   {
-    "headline": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+    "headline": "When an AI Agent Goes Wrong, Can You Stop It?",
     "category": "Security",
     "priority": "Information",
-    "summary": "A webinar discusses how identity blind spots hinder SOC investigations and how to close them.",
-    "whyItMatters": "Understanding blind spots can improve detection and response.",
-    "recommendedAction": "Attend the webinar or review its materials.",
-    "sourceUrl": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html"
+    "summary": "The article discusses scenarios where an AI agent can be misused to export records, raising questions about how to stop such agents.",
+    "whyItMatters": "Misuse of AI agents could lead to unauthorized data exfiltration, requiring oversight.",
+    "recommendedAction": "Implement monitoring and kill switches for AI agents.",
+    "sourceUrl": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
   }
 ]
