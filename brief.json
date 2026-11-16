@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Check Point warns of zero-day flaw exploited for root access",
+    "headline": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "Check Point released emergency hotfixes for a high‑severity zero‑day flaw that has been exploited to gain root privileges on vulnerable devices since late October.",
-    "whyItMatters": "Root access allows attackers full control of affected devices, posing severe risk.",
-    "recommendedAction": "Apply the emergency hotfixes immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+    "summary": "Six flaws in Danfoss AK-SM800A controllers could let attackers take over the device remotely, and no patch is currently available.",
+    "whyItMatters": "Unpatched remote takeover poses a severe risk to critical refrigeration infrastructure.",
+    "recommendedAction": "Isolate affected controllers and apply mitigations while awaiting a vendor patch.",
+    "sourceUrl": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
   },
   {
-    "headline": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+    "headline": "Fandango says hackers stole payment card details from checkout pages",
     "category": "Security",
     "priority": "High",
-    "summary": "A spying group named SilentAir used compromised equipment in Asian telecom operators to intercept calls and SMS, targeting mainly Taiwanese users.",
-    "whyItMatters": "Intercepted 2FA codes undermine authentication security for targeted users.",
-    "recommendedAction": "Telecom operators should audit and secure network equipment.",
-    "sourceUrl": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+    "summary": "Ticket seller Fandango Media reports a data breach that exposed payment card details entered on its checkout pages.",
+    "whyItMatters": "Compromised payment data can lead to fraud and financial loss for customers.",
+    "recommendedAction": "Customers should monitor statements and consider replacing affected cards.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/"
   },
   {
-    "headline": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+    "headline": "Google warns that fully-automated AI attacks are coming soon",
     "category": "Security",
     "priority": "High",
-    "summary": "International police seized servers behind Gootloader, CastleRAT, and StealC, and recovered about 6.4 million stolen login credentials.",
-    "whyItMatters": "Removing these malware infrastructures reduces the risk of credential theft and ransomware.",
-    "recommendedAction": "Ensure removal of Gootloader, CastleRAT, and StealC from systems.",
-    "sourceUrl": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+    "summary": "Google warns that threat actors are using AI-driven offensive frameworks to automate vulnerability discovery and exploitation at machine speed.",
+    "whyItMatters": "Automated AI attacks could dramatically increase the speed and scale of cyber threats.",
+    "recommendedAction": "Organizations should strengthen detection capabilities and monitor AI-related threat intel.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/"
   },
   {
-    "headline": "Microsoft confirms Windows activation failures after November updates",
+    "headline": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
     "category": "Windows",
     "priority": "High",
-    "summary": "Microsoft confirmed that the latest Patch Tuesday updates are causing Windows activation and licensing failures with error code 0x80041008.",
-    "whyItMatters": "Activation failures can leave systems unlicensed and vulnerable to compliance issues.",
-    "recommendedAction": "Rollback the updates or contact Microsoft support for remediation.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/"
+    "summary": "Microsoft reminds customers that Windows Server 2016 will stop receiving security updates in two months.",
+    "whyItMatters": "Systems without updates become vulnerable to unpatched exploits.",
+    "recommendedAction": "Plan migration to a supported Windows Server version before the deadline.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/"
   },
   {
-    "headline": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "Threat actors exploited unpatched PHP2Shell vulnerabilities in Check Point Security Gateways and a local privilege escalation flaw to install a TSGA backdoor.",
-    "whyItMatters": "Compromised gateways provide attackers persistent access to network traffic.",
-    "recommendedAction": "Patch the Check Point gateways and disable vulnerable features.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
-  },
-  {
-    "headline": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-    "category": "Vendor",
-    "priority": "High",
-    "summary": "N‑able disclosed new N‑central vulnerabilities (4EverAble2Shell and Agent2Shell) and is restricting certain features while patches are applied.",
-    "whyItMatters": "Exploited N‑central flaws could allow attackers to compromise multiple servers.",
-    "recommendedAction": "Apply N‑central patches and follow the vendor’s mitigation guidance.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
-  },
-  {
-    "headline": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+    "headline": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
     "category": "Security",
     "priority": "High",
-    "summary": "The SCKit worm-like toolkit was used in ScreenConnect attacks to spread from compromised customer devices to MSP technicians' systems.",
-    "whyItMatters": "The malware can propagate across managed service provider networks, expanding the attack surface.",
-    "recommendedAction": "Isolate affected machines and update ScreenConnect to the latest version.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/"
+    "summary": "A new variant of the Retadup worm delivers CoffeeLoader malware, using an NSIS installer that drops a malicious DLL executed via rundll32.exe.",
+    "whyItMatters": "The resurgence introduces fresh infection vectors for delivering payloads.",
+    "recommendedAction": "Update endpoint protection and block execution of suspicious NSIS installers.",
+    "sourceUrl": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
   },
   {
-    "headline": "Microsoft says November security updates cause printing issues",
-    "category": "Windows",
-    "priority": "Medium",
-    "summary": "Microsoft warned that the November 2026 security updates may break printing for documents with complex formatting.",
-    "whyItMatters": "Printing disruptions can halt business operations and affect document workflows.",
-    "recommendedAction": "Test the updates in a controlled environment before wide deployment.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/"
-  },
-  {
-    "headline": "Police arrest 354 suspects in dark web cybercrime crackdown",
+    "headline": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
     "category": "Security",
-    "priority": "Medium",
-    "summary": "Authorities arrested 354 suspects in a coordinated operation targeting vendors and buyers on several dark‑web marketplaces.",
-    "whyItMatters": "The arrests demonstrate a significant disruption of cybercrime marketplaces.",
-    "recommendedAction": "Review threat intelligence feeds for related indicators.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/"
+    "priority": "High",
+    "summary": "The SANSAR toolkit, a Rust-based orchestrator using TOR, manages CPU and GPU miners and modifies NVIDIA libraries to conceal GPU usage.",
+    "whyItMatters": "Hidden cryptomining can degrade performance and increase electricity costs while evading detection.",
+    "recommendedAction": "Deploy monitoring for abnormal GPU usage and block TOR communications.",
+    "sourceUrl": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
   },
   {
-    "headline": "When an AI Agent Goes Wrong, Can You Stop It?",
+    "headline": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+    "category": "Security",
+    "priority": "High",
+    "summary": "The NoisyTCP Linux kernel flaw can crash Nginx, Apache, and SSH servers with default configurations across most distributions.",
+    "whyItMatters": "Server crashes can cause denial-of-service outages for many services.",
+    "recommendedAction": "Apply available patches or mitigations to the affected kernel versions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/"
+  },
+  {
+    "headline": "7 Tips For Complying with CJIS Password and MFA Requirements",
     "category": "Security",
     "priority": "Information",
-    "summary": "The article discusses scenarios where an AI agent can be misused to export records, raising questions about how to stop such agents.",
-    "whyItMatters": "Misuse of AI agents could lead to unauthorized data exfiltration, requiring oversight.",
-    "recommendedAction": "Implement monitoring and kill switches for AI agents.",
-    "sourceUrl": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
+    "summary": "The FBI's CJIS Security Policy now requires stronger passwords and MFA for all accounts, and Specops Software outlines seven steps to achieve compliance.",
+    "whyItMatters": "Law enforcement agencies must meet these requirements to protect sensitive data.",
+    "recommendedAction": "Implement the outlined steps to enforce MFA and improve password policies.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/"
+  },
+  {
+    "headline": "Australian retail giant Coles investigates cybersecurity incident",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "Coles Group is investigating a cybersecurity incident that has not impacted its stores.",
+    "whyItMatters": "Even without immediate impact, the incident could affect customer data or operations.",
+    "recommendedAction": "Monitor for further disclosures and ensure internal security controls are reviewed.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/"
+  },
+  {
+    "headline": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "Anthropic released Claude Mythos 5.2 and Fable 5.2 with coding improvements, noting changes in security task handling.",
+    "whyItMatters": "Changes may affect how developers rely on AI for security-related code assistance.",
+    "recommendedAction": "Evaluate the new models before integrating them into security workflows.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/"
   }
 ]
