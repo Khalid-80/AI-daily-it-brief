@@ -1,92 +1,83 @@
 [
   {
-    "headline": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-    "category": "Microsoft 365",
-    "priority": "High",
-    "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them.",
-    "whyItMatters": "These kits enable attackers to hijack Microsoft 365 sessions and access corporate data.",
-    "recommendedAction": "Implement token monitoring and enforce MFA for Microsoft 365.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/"
-  },
-  {
-    "headline": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Pinning GitHub Actions to an exact version (SHA pinning) is a defense against supply‑chain attacks, but attackers bypassed it in the March 2026 hijack of the Trivy security scanner.",
-    "whyItMatters": "Bypassing SHA pinning reopens the software supply‑chain attack surface for many projects.",
-    "recommendedAction": "Update CI pipelines to add additional integrity checks beyond SHA pinning.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
-  },
-  {
-    "headline": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-    "category": "Security",
-    "priority": "High",
-    "summary": "A now‑patched flaw in Apple’s audio service let iPhone and iPad apps record audio after the user denied microphone permission; the fix was released on August 17.",
-    "whyItMatters": "The vulnerability could have enabled covert audio surveillance on iOS devices.",
-    "recommendedAction": "Ensure devices run the latest iOS version with the August 17 security update.",
-    "sourceUrl": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html"
-  },
-  {
-    "headline": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Operation ShadowCloud, an intrusion campaign targeting government sectors in Asia and Africa, uses undocumented GitDoor and GraphDoor backdoors that leverage Microsoft SharePoint and GitHub for covert command‑and‑control.",
-    "whyItMatters": "Legitimate cloud services are being abused for stealthy C2 communication.",
-    "recommendedAction": "Audit SharePoint and GitHub activity for anomalous traffic.",
-    "sourceUrl": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
-  },
-  {
-    "headline": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Ride‑hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October.",
-    "whyItMatters": "Driver personal data exposure could lead to phishing and fraud attacks.",
-    "recommendedAction": "Advise affected drivers to monitor accounts and enable security alerts.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
-  },
-  {
-    "headline": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-    "category": "Security",
-    "priority": "High",
-    "summary": "A Kazakh national was extradited from Italy to the US to face charges for ransomware attacks on schools, hospitals, and healthcare entities, facing up to 27 years in prison.",
-    "whyItMatters": "The extradition underscores international enforcement against ransomware operations.",
-    "recommendedAction": "Strengthen ransomware detection and response capabilities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/"
-  },
-  {
-    "headline": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+    "headline": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
     "category": "Windows",
-    "priority": "Medium",
-    "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them.",
-    "whyItMatters": "Remote lock can protect data on lost devices while preserving user data.",
-    "recommendedAction": "Evaluate the feature in pilot deployments and update device‑lock policies.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/"
+    "priority": "Critical",
+    "summary": "Researchers demonstrated that on AMD and some Intel PCs, opening the case allows resetting the TPM lockout, enabling attackers to guess short Windows Hello and BitLocker PINs.",
+    "whyItMatters": "Resetting TPM lockout undermines the security of Windows authentication mechanisms.",
+    "recommendedAction": "Enforce longer, complex PINs and consider physical tamper protection.",
+    "sourceUrl": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
   },
   {
-    "headline": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+    "headline": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "category": "Security",
+    "priority": "Critical",
+    "summary": "The Java4Shell vulnerability (CVE‑2026‑114938) permits unauthenticated remote code execution in several Java‑based applications, affecting Java 17.0.6+ on AVX‑512 VBMI‑capable CPUs.",
+    "whyItMatters": "Pre‑auth RCE can let attackers take over critical development and CI/CD tools.",
+    "recommendedAction": "Apply the vendor patches and upgrade Java to a non‑vulnerable version.",
+    "sourceUrl": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+  },
+  {
+    "headline": "Apache warns of Roller RCE vulnerability exploited in attacks",
+    "category": "Security",
+    "priority": "Critical",
+    "summary": "Apache issued security updates to fix a critical Roller vulnerability that attackers are actively exploiting to achieve remote code execution on vulnerable servers.",
+    "whyItMatters": "Active exploitation can lead to full server compromise.",
+    "recommendedAction": "Apply the Apache Roller patches immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
+  },
+  {
+    "headline": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
     "category": "Vendor",
-    "priority": "Medium",
-    "summary": "Apple introduced new macOS controls in the 27.3 beta that give users granular data‑access permissions for apps, including AI agents, via Device Control, Data Access, and Full Disk Access APIs.",
-    "whyItMatters": "Enhanced permissions reduce the risk of unauthorized data collection by apps.",
-    "recommendedAction": "Review and adjust app permissions after the beta is released.",
-    "sourceUrl": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html"
+    "priority": "Critical",
+    "summary": "CISA added a critical CVE‑2026‑115731 RCE vulnerability in Perforce Puppet to its KEV catalog, noting active exploitation of the IaC platform.",
+    "whyItMatters": "Exploitation of Puppet can allow attackers to control enterprise infrastructure.",
+    "recommendedAction": "Patch Puppet immediately and review configuration for signs of compromise.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
   },
   {
-    "headline": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+    "headline": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+    "category": "Security",
+    "priority": "High",
+    "summary": "Attackers are leveraging deepfakes and helpdesk impersonation to trick employees into granting system access. Specops Software outlines how stronger identity verification can mitigate these social‑engineering attacks.",
+    "whyItMatters": "Social‑engineering attacks can lead to unauthorized system compromise.",
+    "recommendedAction": "Implement multi‑factor verification for all support requests.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/"
+  },
+  {
+    "headline": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+    "category": "Security",
+    "priority": "High",
+    "summary": "A suspected Chinese APT group has rebuilt the EggStreme malware toolkit, continuously changing file hashes and domains to evade detection while targeting Philippine government organizations.",
+    "whyItMatters": "Evolving malware can bypass existing defenses and threaten critical government systems.",
+    "recommendedAction": "Update detection signatures and monitor for new EggStreme indicators.",
+    "sourceUrl": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+  },
+  {
+    "headline": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
     "category": "Vendor",
     "priority": "Information",
-    "summary": "Flipper Devices has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi‑tool.",
-    "whyItMatters": "It provides a new Linux‑based multi‑tool for security researchers.",
-    "recommendedAction": "Monitor its release for potential security testing use.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/"
+    "summary": "The article provides a checklist of 15 questions to evaluate AI‑based web‑app pentesting vendors, emphasizing coverage, logged‑in flow testing, and production safety.",
+    "whyItMatters": "Choosing an inadequate AI pentesting vendor can leave critical vulnerabilities untested.",
+    "recommendedAction": "Use the checklist to assess vendor capabilities before purchase.",
+    "sourceUrl": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
   },
   {
-    "headline": "Court clears brothers of $25 million Ethereum crypto heist charges",
+    "headline": "Dizigom illegal streaming service with 21M monthly visits shuts down",
     "category": "Security",
     "priority": "Information",
-    "summary": "US District Judge Jessica Clarke acquitted two brothers accused of stealing $25 million in cryptocurrency through a scheme that exploited a bug in the Ethereum blockchain.",
-    "whyItMatters": "The case highlights legal outcomes for large‑scale crypto exploits and the need for continued scrutiny of blockchain bugs.",
-    "recommendedAction": "Monitor regulatory developments around blockchain vulnerabilities.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/"
+    "summary": "The Alliance for Creativity and Entertainment announced the shutdown of Dizigom, a major Turkish piracy site, following a settlement with its operators.",
+    "whyItMatters": "Closing large piracy platforms reduces illegal distribution of copyrighted content.",
+    "recommendedAction": "Monitor for successor sites and enforce anti‑piracy measures.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/"
+  },
+  {
+    "headline": "Microsoft announces Windows Server 2028 with hardened security",
+    "category": "Windows",
+    "priority": "Information",
+    "summary": "Microsoft announced Windows Server 2028, the next major server OS release, featuring hardened security controls.",
+    "whyItMatters": "New server platform may impact planning and migration strategies.",
+    "recommendedAction": "Review the announced features and begin compatibility testing.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/"
   }
 ]

@@ -1,63 +1,57 @@
-**AI Daily IT Intelligence Brief — 2026-11-17**
+**AI Daily IT Intelligence Brief — 2026-11-18**
 
-🟠 **[Microsoft 365 / High] Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions**
-Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them.
-_Why it matters:_ These kits enable attackers to hijack Microsoft 365 sessions and access corporate data.
-_Suggested action:_ Implement token monitoring and enforce MFA for Microsoft 365.
-[Source](https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/)
+🔴 **[Windows / Critical] New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years**
+Researchers demonstrated that on AMD and some Intel PCs, opening the case allows resetting the TPM lockout, enabling attackers to guess short Windows Hello and BitLocker PINs.
+_Why it matters:_ Resetting TPM lockout undermines the security of Windows authentication mechanisms.
+_Suggested action:_ Enforce longer, complex PINs and consider physical tamper protection.
+[Source](https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html)
 
-🟠 **[Security / High] Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap**
-Pinning GitHub Actions to an exact version (SHA pinning) is a defense against supply‑chain attacks, but attackers bypassed it in the March 2026 hijack of the Trivy security scanner.
-_Why it matters:_ Bypassing SHA pinning reopens the software supply‑chain attack surface for many projects.
-_Suggested action:_ Update CI pipelines to add additional integrity checks beyond SHA pinning.
-[Source](https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html)
+🔴 **[Security / Critical] Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More**
+The Java4Shell vulnerability (CVE‑2026‑114938) permits unauthenticated remote code execution in several Java‑based applications, affecting Java 17.0.6+ on AVX‑512 VBMI‑capable CPUs.
+_Why it matters:_ Pre‑auth RCE can let attackers take over critical development and CI/CD tools.
+_Suggested action:_ Apply the vendor patches and upgrade Java to a non‑vulnerable version.
+[Source](https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html)
 
-🟠 **[Security / High] Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission**
-A now‑patched flaw in Apple’s audio service let iPhone and iPad apps record audio after the user denied microphone permission; the fix was released on August 17.
-_Why it matters:_ The vulnerability could have enabled covert audio surveillance on iOS devices.
-_Suggested action:_ Ensure devices run the latest iOS version with the August 17 security update.
-[Source](https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html)
+🔴 **[Security / Critical] Apache warns of Roller RCE vulnerability exploited in attacks**
+Apache issued security updates to fix a critical Roller vulnerability that attackers are actively exploiting to achieve remote code execution on vulnerable servers.
+_Why it matters:_ Active exploitation can lead to full server compromise.
+_Suggested action:_ Apply the Apache Roller patches immediately.
+[Source](https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/)
 
-🟠 **[Security / High] New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels**
-Operation ShadowCloud, an intrusion campaign targeting government sectors in Asia and Africa, uses undocumented GitDoor and GraphDoor backdoors that leverage Microsoft SharePoint and GitHub for covert command‑and‑control.
-_Why it matters:_ Legitimate cloud services are being abused for stealthy C2 communication.
-_Suggested action:_ Audit SharePoint and GitHub activity for anomalous traffic.
-[Source](https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html)
+🔴 **[Vendor / Critical] Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers**
+CISA added a critical CVE‑2026‑115731 RCE vulnerability in Perforce Puppet to its KEV catalog, noting active exploitation of the IaC platform.
+_Why it matters:_ Exploitation of Puppet can allow attackers to control enterprise infrastructure.
+_Suggested action:_ Patch Puppet immediately and review configuration for signs of compromise.
+[Source](https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html)
 
-🟠 **[Security / High] Uber notifies drivers of data breach affecting nearly 150,000 people**
-Ride‑hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October.
-_Why it matters:_ Driver personal data exposure could lead to phishing and fraud attacks.
-_Suggested action:_ Advise affected drivers to monitor accounts and enable security alerts.
-[Source](https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/)
+🟠 **[Security / High] From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters**
+Attackers are leveraging deepfakes and helpdesk impersonation to trick employees into granting system access. Specops Software outlines how stronger identity verification can mitigate these social‑engineering attacks.
+_Why it matters:_ Social‑engineering attacks can lead to unauthorized system compromise.
+_Suggested action:_ Implement multi‑factor verification for all support requests.
+[Source](https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/)
 
-🟠 **[Security / High] Ransomware affiliate suspect extradited to US, faces 27 years in prison**
-A Kazakh national was extradited from Italy to the US to face charges for ransomware attacks on schools, hospitals, and healthcare entities, facing up to 27 years in prison.
-_Why it matters:_ The extradition underscores international enforcement against ransomware operations.
-_Suggested action:_ Strengthen ransomware detection and response capabilities.
-[Source](https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/)
+🟠 **[Security / High] New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks**
+A suspected Chinese APT group has rebuilt the EggStreme malware toolkit, continuously changing file hashes and domains to evade detection while targeting Philippine government organizations.
+_Why it matters:_ Evolving malware can bypass existing defenses and threaten critical government systems.
+_Suggested action:_ Update detection signatures and monitor for new EggStreme indicators.
+[Source](https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html)
 
-🟡 **[Windows / Medium] Microsoft testing Remote Lock for lost or stolen Windows devices**
-Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them.
-_Why it matters:_ Remote lock can protect data on lost devices while preserving user data.
-_Suggested action:_ Evaluate the feature in pilot deployments and update device‑lock policies.
-[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/)
+🔵 **[Vendor / Information] AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor**
+The article provides a checklist of 15 questions to evaluate AI‑based web‑app pentesting vendors, emphasizing coverage, logged‑in flow testing, and production safety.
+_Why it matters:_ Choosing an inadequate AI pentesting vendor can leave critical vulnerabilities untested.
+_Suggested action:_ Use the checklist to assess vendor capabilities before purchase.
+[Source](https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html)
 
-🟡 **[Vendor / Medium] Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks**
-Apple introduced new macOS controls in the 27.3 beta that give users granular data‑access permissions for apps, including AI agents, via Device Control, Data Access, and Full Disk Access APIs.
-_Why it matters:_ Enhanced permissions reduce the risk of unauthorized data collection by apps.
-_Suggested action:_ Review and adjust app permissions after the beta is released.
-[Source](https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html)
+🔵 **[Security / Information] Dizigom illegal streaming service with 21M monthly visits shuts down**
+The Alliance for Creativity and Entertainment announced the shutdown of Dizigom, a major Turkish piracy site, following a settlement with its operators.
+_Why it matters:_ Closing large piracy platforms reduces illegal distribution of copyrighted content.
+_Suggested action:_ Monitor for successor sites and enforce anti‑piracy measures.
+[Source](https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/)
 
-🔵 **[Vendor / Information] Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool**
-Flipper Devices has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi‑tool.
-_Why it matters:_ It provides a new Linux‑based multi‑tool for security researchers.
-_Suggested action:_ Monitor its release for potential security testing use.
-[Source](https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/)
-
-🔵 **[Security / Information] Court clears brothers of $25 million Ethereum crypto heist charges**
-US District Judge Jessica Clarke acquitted two brothers accused of stealing $25 million in cryptocurrency through a scheme that exploited a bug in the Ethereum blockchain.
-_Why it matters:_ The case highlights legal outcomes for large‑scale crypto exploits and the need for continued scrutiny of blockchain bugs.
-_Suggested action:_ Monitor regulatory developments around blockchain vulnerabilities.
-[Source](https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/)
+🔵 **[Windows / Information] Microsoft announces Windows Server 2028 with hardened security**
+Microsoft announced Windows Server 2028, the next major server OS release, featuring hardened security controls.
+_Why it matters:_ New server platform may impact planning and migration strategies.
+_Suggested action:_ Review the announced features and begin compatibility testing.
+[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/)
 
 _Advisory only — no automatic changes were made to any system._
