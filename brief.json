@@ -1,83 +1,92 @@
 [
   {
-    "headline": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-    "category": "Windows",
-    "priority": "Critical",
-    "summary": "Researchers demonstrated that on AMD and some Intel PCs, opening the case allows resetting the TPM lockout, enabling attackers to guess short Windows Hello and BitLocker PINs.",
-    "whyItMatters": "Resetting TPM lockout undermines the security of Windows authentication mechanisms.",
-    "recommendedAction": "Enforce longer, complex PINs and consider physical tamper protection.",
-    "sourceUrl": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
-  },
-  {
-    "headline": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "headline": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
     "category": "Security",
     "priority": "Critical",
-    "summary": "The Java4Shell vulnerability (CVE‑2026‑114938) permits unauthenticated remote code execution in several Java‑based applications, affecting Java 17.0.6+ on AVX‑512 VBMI‑capable CPUs.",
-    "whyItMatters": "Pre‑auth RCE can let attackers take over critical development and CI/CD tools.",
-    "recommendedAction": "Apply the vendor patches and upgrade Java to a non‑vulnerable version.",
-    "sourceUrl": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    "summary": "The PHP Foundation released updates fixing seven critical flaws, including CVE‑2026‑115560, that could allow remote code execution and file modification.",
+    "whyItMatters": "Unauthenticated attackers could execute code on vulnerable PHP deployments.",
+    "recommendedAction": "Apply the latest PHP security updates immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
   },
   {
-    "headline": "Apache warns of Roller RCE vulnerability exploited in attacks",
-    "category": "Security",
-    "priority": "Critical",
-    "summary": "Apache issued security updates to fix a critical Roller vulnerability that attackers are actively exploiting to achieve remote code execution on vulnerable servers.",
-    "whyItMatters": "Active exploitation can lead to full server compromise.",
-    "recommendedAction": "Apply the Apache Roller patches immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
-  },
-  {
-    "headline": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "headline": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "CISA added a critical CVE‑2026‑115731 RCE vulnerability in Perforce Puppet to its KEV catalog, noting active exploitation of the IaC platform.",
-    "whyItMatters": "Exploitation of Puppet can allow attackers to control enterprise infrastructure.",
-    "recommendedAction": "Patch Puppet immediately and review configuration for signs of compromise.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+    "summary": "Broadcom disclosed a critical vCenter vulnerability that lets network‑connected attackers bypass authentication and gain unauthorized access, with patches now available for all supported branches.",
+    "whyItMatters": "The flaw could let attackers take control of the vCenter management console.",
+    "recommendedAction": "Upgrade vCenter to the fixed versions without delay.",
+    "sourceUrl": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
   },
   {
-    "headline": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+    "headline": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
     "category": "Security",
-    "priority": "High",
-    "summary": "Attackers are leveraging deepfakes and helpdesk impersonation to trick employees into granting system access. Specops Software outlines how stronger identity verification can mitigate these social‑engineering attacks.",
-    "whyItMatters": "Social‑engineering attacks can lead to unauthorized system compromise.",
-    "recommendedAction": "Implement multi‑factor verification for all support requests.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/"
+    "priority": "Critical",
+    "summary": "Researchers identified two critical NGINX ‘nginx2root’ vulnerabilities that allow unauthenticated remote code execution and can be chained with a kernel bug to obtain root access.",
+    "whyItMatters": "Exploits could give attackers full control of web servers.",
+    "recommendedAction": "Update NGINX to the patched releases immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/"
   },
   {
-    "headline": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+    "headline": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
     "category": "Security",
-    "priority": "High",
-    "summary": "A suspected Chinese APT group has rebuilt the EggStreme malware toolkit, continuously changing file hashes and domains to evade detection while targeting Philippine government organizations.",
-    "whyItMatters": "Evolving malware can bypass existing defenses and threaten critical government systems.",
-    "recommendedAction": "Update detection signatures and monitor for new EggStreme indicators.",
-    "sourceUrl": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+    "priority": "Critical",
+    "summary": "Drupal released patches for a critical installer flaw that could let unauthenticated attackers reinstall a site, leading to takeover or remote code execution.",
+    "whyItMatters": "The vulnerability enables complete site compromise.",
+    "recommendedAction": "Upgrade Drupal to the latest patched version.",
+    "sourceUrl": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
   },
   {
-    "headline": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+    "headline": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "category": "Security",
+    "priority": "Critical",
+    "summary": "The Drupal Security Team patched a critical remote code execution vulnerability that could allow attackers to take over vulnerable sites.",
+    "whyItMatters": "Unpatched sites remain at risk of full compromise.",
+    "recommendedAction": "Apply the Drupal security update promptly.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/"
+  },
+  {
+    "headline": "Everything Is a Web Application, Including Your Firewall",
     "category": "Vendor",
-    "priority": "Information",
-    "summary": "The article provides a checklist of 15 questions to evaluate AI‑based web‑app pentesting vendors, emphasizing coverage, logged‑in flow testing, and production safety.",
-    "whyItMatters": "Choosing an inadequate AI pentesting vendor can leave critical vulnerabilities untested.",
-    "recommendedAction": "Use the checklist to assess vendor capabilities before purchase.",
-    "sourceUrl": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
+    "priority": "High",
+    "summary": "Palo Alto Networks confirmed that attackers exploited two PHP vulnerabilities (CVE‑2026‑109618 and CVE‑2026‑109619) to gain code execution on exposed PAN‑OS management interfaces.",
+    "whyItMatters": "Compromise of firewall management can expose the entire network.",
+    "recommendedAction": "Patch the PAN‑OS interfaces and restrict internet exposure.",
+    "sourceUrl": "https://thehackernews.com/2026/11/everything-is-web-application-including.html"
   },
   {
-    "headline": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+    "headline": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "N‑able disclosed that threat actors accessed a cloud server hosting Mail Assure and Spam Experts services, disabling management interfaces and APIs.",
+    "whyItMatters": "The breach could impact email security management across multiple regions.",
+    "recommendedAction": "Review N‑able communications and apply any recommended mitigations.",
+    "sourceUrl": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
+  },
+  {
+    "headline": "Five warning signs of ransomware breach before encryption or data theft",
     "category": "Security",
-    "priority": "Information",
-    "summary": "The Alliance for Creativity and Entertainment announced the shutdown of Dizigom, a major Turkish piracy site, following a settlement with its operators.",
-    "whyItMatters": "Closing large piracy platforms reduces illegal distribution of copyrighted content.",
-    "recommendedAction": "Monitor for successor sites and enforce anti‑piracy measures.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/"
+    "priority": "Medium",
+    "summary": "Acronis outlines five early warning signs of ransomware activity, such as credential theft and disabling security controls, to help defenders detect breaches before encryption.",
+    "whyItMatters": "Early detection can limit ransomware impact.",
+    "recommendedAction": "Implement monitoring for the identified indicators.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/"
   },
   {
-    "headline": "Microsoft announces Windows Server 2028 with hardened security",
+    "headline": "Microsoft confirms app installation, launch issues after hotpatch",
     "category": "Windows",
+    "priority": "Medium",
+    "summary": "Microsoft provided a workaround for installation and launch problems affecting Office and third‑party apps after applying the latest Windows 11 hotpatch.",
+    "whyItMatters": "The issue disrupts productivity for affected users.",
+    "recommendedAction": "Follow Microsoft’s published workaround.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/"
+  },
+  {
+    "headline": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+    "category": "Microsoft 365",
     "priority": "Information",
-    "summary": "Microsoft announced Windows Server 2028, the next major server OS release, featuring hardened security controls.",
-    "whyItMatters": "New server platform may impact planning and migration strategies.",
-    "recommendedAction": "Review the announced features and begin compatibility testing.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/"
+    "summary": "Microsoft is testing an Edge Lockdown Mode that disables WebGL, WebGL2, and WebGPU APIs to reduce the browser’s attack surface.",
+    "whyItMatters": "Disabling these APIs can mitigate potential GPU‑related exploits.",
+    "recommendedAction": "Monitor for the feature’s release and plan to enable it.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/"
   }
 ]
