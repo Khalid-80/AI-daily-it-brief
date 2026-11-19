@@ -1,42 +1,38 @@
 [
   {
-    "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-    "published_date": "2026-11-18"
+    "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-    "published_date": "2026-11-18"
+    "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-    "published_date": "2026-11-18"
+    "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-    "published_date": "2026-11-18"
+    "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-    "published_date": "2026-11-18"
+    "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-    "published_date": "2026-11-18"
+    "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-    "published_date": "2026-11-18"
+    "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-    "published_date": "2026-11-18"
+    "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+    "published_date": "2026-11-19"
   },
   {
-    "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
-    "published_date": "2026-11-18"
-  },
-  {
-    "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-    "published_date": "2026-11-18"
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+    "published_date": "2026-11-19"
   }
 ]
