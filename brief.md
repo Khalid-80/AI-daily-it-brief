@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-11-19**
+**AI Daily IT Intelligence Brief — 2026-11-20**
 
-🔴 **[Security / Critical] PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution**
-The PHP Foundation released updates fixing seven critical flaws, including CVE‑2026‑115560, that could allow remote code execution and file modification.
-_Why it matters:_ Unauthenticated attackers could execute code on vulnerable PHP deployments.
-_Suggested action:_ Apply the latest PHP security updates immediately.
-[Source](https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html)
+🔴 **[Security / Critical] Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts**
+A KVM hypervisor flaw (CVE‑2026‑99312) on AMD hosts with nested virtualization lets a guest VM read up to 127 GB of host memory, potentially exposing other customers’ data.
+_Why it matters:_ It enables cross‑VM data leakage in cloud environments.
+_Suggested action:_ Update to the fixed kernel version as soon as possible.
+[Source](https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html)
 
-🔴 **[Vendor / Critical] Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication**
-Broadcom disclosed a critical vCenter vulnerability that lets network‑connected attackers bypass authentication and gain unauthorized access, with patches now available for all supported branches.
-_Why it matters:_ The flaw could let attackers take control of the vCenter management console.
-_Suggested action:_ Upgrade vCenter to the fixed versions without delay.
-[Source](https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html)
+🔴 **[Vendor / Critical] F5 releases emergency patches for critical BIG-IP RCE flaws**
+F5 warned customers to patch five critical BIG‑IP vulnerabilities that could allow denial‑of‑service or remote code execution.
+_Why it matters:_ Exploitable flaws could compromise network infrastructure.
+_Suggested action:_ Apply the emergency patches immediately.
+[Source](https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/)
 
-🔴 **[Security / Critical] Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers**
-Researchers identified two critical NGINX ‘nginx2root’ vulnerabilities that allow unauthenticated remote code execution and can be chained with a kernel bug to obtain root access.
-_Why it matters:_ Exploits could give attackers full control of web servers.
-_Suggested action:_ Update NGINX to the patched releases immediately.
-[Source](https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/)
+🔴 **[Vendor / Critical] Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network**
+Threat actors exploited CVE‑2026‑76466 in Cisco Expressway to breach a Russian organization shortly after a PoC was released.
+_Why it matters:_ The unauthenticated remote code execution can compromise internal networks.
+_Suggested action:_ Apply Cisco’s mitigation or patch for the vulnerability immediately.
+[Source](https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html)
 
-🔴 **[Security / Critical] Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites**
-Drupal released patches for a critical installer flaw that could let unauthenticated attackers reinstall a site, leading to takeover or remote code execution.
-_Why it matters:_ The vulnerability enables complete site compromise.
-_Suggested action:_ Upgrade Drupal to the latest patched version.
-[Source](https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html)
+🔴 **[Vendor / Critical] China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data**
+A China‑linked group used CVE‑2026‑123890, an authentication bypass in VMware vCenter, to gain admin access and steal data.
+_Why it matters:_ The zero‑day enables full control over vCenter servers and data exfiltration.
+_Suggested action:_ Patch vCenter Server with the latest security update.
+[Source](https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html)
 
-🔴 **[Security / Critical] Drupal patches critical RCE flaw, warns exploits may surface quickly**
-The Drupal Security Team patched a critical remote code execution vulnerability that could allow attackers to take over vulnerable sites.
-_Why it matters:_ Unpatched sites remain at risk of full compromise.
-_Suggested action:_ Apply the Drupal security update promptly.
-[Source](https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/)
+🟠 **[Security / High] Still tracking company passwords in spreadsheets? You’re flying blind.**
+Using spreadsheets to store company passwords leaves administrators unaware of weak, reused, or compromised credentials, increasing security risk.
+_Why it matters:_ It exposes organizations to credential theft and unauthorized access.
+_Suggested action:_ Adopt a centralized password management solution.
+[Source](https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/)
 
-🟠 **[Vendor / High] Everything Is a Web Application, Including Your Firewall**
-Palo Alto Networks confirmed that attackers exploited two PHP vulnerabilities (CVE‑2026‑109618 and CVE‑2026‑109619) to gain code execution on exposed PAN‑OS management interfaces.
-_Why it matters:_ Compromise of firewall management can expose the entire network.
-_Suggested action:_ Patch the PAN‑OS interfaces and restrict internet exposure.
-[Source](https://thehackernews.com/2026/11/everything-is-web-application-including.html)
+🟠 **[Vendor / High] N-able says recent security breach led to major service outage**
+A breach of N-able’s server caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide.
+_Why it matters:_ Customers may experience loss of email protection and service availability.
+_Suggested action:_ Monitor service status and apply any patches or guidance from N-able.
+[Source](https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/)
 
-🟠 **[Vendor / High] Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions**
-N‑able disclosed that threat actors accessed a cloud server hosting Mail Assure and Spam Experts services, disabling management interfaces and APIs.
-_Why it matters:_ The breach could impact email security management across multiple regions.
-_Suggested action:_ Review N‑able communications and apply any recommended mitigations.
-[Source](https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html)
+🟠 **[Vendor / High] SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws**
+SonicWall urges customers to retire Generation 6 firewalls, which will no longer receive security patches, citing AI‑assisted attacks.
+_Why it matters:_ Unpatched firewalls expose networks to exploitation.
+_Suggested action:_ Replace Gen 6 firewalls or remove them from internet exposure.
+[Source](https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html)
 
-🟡 **[Security / Medium] Five warning signs of ransomware breach before encryption or data theft**
-Acronis outlines five early warning signs of ransomware activity, such as credential theft and disabling security controls, to help defenders detect breaches before encryption.
-_Why it matters:_ Early detection can limit ransomware impact.
-_Suggested action:_ Implement monitoring for the identified indicators.
-[Source](https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/)
+🟡 **[Windows / Medium] Microsoft now automatically installs Windows 11 26H2 on unmanaged devices**
+Microsoft began automatically upgrading eligible unmanaged PCs to Windows 11 26H2.
+_Why it matters:_ Unmanaged devices may receive updates without IT oversight, affecting compliance.
+_Suggested action:_ Review update policies and consider enrolling devices in management.
+[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/)
 
-🟡 **[Windows / Medium] Microsoft confirms app installation, launch issues after hotpatch**
-Microsoft provided a workaround for installation and launch problems affecting Office and third‑party apps after applying the latest Windows 11 hotpatch.
-_Why it matters:_ The issue disrupts productivity for affected users.
-_Suggested action:_ Follow Microsoft’s published workaround.
-[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/)
+🔵 **[Security / Information] The Path to AI Autonomy in the SOC**
+A survey shows 36% of large enterprises are comfortable letting AI agents act autonomously on low‑risk security tasks, rising to 60% in a year.
+_Why it matters:_ Increasing AI autonomy will change SOC operations and risk profiles.
+_Suggested action:_ Assess AI use cases and governance before expanding autonomy.
+[Source](https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html)
 
-🔵 **[Microsoft 365 / Information] Microsoft tests new Edge Lockdown Mode that disables GPU APIs**
-Microsoft is testing an Edge Lockdown Mode that disables WebGL, WebGL2, and WebGPU APIs to reduce the browser’s attack surface.
-_Why it matters:_ Disabling these APIs can mitigate potential GPU‑related exploits.
-_Suggested action:_ Monitor for the feature’s release and plan to enable it.
-[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/)
+🔵 **[Windows / Information] Windows 11 KB5132057 update released with 28 changes and fixes**
+Microsoft released the KB5132057 Windows 11 preview update with 28 changes, including improvements to Search, Hello, and the Run dialog.
+_Why it matters:_ The update brings functional enhancements and fixes to Windows 11 users.
+_Suggested action:_ Install the update via Windows Update.
+[Source](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/)
 
 _Advisory only — no automatic changes were made to any system._
