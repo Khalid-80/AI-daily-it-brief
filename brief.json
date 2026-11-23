@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+    "headline": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
     "category": "Security",
     "priority": "Critical",
-    "summary": "A KVM hypervisor flaw (CVE‑2026‑99312) on AMD hosts with nested virtualization lets a guest VM read up to 127 GB of host memory, potentially exposing other customers’ data.",
-    "whyItMatters": "It enables cross‑VM data leakage in cloud environments.",
-    "recommendedAction": "Update to the fixed kernel version as soon as possible.",
-    "sourceUrl": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
+    "summary": "A critical code‑injection flaw in the binary‑parser library (pre‑2.3.1) allows attackers controlling parser definitions to execute arbitrary code.",
+    "whyItMatters": "Exploitation could lead to remote code execution in any application that uses the vulnerable library.",
+    "recommendedAction": "Update binary‑parser to version 2.3.1 or later immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
   },
   {
-    "headline": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+    "headline": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "F5 warned customers to patch five critical BIG‑IP vulnerabilities that could allow denial‑of‑service or remote code execution.",
-    "whyItMatters": "Exploitable flaws could compromise network infrastructure.",
-    "recommendedAction": "Apply the emergency patches immediately.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
+    "summary": "Threat actors are exploiting CVE‑2026‑84869, a critical flaw in ConnectWise ScreenConnect, to transfer and execute malicious payloads on MSP technician hosts.",
+    "whyItMatters": "Compromise of MSP technicians can enable attackers to infiltrate multiple client environments.",
+    "recommendedAction": "Apply the patch for CVE‑2026‑84869 and review technician connection policies.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
   },
   {
-    "headline": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+    "headline": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
     "category": "Vendor",
     "priority": "Critical",
-    "summary": "Threat actors exploited CVE‑2026‑76466 in Cisco Expressway to breach a Russian organization shortly after a PoC was released.",
-    "whyItMatters": "The unauthenticated remote code execution can compromise internal networks.",
-    "recommendedAction": "Apply Cisco’s mitigation or patch for the vulnerability immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    "summary": "N‑able disclosed a critical SSRF vulnerability (CVE‑2026‑134624) in its Mail Assure service that allowed high‑level API users to connect to internal systems.",
+    "whyItMatters": "SSRF can be leveraged to access internal resources and exfiltrate sensitive data.",
+    "recommendedAction": "Patch the vulnerability promptly and restrict API access to trusted users.",
+    "sourceUrl": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
   },
   {
-    "headline": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "A China‑linked group used CVE‑2026‑123890, an authentication bypass in VMware vCenter, to gain admin access and steal data.",
-    "whyItMatters": "The zero‑day enables full control over vCenter servers and data exfiltration.",
-    "recommendedAction": "Patch vCenter Server with the latest security update.",
-    "sourceUrl": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
-  },
-  {
-    "headline": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+    "headline": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
     "category": "Security",
     "priority": "High",
-    "summary": "Using spreadsheets to store company passwords leaves administrators unaware of weak, reused, or compromised credentials, increasing security risk.",
-    "whyItMatters": "It exposes organizations to credential theft and unauthorized access.",
-    "recommendedAction": "Adopt a centralized password management solution.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/"
+    "summary": "LaLiga disclosed a breach that exposed personal information of users of its services and affiliated clubs.",
+    "whyItMatters": "Exposure of personal data could lead to identity theft and privacy violations.",
+    "recommendedAction": "Review and strengthen data protection measures and notify affected users.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/"
   },
   {
-    "headline": "N-able says recent security breach led to major service outage",
-    "category": "Vendor",
+    "headline": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+    "category": "Security",
     "priority": "High",
-    "summary": "A breach of N-able’s server caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide.",
-    "whyItMatters": "Customers may experience loss of email protection and service availability.",
-    "recommendedAction": "Monitor service status and apply any patches or guidance from N-able.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/"
+    "summary": "The China-aligned threat actor Webworm is suspected of using a custom-modified SoftEther VPN Bridge to hide from security tools and maintain covert remote access.",
+    "whyItMatters": "Modified VPN tools can bypass defenses and enable persistent unauthorized access.",
+    "recommendedAction": "Detect and block unauthorized VPN binaries and monitor for anomalous VPN activity.",
+    "sourceUrl": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
   },
   {
-    "headline": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-    "category": "Vendor",
+    "headline": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+    "category": "Security",
     "priority": "High",
-    "summary": "SonicWall urges customers to retire Generation 6 firewalls, which will no longer receive security patches, citing AI‑assisted attacks.",
-    "whyItMatters": "Unpatched firewalls expose networks to exploitation.",
-    "recommendedAction": "Replace Gen 6 firewalls or remove them from internet exposure.",
-    "sourceUrl": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html"
+    "summary": "Hackers attacked B2B top‑up provider GlobeTopper, causing an estimated $2.5 million revenue loss and stealing $70,000 in digital gift cards.",
+    "whyItMatters": "The incident demonstrates the financial and operational risk of cyber‑theft of digital assets.",
+    "recommendedAction": "Conduct a forensic investigation and improve controls over gift‑card transactions.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
   },
   {
-    "headline": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+    "headline": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
     "category": "Windows",
     "priority": "Medium",
-    "summary": "Microsoft began automatically upgrading eligible unmanaged PCs to Windows 11 26H2.",
-    "whyItMatters": "Unmanaged devices may receive updates without IT oversight, affecting compliance.",
-    "recommendedAction": "Review update policies and consider enrolling devices in management.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/"
+    "summary": "Microsoft is testing a fix for a long‑standing Windows 11 issue that causes significant audio quality drops for Bluetooth headphone users.",
+    "whyItMatters": "Audio degradation impacts user experience and can affect productivity.",
+    "recommendedAction": "Apply the forthcoming Windows update once it is released.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/"
   },
   {
-    "headline": "The Path to AI Autonomy in the SOC",
+    "headline": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
     "category": "Security",
     "priority": "Information",
-    "summary": "A survey shows 36% of large enterprises are comfortable letting AI agents act autonomously on low‑risk security tasks, rising to 60% in a year.",
-    "whyItMatters": "Increasing AI autonomy will change SOC operations and risk profiles.",
-    "recommendedAction": "Assess AI use cases and governance before expanding autonomy.",
-    "sourceUrl": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
+    "summary": "The weekly recap highlights recent vulnerabilities and exploits across multiple platforms and tools.",
+    "whyItMatters": "It provides a snapshot of emerging threats that may affect organizations and requires further review.",
+    "recommendedAction": "Review the detailed article for any relevant vulnerabilities to your environment.",
+    "sourceUrl": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
   },
   {
-    "headline": "Windows 11 KB5132057 update released with 28 changes and fixes",
-    "category": "Windows",
+    "headline": "AI Agents Are Creating a Shared Responsibility Gap",
+    "category": "Security",
     "priority": "Information",
-    "summary": "Microsoft released the KB5132057 Windows 11 preview update with 28 changes, including improvements to Search, Hello, and the Run dialog.",
-    "whyItMatters": "The update brings functional enhancements and fixes to Windows 11 users.",
-    "recommendedAction": "Install the update via Windows Update.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/"
+    "summary": "The article examines how AI agents operating across platforms create security gaps due to shared‑responsibility challenges.",
+    "whyItMatters": "Organizations may lack visibility and control over AI agent actions, increasing overall risk.",
+    "recommendedAction": "Assess and implement governance for AI agent identities, permissions, and accountability.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/"
+  },
+  {
+    "headline": "Call center operator gets 8 years for helping scam 30,000 Americans",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "A Peruvian call‑center operator was sentenced to eight years in prison for facilitating a government‑impersonation fraud that stole millions from over 30,000 U.S. residents.",
+    "whyItMatters": "The case highlights the scale of phone‑based scams targeting Spanish‑speaking communities.",
+    "recommendedAction": "Increase public awareness and implement robust call verification procedures.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/"
   }
 ]
