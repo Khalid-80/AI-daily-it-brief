@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+    "headline": "Radware discloses breach exposing customer cloud access keys",
     "category": "Security",
     "priority": "Critical",
-    "summary": "A critical code‑injection flaw in the binary‑parser library (pre‑2.3.1) allows attackers controlling parser definitions to execute arbitrary code.",
-    "whyItMatters": "Exploitation could lead to remote code execution in any application that uses the vulnerable library.",
-    "recommendedAction": "Update binary‑parser to version 2.3.1 or later immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
+    "summary": "Radware reported that attackers accessed customers' account details and cloud access keys via an exposed internal Cloud WAF management API.",
+    "whyItMatters": "Compromised cloud keys could allow attackers to infiltrate customer environments.",
+    "recommendedAction": "Review and rotate all cloud access keys and audit API exposures.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/"
   },
   {
-    "headline": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-    "category": "Vendor",
+    "headline": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "Threat actors are exploiting CVE‑2026‑84869, a critical flaw in ConnectWise ScreenConnect, to transfer and execute malicious payloads on MSP technician hosts.",
-    "whyItMatters": "Compromise of MSP technicians can enable attackers to infiltrate multiple client environments.",
-    "recommendedAction": "Apply the patch for CVE‑2026‑84869 and review technician connection policies.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
+    "summary": "Broadcom issued patches for 23 VMware vulnerabilities, including a critical CVE‑2026‑123903 authentication bypass in vCenter's Directory Service.",
+    "whyItMatters": "An auth bypass could allow attackers full control of vCenter environments.",
+    "recommendedAction": "Apply the latest VMware patches immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
   },
   {
-    "headline": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-    "category": "Vendor",
-    "priority": "Critical",
-    "summary": "N‑able disclosed a critical SSRF vulnerability (CVE‑2026‑134624) in its Mail Assure service that allowed high‑level API users to connect to internal systems.",
-    "whyItMatters": "SSRF can be leveraged to access internal resources and exfiltrate sensitive data.",
-    "recommendedAction": "Patch the vulnerability promptly and restrict API access to trusted users.",
-    "sourceUrl": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
-  },
-  {
-    "headline": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+    "headline": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
     "category": "Security",
     "priority": "High",
-    "summary": "LaLiga disclosed a breach that exposed personal information of users of its services and affiliated clubs.",
-    "whyItMatters": "Exposure of personal data could lead to identity theft and privacy violations.",
-    "recommendedAction": "Review and strengthen data protection measures and notify affected users.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/"
+    "summary": "The Volant Manticore group deployed a KuboShell backdoor that leverages IPFS for C2, targeting telecoms, airlines, and critical infrastructure in Cyprus.",
+    "whyItMatters": "The novel IPFS-based C2 technique evades traditional detection.",
+    "recommendedAction": "Monitor network traffic for IPFS usage and block unauthorized connections.",
+    "sourceUrl": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
   },
   {
-    "headline": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+    "headline": "European Commission confirms data theft in EU Academy breach",
     "category": "Security",
     "priority": "High",
-    "summary": "The China-aligned threat actor Webworm is suspected of using a custom-modified SoftEther VPN Bridge to hide from security tools and maintain covert remote access.",
-    "whyItMatters": "Modified VPN tools can bypass defenses and enable persistent unauthorized access.",
-    "recommendedAction": "Detect and block unauthorized VPN binaries and monitor for anomalous VPN activity.",
-    "sourceUrl": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
+    "summary": "Attackers breached the EU Academy learning platform and stole personal data of an undisclosed number of users.",
+    "whyItMatters": "Compromise of EU citizen data could have regulatory and privacy implications.",
+    "recommendedAction": "Notify affected users and conduct a thorough security review of the platform.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
   },
   {
-    "headline": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+    "headline": "Hackers compromise Check Point Servers in 22 organizations",
     "category": "Security",
     "priority": "High",
-    "summary": "Hackers attacked B2B top‑up provider GlobeTopper, causing an estimated $2.5 million revenue loss and stealing $70,000 in digital gift cards.",
-    "whyItMatters": "The incident demonstrates the financial and operational risk of cyber‑theft of digital assets.",
-    "recommendedAction": "Conduct a forensic investigation and improve controls over gift‑card transactions.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
+    "summary": "Threat actors exploited several vulnerabilities to compromise two dozen Check Point Security management servers across 22 organizations.",
+    "whyItMatters": "Compromise of security management servers can give attackers control over network defenses.",
+    "recommendedAction": "Apply vendor patches immediately and isolate affected management servers.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
   },
   {
-    "headline": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
-    "category": "Windows",
+    "headline": "McDonald's Japan data breach exposes customer location information",
+    "category": "Security",
+    "priority": "High",
+    "summary": "A breach at McDonald's Japan exposed a database containing location data of users of its official smartphone app.",
+    "whyItMatters": "Location data can be used for targeted attacks or privacy violations.",
+    "recommendedAction": "Notify affected users and secure the app backend.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
+  },
+  {
+    "headline": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+    "category": "Security",
     "priority": "Medium",
-    "summary": "Microsoft is testing a fix for a long‑standing Windows 11 issue that causes significant audio quality drops for Bluetooth headphone users.",
-    "whyItMatters": "Audio degradation impacts user experience and can affect productivity.",
-    "recommendedAction": "Apply the forthcoming Windows update once it is released.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/"
+    "summary": "ShinyHunters announced a return on a new leak site, citing old PGP keys as evidence after recent FBI arrests.",
+    "whyItMatters": "The gang may resume extortion campaigns against breached organizations.",
+    "recommendedAction": "Increase monitoring for data leak postings and verify integrity of leaked data.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
   },
   {
-    "headline": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+    "headline": "Police disrupt 57 illegal streaming services with 7.3 million visits",
     "category": "Security",
     "priority": "Information",
-    "summary": "The weekly recap highlights recent vulnerabilities and exploits across multiple platforms and tools.",
-    "whyItMatters": "It provides a snapshot of emerging threats that may affect organizations and requires further review.",
-    "recommendedAction": "Review the detailed article for any relevant vulnerabilities to your environment.",
-    "sourceUrl": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
+    "summary": "Authorities from 11 countries shut down 57 illegal streaming services that collectively received over 7.3 million visits annually.",
+    "whyItMatters": "Disruption reduces piracy and associated cyber threats.",
+    "recommendedAction": "Continue monitoring for emerging illegal streaming sites.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/"
   },
   {
-    "headline": "AI Agents Are Creating a Shared Responsibility Gap",
+    "headline": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
     "category": "Security",
     "priority": "Information",
-    "summary": "The article examines how AI agents operating across platforms create security gaps due to shared‑responsibility challenges.",
-    "whyItMatters": "Organizations may lack visibility and control over AI agent actions, increasing overall risk.",
-    "recommendedAction": "Assess and implement governance for AI agent identities, permissions, and accountability.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/"
+    "summary": "RapidFort discusses how AI-driven development increases software supply chain complexity and proposes runtime visibility and automated remediation to reduce vulnerability noise.",
+    "whyItMatters": "Improved visibility can help security teams focus on real risks.",
+    "recommendedAction": "Evaluate adoption of runtime protection and automated remediation tools.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/"
   },
   {
-    "headline": "Call center operator gets 8 years for helping scam 30,000 Americans",
+    "headline": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
     "category": "Security",
     "priority": "Information",
-    "summary": "A Peruvian call‑center operator was sentenced to eight years in prison for facilitating a government‑impersonation fraud that stole millions from over 30,000 U.S. residents.",
-    "whyItMatters": "The case highlights the scale of phone‑based scams targeting Spanish‑speaking communities.",
-    "recommendedAction": "Increase public awareness and implement robust call verification procedures.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/"
+    "summary": "OpenAI and Cisco released Shirudo, an open-source tool that provides temporary runtime protections for unpatched Linux systems without service restarts.",
+    "whyItMatters": "It offers a stopgap defense while patches are prepared.",
+    "recommendedAction": "Deploy Shirudo on vulnerable Linux hosts pending patch rollout.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/"
   }
 ]
