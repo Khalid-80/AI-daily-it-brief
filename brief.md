@@ -1,63 +1,63 @@
-**AI Daily IT Intelligence Brief — 2026-11-24**
+**AI Daily IT Intelligence Brief — 2026-11-25**
 
-🔴 **[Security / Critical] Radware discloses breach exposing customer cloud access keys**
-Radware reported that attackers accessed customers' account details and cloud access keys via an exposed internal Cloud WAF management API.
-_Why it matters:_ Compromised cloud keys could allow attackers to infiltrate customer environments.
-_Suggested action:_ Review and rotate all cloud access keys and audit API exposures.
-[Source](https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/)
+🔴 **[Security / Critical] CISA warns of critical unpatched flaw in Danfoss refrigeration controllers**
+CISA warned of a critical vulnerability in Danfoss AK‑SM 8xxA Series controllers used for commercial refrigeration, HVAC, and lighting systems.
+_Why it matters:_ The flaw could be exploited to disrupt or compromise food retailer infrastructure.
+_Suggested action:_ Apply available patches or mitigations immediately and assess exposure.
+[Source](https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/)
 
-🔴 **[Security / Critical] VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation**
-Broadcom issued patches for 23 VMware vulnerabilities, including a critical CVE‑2026‑123903 authentication bypass in vCenter's Directory Service.
-_Why it matters:_ An auth bypass could allow attackers full control of vCenter environments.
-_Suggested action:_ Apply the latest VMware patches immediately.
-[Source](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html)
+🔴 **[Security / Critical] Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation**
+CISA added a critical Drupal core RCE vulnerability (CVE‑2026‑132165, Fail2Install, CVSS 9.8) to its KEV catalog, requiring federal agencies to patch by 27 Nov 2026.
+_Why it matters:_ Unpatched Drupal sites face severe remote code execution risk.
+_Suggested action:_ Patch all Drupal installations immediately.
+[Source](https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html)
 
-🟠 **[Security / High] Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns**
-The Volant Manticore group deployed a KuboShell backdoor that leverages IPFS for C2, targeting telecoms, airlines, and critical infrastructure in Cyprus.
-_Why it matters:_ The novel IPFS-based C2 technique evades traditional detection.
-_Suggested action:_ Monitor network traffic for IPFS usage and block unauthorized connections.
-[Source](https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html)
+🟠 **[Security / High] InfraTrust warns of exploited supply chain flaws in network appliances**
+Eclypsium’s InfraTrust report notes that most recent infrastructure advisories involve third‑party software bundled in network appliances, many of which are being actively exploited.
+_Why it matters:_ Supply‑chain vulnerabilities in network gear can affect a wide range of organizations.
+_Suggested action:_ Review and patch third‑party components in network appliances promptly.
+[Source](https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/)
 
-🟠 **[Security / High] European Commission confirms data theft in EU Academy breach**
-Attackers breached the EU Academy learning platform and stole personal data of an undisclosed number of users.
-_Why it matters:_ Compromise of EU citizen data could have regulatory and privacy implications.
-_Suggested action:_ Notify affected users and conduct a thorough security review of the platform.
-[Source](https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/)
+🟠 **[Security / High] Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains**
+Threat actors are actively exploiting two newly patched GeoServer vulnerabilities (CVE‑2026‑120705 and CVE‑2026‑129243) that allow arbitrary file read and other impacts.
+_Why it matters:_ Unpatched GeoServer instances are at risk of remote compromise.
+_Suggested action:_ Apply the latest GeoServer patches immediately.
+[Source](https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html)
 
-🟠 **[Security / High] Hackers compromise Check Point Servers in 22 organizations**
-Threat actors exploited several vulnerabilities to compromise two dozen Check Point Security management servers across 22 organizations.
-_Why it matters:_ Compromise of security management servers can give attackers control over network defenses.
-_Suggested action:_ Apply vendor patches immediately and isolate affected management servers.
-[Source](https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/)
+🟠 **[Security / High] U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion**
+FinCEN reported unauthorized access to a limited subset of its systems and took some systems offline as a precaution.
+_Why it matters:_ The breach affects a critical U.S. financial regulatory agency.
+_Suggested action:_ Monitor related threat intel and assess any impact on financial reporting processes.
+[Source](https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html)
 
-🟠 **[Security / High] McDonald's Japan data breach exposes customer location information**
-A breach at McDonald's Japan exposed a database containing location data of users of its official smartphone app.
-_Why it matters:_ Location data can be used for targeted attacks or privacy violations.
-_Suggested action:_ Notify affected users and secure the app backend.
-[Source](https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/)
+🟡 **[Security / Medium] More Pentests Without More Pentesters: Where AI Safely Helps**
+PentestPad explains how AI can reduce documentation and reporting workload for penetration testers, enabling more engagements while keeping data on‑premises.
+_Why it matters:_ AI can improve efficiency and security of penetration testing processes.
+_Suggested action:_ Evaluate AI‑assisted pentest tools for your security team.
+[Source](https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/)
 
-🟡 **[Security / Medium] ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof**
-ShinyHunters announced a return on a new leak site, citing old PGP keys as evidence after recent FBI arrests.
-_Why it matters:_ The gang may resume extortion campaigns against breached organizations.
-_Suggested action:_ Increase monitoring for data leak postings and verify integrity of leaked data.
-[Source](https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/)
+🟡 **[Security / Medium] Credential Remediation Is Slow When You Don’t Know What Will Break**
+GitGuardian’s State of Secrets Sprawl 2026 found many secrets remain valid for years, and remediation stalls due to uncertainty about what revoking will affect.
+_Why it matters:_ Stale credentials increase the risk of credential‑based breaches.
+_Suggested action:_ Adopt impact‑based credential revocation and prioritize remediation by potential access.
+[Source](https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html)
 
-🔵 **[Security / Information] Police disrupt 57 illegal streaming services with 7.3 million visits**
-Authorities from 11 countries shut down 57 illegal streaming services that collectively received over 7.3 million visits annually.
-_Why it matters:_ Disruption reduces piracy and associated cyber threats.
-_Suggested action:_ Continue monitoring for emerging illegal streaming sites.
-[Source](https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/)
+🟡 **[Microsoft 365 / Medium] Microsoft fixes Microsoft 365 bug blocking access to Office apps**
+Microsoft resolved an issue that prevented some Microsoft 365 customers from accessing Office applications.
+_Why it matters:_ The fix restores productivity for affected users.
+_Suggested action:_ Verify that the update is applied and confirm Office app access.
+[Source](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/)
 
-🔵 **[Security / Information] From Vulnerability Noise to Resilience: Rethinking Security in the AI Era**
-RapidFort discusses how AI-driven development increases software supply chain complexity and proposes runtime visibility and automated remediation to reduce vulnerability noise.
-_Why it matters:_ Improved visibility can help security teams focus on real risks.
-_Suggested action:_ Evaluate adoption of runtime protection and automated remediation tools.
-[Source](https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/)
+🔵 **[Vendor / Information] Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security**
+Microsoft was named a Leader in the 2026 Gartner Magic Quadrant for Email Security for the second consecutive year.
+_Why it matters:_ It highlights Microsoft’s strong position in email security for organizations evaluating solutions.
+_Suggested action:_ Consider Microsoft email security offerings when selecting a vendor.
+[Source](https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/)
 
-🔵 **[Security / Information] New Shirudo tool uses AI to shield unpatched Linux systems from exploits**
-OpenAI and Cisco released Shirudo, an open-source tool that provides temporary runtime protections for unpatched Linux systems without service restarts.
-_Why it matters:_ It offers a stopgap defense while patches are prepared.
-_Suggested action:_ Deploy Shirudo on vulnerable Linux hosts pending patch rollout.
-[Source](https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/)
+🔵 **[Security / Information] Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail**
+A former OpenAI employee is accused of placing a covert recording device in the company’s offices and was released on a $1 million bond.
+_Why it matters:_ The case underscores insider‑threat risks in AI companies and needs human review for further context.
+_Suggested action:_ Review physical security and insider monitoring policies.
+[Source](https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html)
 
 _Advisory only — no automatic changes were made to any system._

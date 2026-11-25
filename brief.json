@@ -1,92 +1,92 @@
 [
   {
-    "headline": "Radware discloses breach exposing customer cloud access keys",
+    "headline": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
     "category": "Security",
     "priority": "Critical",
-    "summary": "Radware reported that attackers accessed customers' account details and cloud access keys via an exposed internal Cloud WAF management API.",
-    "whyItMatters": "Compromised cloud keys could allow attackers to infiltrate customer environments.",
-    "recommendedAction": "Review and rotate all cloud access keys and audit API exposures.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/"
+    "summary": "CISA warned of a critical vulnerability in Danfoss AK‑SM 8xxA Series controllers used for commercial refrigeration, HVAC, and lighting systems.",
+    "whyItMatters": "The flaw could be exploited to disrupt or compromise food retailer infrastructure.",
+    "recommendedAction": "Apply available patches or mitigations immediately and assess exposure.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
   },
   {
-    "headline": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+    "headline": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
     "category": "Security",
     "priority": "Critical",
-    "summary": "Broadcom issued patches for 23 VMware vulnerabilities, including a critical CVE‑2026‑123903 authentication bypass in vCenter's Directory Service.",
-    "whyItMatters": "An auth bypass could allow attackers full control of vCenter environments.",
-    "recommendedAction": "Apply the latest VMware patches immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+    "summary": "CISA added a critical Drupal core RCE vulnerability (CVE‑2026‑132165, Fail2Install, CVSS 9.8) to its KEV catalog, requiring federal agencies to patch by 27 Nov 2026.",
+    "whyItMatters": "Unpatched Drupal sites face severe remote code execution risk.",
+    "recommendedAction": "Patch all Drupal installations immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
   },
   {
-    "headline": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+    "headline": "InfraTrust warns of exploited supply chain flaws in network appliances",
     "category": "Security",
     "priority": "High",
-    "summary": "The Volant Manticore group deployed a KuboShell backdoor that leverages IPFS for C2, targeting telecoms, airlines, and critical infrastructure in Cyprus.",
-    "whyItMatters": "The novel IPFS-based C2 technique evades traditional detection.",
-    "recommendedAction": "Monitor network traffic for IPFS usage and block unauthorized connections.",
-    "sourceUrl": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
+    "summary": "Eclypsium’s InfraTrust report notes that most recent infrastructure advisories involve third‑party software bundled in network appliances, many of which are being actively exploited.",
+    "whyItMatters": "Supply‑chain vulnerabilities in network gear can affect a wide range of organizations.",
+    "recommendedAction": "Review and patch third‑party components in network appliances promptly.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
   },
   {
-    "headline": "European Commission confirms data theft in EU Academy breach",
+    "headline": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
     "category": "Security",
     "priority": "High",
-    "summary": "Attackers breached the EU Academy learning platform and stole personal data of an undisclosed number of users.",
-    "whyItMatters": "Compromise of EU citizen data could have regulatory and privacy implications.",
-    "recommendedAction": "Notify affected users and conduct a thorough security review of the platform.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
+    "summary": "Threat actors are actively exploiting two newly patched GeoServer vulnerabilities (CVE‑2026‑120705 and CVE‑2026‑129243) that allow arbitrary file read and other impacts.",
+    "whyItMatters": "Unpatched GeoServer instances are at risk of remote compromise.",
+    "recommendedAction": "Apply the latest GeoServer patches immediately.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
   },
   {
-    "headline": "Hackers compromise Check Point Servers in 22 organizations",
+    "headline": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
     "category": "Security",
     "priority": "High",
-    "summary": "Threat actors exploited several vulnerabilities to compromise two dozen Check Point Security management servers across 22 organizations.",
-    "whyItMatters": "Compromise of security management servers can give attackers control over network defenses.",
-    "recommendedAction": "Apply vendor patches immediately and isolate affected management servers.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
+    "summary": "FinCEN reported unauthorized access to a limited subset of its systems and took some systems offline as a precaution.",
+    "whyItMatters": "The breach affects a critical U.S. financial regulatory agency.",
+    "recommendedAction": "Monitor related threat intel and assess any impact on financial reporting processes.",
+    "sourceUrl": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
   },
   {
-    "headline": "McDonald's Japan data breach exposes customer location information",
-    "category": "Security",
-    "priority": "High",
-    "summary": "A breach at McDonald's Japan exposed a database containing location data of users of its official smartphone app.",
-    "whyItMatters": "Location data can be used for targeted attacks or privacy violations.",
-    "recommendedAction": "Notify affected users and secure the app backend.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
-  },
-  {
-    "headline": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+    "headline": "More Pentests Without More Pentesters: Where AI Safely Helps",
     "category": "Security",
     "priority": "Medium",
-    "summary": "ShinyHunters announced a return on a new leak site, citing old PGP keys as evidence after recent FBI arrests.",
-    "whyItMatters": "The gang may resume extortion campaigns against breached organizations.",
-    "recommendedAction": "Increase monitoring for data leak postings and verify integrity of leaked data.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
+    "summary": "PentestPad explains how AI can reduce documentation and reporting workload for penetration testers, enabling more engagements while keeping data on‑premises.",
+    "whyItMatters": "AI can improve efficiency and security of penetration testing processes.",
+    "recommendedAction": "Evaluate AI‑assisted pentest tools for your security team.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/"
   },
   {
-    "headline": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+    "headline": "Credential Remediation Is Slow When You Don’t Know What Will Break",
     "category": "Security",
-    "priority": "Information",
-    "summary": "Authorities from 11 countries shut down 57 illegal streaming services that collectively received over 7.3 million visits annually.",
-    "whyItMatters": "Disruption reduces piracy and associated cyber threats.",
-    "recommendedAction": "Continue monitoring for emerging illegal streaming sites.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/"
+    "priority": "Medium",
+    "summary": "GitGuardian’s State of Secrets Sprawl 2026 found many secrets remain valid for years, and remediation stalls due to uncertainty about what revoking will affect.",
+    "whyItMatters": "Stale credentials increase the risk of credential‑based breaches.",
+    "recommendedAction": "Adopt impact‑based credential revocation and prioritize remediation by potential access.",
+    "sourceUrl": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
   },
   {
-    "headline": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-    "category": "Security",
-    "priority": "Information",
-    "summary": "RapidFort discusses how AI-driven development increases software supply chain complexity and proposes runtime visibility and automated remediation to reduce vulnerability noise.",
-    "whyItMatters": "Improved visibility can help security teams focus on real risks.",
-    "recommendedAction": "Evaluate adoption of runtime protection and automated remediation tools.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/"
+    "headline": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+    "category": "Microsoft 365",
+    "priority": "Medium",
+    "summary": "Microsoft resolved an issue that prevented some Microsoft 365 customers from accessing Office applications.",
+    "whyItMatters": "The fix restores productivity for affected users.",
+    "recommendedAction": "Verify that the update is applied and confirm Office app access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/"
   },
   {
-    "headline": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+    "headline": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "Microsoft was named a Leader in the 2026 Gartner Magic Quadrant for Email Security for the second consecutive year.",
+    "whyItMatters": "It highlights Microsoft’s strong position in email security for organizations evaluating solutions.",
+    "recommendedAction": "Consider Microsoft email security offerings when selecting a vendor.",
+    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/"
+  },
+  {
+    "headline": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
     "category": "Security",
     "priority": "Information",
-    "summary": "OpenAI and Cisco released Shirudo, an open-source tool that provides temporary runtime protections for unpatched Linux systems without service restarts.",
-    "whyItMatters": "It offers a stopgap defense while patches are prepared.",
-    "recommendedAction": "Deploy Shirudo on vulnerable Linux hosts pending patch rollout.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/"
+    "summary": "A former OpenAI employee is accused of placing a covert recording device in the company’s offices and was released on a $1 million bond.",
+    "whyItMatters": "The case underscores insider‑threat risks in AI companies and needs human review for further context.",
+    "recommendedAction": "Review physical security and insider monitoring policies.",
+    "sourceUrl": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
   }
 ]
