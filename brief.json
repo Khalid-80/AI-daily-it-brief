@@ -1,92 +1,74 @@
 [
   {
-    "headline": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-    "category": "Security",
-    "priority": "Critical",
-    "summary": "CISA warned of a critical vulnerability in Danfoss AK‑SM 8xxA Series controllers used for commercial refrigeration, HVAC, and lighting systems.",
-    "whyItMatters": "The flaw could be exploited to disrupt or compromise food retailer infrastructure.",
-    "recommendedAction": "Apply available patches or mitigations immediately and assess exposure.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
-  },
-  {
-    "headline": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-    "category": "Security",
-    "priority": "Critical",
-    "summary": "CISA added a critical Drupal core RCE vulnerability (CVE‑2026‑132165, Fail2Install, CVSS 9.8) to its KEV catalog, requiring federal agencies to patch by 27 Nov 2026.",
-    "whyItMatters": "Unpatched Drupal sites face severe remote code execution risk.",
-    "recommendedAction": "Patch all Drupal installations immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
-  },
-  {
-    "headline": "InfraTrust warns of exploited supply chain flaws in network appliances",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Eclypsium’s InfraTrust report notes that most recent infrastructure advisories involve third‑party software bundled in network appliances, many of which are being actively exploited.",
-    "whyItMatters": "Supply‑chain vulnerabilities in network gear can affect a wide range of organizations.",
-    "recommendedAction": "Review and patch third‑party components in network appliances promptly.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
-  },
-  {
-    "headline": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-    "category": "Security",
-    "priority": "High",
-    "summary": "Threat actors are actively exploiting two newly patched GeoServer vulnerabilities (CVE‑2026‑120705 and CVE‑2026‑129243) that allow arbitrary file read and other impacts.",
-    "whyItMatters": "Unpatched GeoServer instances are at risk of remote compromise.",
-    "recommendedAction": "Apply the latest GeoServer patches immediately.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
-  },
-  {
-    "headline": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-    "category": "Security",
-    "priority": "High",
-    "summary": "FinCEN reported unauthorized access to a limited subset of its systems and took some systems offline as a precaution.",
-    "whyItMatters": "The breach affects a critical U.S. financial regulatory agency.",
-    "recommendedAction": "Monitor related threat intel and assess any impact on financial reporting processes.",
-    "sourceUrl": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
-  },
-  {
-    "headline": "More Pentests Without More Pentesters: Where AI Safely Helps",
-    "category": "Security",
-    "priority": "Medium",
-    "summary": "PentestPad explains how AI can reduce documentation and reporting workload for penetration testers, enabling more engagements while keeping data on‑premises.",
-    "whyItMatters": "AI can improve efficiency and security of penetration testing processes.",
-    "recommendedAction": "Evaluate AI‑assisted pentest tools for your security team.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/"
-  },
-  {
-    "headline": "Credential Remediation Is Slow When You Don’t Know What Will Break",
-    "category": "Security",
-    "priority": "Medium",
-    "summary": "GitGuardian’s State of Secrets Sprawl 2026 found many secrets remain valid for years, and remediation stalls due to uncertainty about what revoking will affect.",
-    "whyItMatters": "Stale credentials increase the risk of credential‑based breaches.",
-    "recommendedAction": "Adopt impact‑based credential revocation and prioritize remediation by potential access.",
-    "sourceUrl": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
-  },
-  {
-    "headline": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-    "category": "Microsoft 365",
-    "priority": "Medium",
-    "summary": "Microsoft resolved an issue that prevented some Microsoft 365 customers from accessing Office applications.",
-    "whyItMatters": "The fix restores productivity for affected users.",
-    "recommendedAction": "Verify that the update is applied and confirm Office app access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/"
-  },
-  {
-    "headline": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security",
+    "headline": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
     "category": "Vendor",
-    "priority": "Information",
-    "summary": "Microsoft was named a Leader in the 2026 Gartner Magic Quadrant for Email Security for the second consecutive year.",
-    "whyItMatters": "It highlights Microsoft’s strong position in email security for organizations evaluating solutions.",
-    "recommendedAction": "Consider Microsoft email security offerings when selecting a vendor.",
-    "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/"
+    "priority": "Critical",
+    "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.",
+    "whyItMatters": "Exposure of customer data and source code could affect trust in a critical security tool.",
+    "recommendedAction": "Monitor for suspicious activity and rotate any potentially exposed credentials.",
+    "sourceUrl": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
   },
   {
-    "headline": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+    "headline": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+    "category": "Vendor",
+    "priority": "Critical",
+    "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions.",
+    "whyItMatters": "Active exploitation could allow attackers to take over Drupal sites.",
+    "recommendedAction": "Apply the vendor’s patch immediately to affected Drupal installations.",
+    "sourceUrl": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+  },
+  {
+    "headline": "Fake paid expert interviews impersonate brands to steal Google logins",
     "category": "Security",
-    "priority": "Information",
-    "summary": "A former OpenAI employee is accused of placing a covert recording device in the company’s offices and was released on a $1 million bond.",
-    "whyItMatters": "The case underscores insider‑threat risks in AI companies and needs human review for further context.",
-    "recommendedAction": "Review physical security and insider monitoring policies.",
-    "sourceUrl": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
+    "priority": "High",
+    "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars.",
+    "whyItMatters": "It targets corporate Google and Okta credentials, compromising enterprise access.",
+    "recommendedAction": "Warn users to verify interview invitations and block suspicious phishing emails.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/"
+  },
+  {
+    "headline": "Remus malware steals Gmail messages via fake Google Sheets extension",
+    "category": "Security",
+    "priority": "High",
+    "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero‑day exploit in Google's email service.",
+    "whyItMatters": "It exfiltrates Gmail content, exposing sensitive communications.",
+    "recommendedAction": "Block the malicious Chrome extension and monitor for unauthorized Gmail access.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
+  },
+  {
+    "headline": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+    "category": "Security",
+    "priority": "High",
+    "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week.",
+    "whyItMatters": "It injects malware into widely used open‑source repositories, potentially compromising downstream projects.",
+    "recommendedAction": "Scan dependencies for the loader and remove malicious packages.",
+    "sourceUrl": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
+  },
+  {
+    "headline": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+    "category": "Security",
+    "priority": "High",
+    "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise‑style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails.",
+    "whyItMatters": "It hijacks browser management to exfiltrate email data from compromised accounts.",
+    "recommendedAction": "Remove unauthorized browser extensions and enforce strict extension policies.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/"
+  },
+  {
+    "headline": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.",
+    "whyItMatters": "Known exploited flaws across multiple vendors increase risk to enterprise environments.",
+    "recommendedAction": "Prioritize patching of the listed vulnerabilities per vendor advisories.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
+  },
+  {
+    "headline": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+    "category": "Security",
+    "priority": "Medium",
+    "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user.",
+    "whyItMatters": "It highlights phishing kits with high breakthrough rates, informing defenders of prevalent threats.",
+    "recommendedAction": "Review and update phishing detection rules based on the identified kits.",
+    "sourceUrl": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html"
   }
 ]
