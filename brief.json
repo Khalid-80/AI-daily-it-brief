@@ -1,74 +1,92 @@
 [
   {
-    "headline": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-    "category": "Vendor",
+    "headline": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.",
-    "whyItMatters": "Exposure of customer data and source code could affect trust in a critical security tool.",
-    "recommendedAction": "Monitor for suspicious activity and rotate any potentially exposed credentials.",
-    "sourceUrl": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    "summary": "A Vietnam-sponsored hacking group conducted five intrusions against military, government and legislative organisations in Southeast Asia to gather intelligence on South China Sea defence and agreements.",
+    "whyItMatters": "The campaign shows an escalating state‑backed cyber threat to regional security.",
+    "recommendedAction": "Increase monitoring of threat intel and harden relevant networks.",
+    "sourceUrl": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
   },
   {
-    "headline": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-    "category": "Vendor",
+    "headline": "US Air Force cloud platform reportedly hacked in latest federal breach",
+    "category": "Security",
     "priority": "Critical",
-    "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions.",
-    "whyItMatters": "Active exploitation could allow attackers to take over Drupal sites.",
-    "recommendedAction": "Apply the vendor’s patch immediately to affected Drupal installations.",
-    "sourceUrl": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+    "summary": "Hackers breached the US Air Force's Cloud One computing platform, adding to recent attacks on US government agencies such as the FBI, CIA and Treasury.",
+    "whyItMatters": "A breach of a defence‑related cloud service could expose sensitive military data.",
+    "recommendedAction": "Conduct a thorough investigation and apply immediate remediation to the cloud environment.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
   },
   {
-    "headline": "Fake paid expert interviews impersonate brands to steal Google logins",
+    "headline": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
     "category": "Security",
     "priority": "High",
-    "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars.",
-    "whyItMatters": "It targets corporate Google and Okta credentials, compromising enterprise access.",
-    "recommendedAction": "Warn users to verify interview invitations and block suspicious phishing emails.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/"
+    "summary": "Researchers discovered a Microsoft Store application that redirects users to a malicious site and installs a signed executable delivering the Vinci remote‑access trojan.",
+    "whyItMatters": "A trusted store was used to distribute malware, highlighting supply‑chain risks.",
+    "recommendedAction": "Remove the malicious app and scan affected systems for the RAT.",
+    "sourceUrl": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html"
   },
   {
-    "headline": "Remus malware steals Gmail messages via fake Google Sheets extension",
-    "category": "Security",
-    "priority": "High",
-    "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero‑day exploit in Google's email service.",
-    "whyItMatters": "It exfiltrates Gmail content, exposing sensitive communications.",
-    "recommendedAction": "Block the malicious Chrome extension and monitor for unauthorized Gmail access.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
-  },
-  {
-    "headline": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-    "category": "Security",
-    "priority": "High",
-    "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week.",
-    "whyItMatters": "It injects malware into widely used open‑source repositories, potentially compromising downstream projects.",
-    "recommendedAction": "Scan dependencies for the loader and remove malicious packages.",
-    "sourceUrl": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
-  },
-  {
-    "headline": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-    "category": "Security",
-    "priority": "High",
-    "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise‑style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails.",
-    "whyItMatters": "It hijacks browser management to exfiltrate email data from compromised accounts.",
-    "recommendedAction": "Remove unauthorized browser extensions and enforce strict extension policies.",
-    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/"
-  },
-  {
-    "headline": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "headline": "Drupal warns of new site takeover flaw exploited in attacks",
     "category": "Vendor",
     "priority": "High",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.",
-    "whyItMatters": "Known exploited flaws across multiple vendors increase risk to enterprise environments.",
-    "recommendedAction": "Prioritize patching of the listed vulnerabilities per vendor advisories.",
-    "sourceUrl": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
+    "summary": "Drupal’s security team reported a second critical vulnerability that allows attackers to breach and hijack unpatched Drupal websites.",
+    "whyItMatters": "Exploited flaws could lead to widespread compromise of Drupal‑based sites.",
+    "recommendedAction": "Apply the latest Drupal security patches immediately.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/"
   },
   {
-    "headline": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+    "headline": "SAP confirms security incident after suspicious GitHub activity",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "SAP confirmed it took urgent action after detecting suspicious activity in its IT environment linked to GitHub repositories.",
+    "whyItMatters": "The incident may affect SAP customers and indicate a broader supply‑chain threat.",
+    "recommendedAction": "Review SAP communications, verify integrity of affected components and monitor for anomalies.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
+  },
+  {
+    "headline": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+    "category": "Vendor",
+    "priority": "High",
+    "summary": "A software supply‑chain attack tampered with Q‑Dir and DesktopOK installers on the official SoftwareOK site, delivering remote‑access malware during downloads and updates.",
+    "whyItMatters": "Compromised official downloads put users at risk of silent infection.",
+    "recommendedAction": "Verify download hashes, use trusted mirrors and scan files before installation.",
+    "sourceUrl": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html"
+  },
+  {
+    "headline": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
     "category": "Security",
     "priority": "Medium",
-    "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user.",
-    "whyItMatters": "It highlights phishing kits with high breakthrough rates, informing defenders of prevalent threats.",
-    "recommendedAction": "Review and update phishing detection rules based on the identified kits.",
-    "sourceUrl": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html"
+    "summary": "Forgotten virtual machines, unpatched servers and excessive permissions create blind spots across IT infrastructure, according to ISPsystem.",
+    "whyItMatters": "Unmanaged VMs can become entry points for attackers despite perimeter defenses.",
+    "recommendedAction": "Implement centralized VM lifecycle management and regular audits.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/"
+  },
+  {
+    "headline": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+    "category": "Vendor",
+    "priority": "Information",
+    "summary": "Malwarebytes is offering a 50% discount on its security subscriptions, including antivirus, VPN and identity theft protection, for Black Friday and Cyber Monday 2026.",
+    "whyItMatters": "The promotion may encourage wider adoption of Malwarebytes security solutions.",
+    "recommendedAction": "Consider purchasing if additional protection is needed.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/"
+  },
+  {
+    "headline": "Microsoft removes WSUS server role in Windows Server 2028",
+    "category": "Windows",
+    "priority": "Information",
+    "summary": "Microsoft announced that the WSUS server role will be removed from the upcoming Windows Server 2028 release.",
+    "whyItMatters": "Administrators will need to adjust their patch‑management strategy for future Windows Server versions.",
+    "recommendedAction": "Plan migration to alternative update solutions before Windows Server 2028 deployment.",
+    "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/"
+  },
+  {
+    "headline": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+    "category": "Security",
+    "priority": "Information",
+    "summary": "The article argues that traditional security metrics are static and recommends adopting continuous, real‑time monitoring to keep pace with fast‑moving threats.",
+    "whyItMatters": "Outdated metrics can give a false sense of security while attackers evolve rapidly.",
+    "recommendedAction": "Implement real‑time security dashboards and automated alerting.",
+    "sourceUrl": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html"
   }
 ]
